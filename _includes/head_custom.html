@@ -303,27 +303,36 @@
 
   /* Primary Button (Red) */
   .btn-primary,
-  .btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral) {
+  .btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral),
+  a.btn-primary,
+  a.btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral) {
     background-color: #dc2626 !important;
     color: #ffffff !important;
     border: 2px solid #dc2626 !important;
     padding: 12px 24px !important;
     font-size: 1rem !important;
+    text-decoration: none !important;
   }
 
   .btn-primary:hover,
-  .btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral):hover {
+  .btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral):hover,
+  a.btn-primary:hover,
+  a.btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral):hover {
     background-color: #b91c1c !important;
     border-color: #b91c1c !important;
     color: #ffffff !important;
     transform: translateY(-1px) !important;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    text-decoration: none !important;
   }
 
-  .btn-primary:active {
+  .btn-primary:active,
+  a.btn-primary:active {
     background-color: #991b1b !important;
     border-color: #991b1b !important;
+    color: #ffffff !important;
     transform: translateY(0) !important;
+    text-decoration: none !important;
   }
 
   /* Secondary Button (Green Outline) */
