@@ -1,3 +1,9 @@
+---
+layout: default
+title: Festa Design System Guide
+nav_exclude: true
+---
+
 # Festa Design System Guide
 
 ## Overview

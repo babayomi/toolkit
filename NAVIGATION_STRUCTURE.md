@@ -1,3 +1,9 @@
+---
+layout: default
+title: Navigation Structure Documentation
+nav_exclude: true
+---
+
 # Navigation Structure Documentation
 
 This document explains how to maintain and extend the Jekyll navigation structure for the Setup Your Project for Success toolkit.
