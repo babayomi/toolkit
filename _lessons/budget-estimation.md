@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "2.4 Budget Estimation"
-parent: Lessons
-nav_order: 8
+title: "1.8 Budget Estimation"
+parent: "Operationalize Theory of Change"
+nav_order: 4
+permalink: /operationalize-theory-of-change/budget-estimation/
 description: "Create realistic, transparent budgets that align activities with resources and demonstrate accountability to funders"
 video_url: "https://vimeo.com/your-video-id"
 duration: "6 minutes"
@@ -356,7 +357,7 @@ After completing this lesson:
 2. **Research actual costs** for all major expense categories
 3. **Write budget justifications** for all significant line items
 4. **Review with financial manager** to ensure accuracy and compliance
-5. **Integrate with your proposal** from Lesson 2.3
+5. **Integrate with your proposal** from Lesson 1.7 (Proposal Writing)
 
 ---
 

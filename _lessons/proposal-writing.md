@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "2.3 Proposal Writing"
-parent: Lessons
-nav_order: 9
+title: "1.7 Proposal Writing"
+parent: "Operationalize Theory of Change"
+nav_order: 3
+permalink: /operationalize-theory-of-change/proposal-writing/
 description: "Create compelling, professional proposals that capture funder attention and demonstrate your project's value and feasibility"
 video_url: "https://vimeo.com/your-video-id"
 duration: "8 minutes"

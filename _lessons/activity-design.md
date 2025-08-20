@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "2.2 Activity Design"
-parent: Lessons
-nav_order: 7
+title: "1.6 Activity Design"
+parent: "Operationalize Theory of Change"
+nav_order: 2
+permalink: /operationalize-theory-of-change/activity-design/
 description: "Design meaningful, measurable activities that directly connect to outcomes and are sequenced for maximum impact"
 video_url: "https://vimeo.com/your-video-id"
 duration: "5 minutes"

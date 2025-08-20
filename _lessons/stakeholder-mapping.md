@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "1.2 Stakeholder Mapping & Engagement"
-parent: Lessons
-nav_order: 3
+parent: "Building Foundation"
+nav_order: 2
+permalink: /building-foundation/stakeholder-mapping-engagement/
 description: "Identify, prioritize, and meaningfully engage stakeholders to validate your problem analysis and build project support"
 video_url: "https://vimeo.com/your-video-id"
 duration: "5 minutes"

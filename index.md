@@ -9,8 +9,8 @@ permalink: /
 <div class="hero-section" style="padding: 3rem 2rem; text-align: center; margin: -2rem -2rem 3rem -2rem; border-radius: 0 0 12px 12px;">
   <h1 style="font-size: 3rem; margin-bottom: 1rem; color: #2a2a2a;">Setup Your Project for Success</h1>
   <p style="font-size: 1.25rem; color: #434343; max-width: 600px; margin: 0 auto 2rem;">Essential project design tools for nonprofits and social enterprises to build fundable, impactful, and scalable projects</p>
-  <a href="/lessons/" class="btn btn-primary" style="margin-right: 1rem;">Start Learning</a>
-  <a href="/resources/" class="btn btn-outline">Download Resources</a>
+  <a href="/building-foundation/" class="btn btn-primary" style="margin-right: 1rem;">Start Learning</a>
+  <a href="/building-foundation/" class="btn btn-outline">Explore Toolkit</a>
 </div>
 
 ## Welcome to Your Project Design Journey
@@ -65,17 +65,17 @@ Short video lessons, downloadable templates, and step-by-step guides make comple
 
 <div class="lesson-card">
 <h3>New to Project Design?</h3>
-<p>Start with <a href="/lessons/introduction/">Introduction to Project Design</a> to understand the overall approach, then move through the Foundation Module step-by-step.</p>
+<p>Start with <a href="/building-foundation/problem-tree-analysis/">Problem Tree Analysis</a> to understand the overall approach, then move through the Foundation Module step-by-step.</p>
 </div>
 
 <div class="lesson-card">
 <h3>Experienced but Need Structure?</h3>
-<p>Jump directly to <a href="/lessons/logical-framework/">Logical Framework</a> if you have clear problem analysis but need help organizing your approach for funders.</p>
+<p>Jump directly to <a href="/operationalize-theory-of-change/logical-framework/">Logical Framework</a> if you have clear problem analysis but need help organizing your approach for funders.</p>
 </div>
 
 <div class="lesson-card">
 <h3>Ready for Advanced Tools?</h3>
-<p>Check out our <a href="/resources/templates/">Template Library</a> and <a href="/resources/case-studies/">Case Studies</a> for real-world applications.</p>
+<p>Explore our <a href="/building-foundation/">Foundation Module</a> and <a href="/operationalize-theory-of-change/">Operationalization Module</a> for comprehensive project design tools.</p>
 </div>
 
 ---
@@ -99,8 +99,8 @@ This toolkit evolves based on your feedback and real-world application. Found so
 <div class="download-section" style="margin: 3rem 0;">
 <h3 style="color: #2a2a2a; margin-bottom: 1rem;">📥 Get Started Today</h3>
 <p style="margin-bottom: 2rem;">Download the complete toolkit overview and planning templates to begin your project design journey.</p>
-<a href="/resources/starter-pack/" class="btn btn-primary" style="margin: 0.5rem;">Download Starter Pack</a>
-<a href="/lessons/" class="btn btn-outline" style="margin: 0.5rem;">Browse All Lessons</a>
+<a href="/building-foundation/problem-tree-analysis/" class="btn btn-primary" style="margin: 0.5rem;">Start with Foundation</a>
+<a href="/operationalize-theory-of-change/" class="btn btn-outline" style="margin: 0.5rem;">Explore Operationalization</a>
 </div>
 
 ---
