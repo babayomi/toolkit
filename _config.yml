@@ -25,6 +25,15 @@ remote_theme: just-the-docs/just-the-docs
 
 # Just-the-docs Theme Settings
 search_enabled: true
+search.heading_level: 2
+heading_anchors: true
+aux_links:
+  "GitHub":
+    - "//github.com/babayomi/toolkit"
+
+# Navigation
+nav_enabled: true
+nav_sort: case_sensitive
 
 # Color Scheme (we'll customize this with Festa colors)
 color_scheme: festa
