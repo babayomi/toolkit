@@ -1,0 +1,177 @@
+// Festa Design Studio Color Scheme for just-the-docs
+// Based on Festa's brand colors with accessibility focus
+
+// Festa Brand Colors
+$chicken-comb-50: #fef2f2;
+$chicken-comb-100: #fee2e2; 
+$chicken-comb-200: #fecaca;
+$chicken-comb-300: #fca5a5;
+$chicken-comb-400: #f87171;
+$chicken-comb: #e12729;
+$chicken-comb-600: #dc2626;
+$chicken-comb-700: #b91c1c;
+$chicken-comb-800: #991b1b;
+$chicken-comb-900: #7f1d1d;
+$chicken-comb-950: #46090a;
+
+$apocalyptic-orange-50: #fff7ed;
+$apocalyptic-orange-100: #ffedd5;
+$apocalyptic-orange-200: #fed7aa;
+$apocalyptic-orange-300: #fdba74;
+$apocalyptic-orange: #f37324;
+$apocalyptic-orange-500: #f97316;
+$apocalyptic-orange-600: #ea580c;
+$apocalyptic-orange-700: #c2410c;
+$apocalyptic-orange-800: #9a3412;
+$apocalyptic-orange-900: #7c2d12;
+
+$pepper-green-50: #ecfff7;
+$pepper-green-100: #d1ffe9;
+$pepper-green-200: #a7ffd8;
+$pepper-green-300: #6fffc1;
+$pepper-green-400: #00f28b;
+$pepper-green: #007f4e;
+$pepper-green-600: #00b369;
+$pepper-green-700: #008f54;
+$pepper-green-800: #007144;
+$pepper-green-900: #005c38;
+
+$pot-of-gold-50: #fefce8;
+$pot-of-gold-100: #fef9c3;
+$pot-of-gold: #f8cc1b;
+$pot-of-gold-300: #fde047;
+$pot-of-gold-400: #facc15;
+$pot-of-gold-500: #eab308;
+$pot-of-gold-600: #ca8a04;
+
+$leaf-50: #f3f9ec;
+$leaf-100: #e5f2d8;
+$leaf: #72b043;
+$leaf-300: #bcd99b;
+$leaf-400: #a3ca78;
+$leaf-500: #8bbb55;
+$leaf-600: #729b45;
+
+$white-smoke-50: #ffffff;
+$white-smoke-100: #fafafa;
+$white-smoke: #f6f6f6;
+$white-smoke-300: #e5e5e5;
+$white-smoke-400: #d4d4d4;
+$white-smoke-500: #a3a3a3;
+$white-smoke-600: #737373;
+$white-smoke-700: #525252;
+$white-smoke-800: #404040;
+$white-smoke-900: #333333;
+
+$the-end-50: #f6f6f6;
+$the-end-100: #e7e7e7;
+$the-end-200: #d1d1d1;
+$the-end-300: #b0b0b0;
+$the-end-400: #888888;
+$the-end: #2a2a2a;
+$the-end-600: #4d4d4d;
+$the-end-700: #434343;
+$the-end-800: #3f3f3f;
+$the-end-900: #3d3d3d;
+
+// Just-the-docs Color Assignments
+
+// Base colors
+$body-background-color: $white-smoke;
+$sidebar-color: $white-smoke-50;
+$search-background-color: $white-smoke;
+$table-background-color: $white-smoke;
+$code-background-color: $white-smoke-100;
+
+// Text colors  
+$body-text-color: $the-end-900;
+$body-heading-color: $the-end-900;
+$search-result-preview-color: $the-end-700;
+
+// Link colors (using Festa's signature pepper green)
+$link-color: $pepper-green-700;
+$link-color-hover: $pepper-green-800;
+$link-color-visited: $pepper-green-600;
+
+// Navigation colors
+$nav-child-link-color: $the-end-700;
+$nav-child-link-color-hover: $pepper-green-700;
+$nav-parent-link-color: $the-end-900;
+$nav-parent-link-color-hover: $pepper-green-700;
+
+// Button colors (using chicken comb for primary actions)
+$btn-primary-color: $white-smoke;
+$btn-primary-background: $chicken-comb;
+$btn-primary-background-hover: $chicken-comb-700;
+$btn-primary-border: $chicken-comb;
+$btn-primary-border-hover: $chicken-comb-700;
+
+// Search colors
+$search-input-background: $white-smoke-50;
+$search-input-border: $white-smoke-400;
+$search-input-border-hover: $pepper-green-400;
+$search-input-border-focus: $pepper-green;
+
+// Accent colors
+$border-color: $white-smoke-300;
+$table-border-color: $white-smoke-300;
+$code-border-color: $white-smoke-400;
+
+// Feedback colors (using leaf for success, chicken comb for warnings)
+$feedback-color: $leaf-600;
+$label-green: $leaf;
+$label-blue: $pepper-green;
+$label-purple: $chicken-comb;
+$label-yellow: $pot-of-gold;
+$label-red: $chicken-comb;
+
+// Gradients for special sections
+.hero-section {
+  background: linear-gradient(135deg, $pepper-green-50 0%, $leaf-50 50%, $chicken-comb-50 100%);
+}
+
+.feature-card {
+  background: linear-gradient(135deg, $white-smoke 0%, $apocalyptic-orange-50 100%);
+  border: 1px solid $white-smoke-300;
+  
+  &:hover {
+    background: linear-gradient(135deg, $white-smoke-50 0%, $apocalyptic-orange-100 100%);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+}
+
+// Custom components
+.lesson-card {
+  background: linear-gradient(135deg, $white-smoke 0%, $pepper-green-50 100%);
+  border-left: 4px solid $pepper-green;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.download-section {
+  background: linear-gradient(135deg, $pot-of-gold-50 0%, $white-smoke 100%);
+  border: 2px dashed $pot-of-gold-400;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.video-embed {
+  background: linear-gradient(135deg, $the-end-50 0%, $white-smoke 100%);
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+// Responsive typography adjustments
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .feature-card {
+    margin-bottom: 1rem;
+  }
+}
