@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "🧠 Model Context Protocol - MCP"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 5
 permalink: /building-foundation/problem-tree-analysis/model-context-protocol/
 description: "Leverage AI-enhanced research methods to accelerate analysis while maintaining analytical rigor"

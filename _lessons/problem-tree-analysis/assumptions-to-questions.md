@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "🎯 Converting Assumptions to Stakeholder Questions"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 7
 permalink: /building-foundation/problem-tree-analysis/assumptions-to-questions/
 description: "Transform your analytical assumptions into meaningful questions for community engagement"

@@ -16,7 +16,9 @@
       "Bash(git remote set-url:*)",
       "Bash(touch:*)",
       "WebFetch(domain:festa-design-studio.gitbook.io)",
-      "Bash(bundle exec jekyll:*)"
+      "Bash(bundle exec jekyll:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"

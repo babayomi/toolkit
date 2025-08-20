@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "1.1 🌳 Problem Tree Analysis"
-parent: "🌱 Building Foundation"
+title: "1.1 Problem Tree Analysis"
+parent: "Building Foundation"
 nav_order: 1
 has_children: true
 permalink: /building-foundation/problem-tree-analysis/

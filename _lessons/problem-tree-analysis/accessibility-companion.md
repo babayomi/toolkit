@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "🛗 Problem Tree Accessibility Companion"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 2
 permalink: /building-foundation/problem-tree-analysis/accessibility-companion/
 description: "Ensure your problem analysis is inclusive and considers accessibility needs throughout the process"

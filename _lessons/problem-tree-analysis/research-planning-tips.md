@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "📏 Research Planning Tips"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 4
 permalink: /building-foundation/problem-tree-analysis/research-planning-tips/
 description: "Strategic approaches to conducting thorough, efficient research that strengthens your problem tree"

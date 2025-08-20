@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "⭐ Quality Assurance Checklist for Literature Review"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 6
 permalink: /building-foundation/problem-tree-analysis/qa-literature-review/
 description: "Systematic approach to reviewing and validating research sources for your problem analysis"

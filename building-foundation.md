@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "🌱 Building Foundation"
+title: "Building Foundation"
 nav_order: 2
 has_children: true
 permalink: /building-foundation/

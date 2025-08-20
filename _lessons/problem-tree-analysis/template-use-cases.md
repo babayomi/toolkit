@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "🌳 Problem Tree Template and Use Cases"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 1
 permalink: /building-foundation/problem-tree-analysis/template-use-cases/
 description: "Ready-to-use templates and real-world examples showing how to apply problem tree analysis across different sectors"

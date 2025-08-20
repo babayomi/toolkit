@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "👓 Pro Tips for Success"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 8
 permalink: /building-foundation/problem-tree-analysis/pro-tips/
 description: "Advanced strategies and common pitfalls to avoid, based on years of real-world application"

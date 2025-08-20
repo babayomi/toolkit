@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "❓ Problem Tree Brainstorming Questions"
-parent: "1.1 🌳 Problem Tree Analysis"
-grand_parent: "🌱 Building Foundation"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
 nav_order: 3
 permalink: /building-foundation/problem-tree-analysis/brainstorming-questions/
 description: "Essential questions to guide your thinking and uncover hidden aspects of complex problems"
