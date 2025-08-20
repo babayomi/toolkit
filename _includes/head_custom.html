@@ -25,8 +25,10 @@
   }
 
   .site-title:hover {
-    color: #e12729 !important;
+    color: #dc2626 !important;
     text-decoration: none !important;
+    background: rgba(220, 38, 38, 0.05) !important;
+    border-radius: 4px !important;
   }
 
   /* Mobile responsive logomark */
@@ -200,6 +202,26 @@
   .nav-list .nav-list-item .nav-list-link.active {
     background-image: none !important;
     background: rgba(220, 38, 38, 0.1) !important;
+  }
+
+  /* Dropdown toggle buttons in navigation */
+  .nav-list-expander {
+    color: #dc2626 !important;
+  }
+  
+  .nav-list-expander:hover {
+    color: #e12729 !important;
+    background: rgba(220, 38, 38, 0.1) !important;
+  }
+  
+  /* Dropdown arrow/chevron styling */
+  .nav-list-expander svg {
+    fill: #dc2626 !important;
+    transition: all 150ms ease !important;
+  }
+  
+  .nav-list-expander:hover svg {
+    fill: #e12729 !important;
   }
 
   /* Main navigation links */
