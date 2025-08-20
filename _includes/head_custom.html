@@ -1,5 +1,56 @@
 <!-- Custom head content for Festa Design System -->
 
+<!-- Festa Logomark Integration -->
+<style>
+/* Override site title to include Festa logomark */
+.site-title {
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+  transition: all 150ms ease !important;
+}
+
+.site-title:before {
+  content: '';
+  display: inline-block !important;
+  width: 32px !important;
+  height: 30px !important;
+  margin-right: 0.75rem !important;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 14.75' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e12729'%3E%3Cpath d='M15,3.57V1.02H.98v12.74h2.55v-5.1h1.27v5.1h10.19v-7.64h-2.55v-2.55h2.55ZM4.8,6.12h-1.27v-2.55h1.27v2.55ZM8.94,6.12v5.1h-1.59V3.57h1.59v2.55ZM12.45,11.21h-.96v-2.55h.96v2.55Z' fill='%23e12729'/%3E%3C/g%3E%3C/svg%3E") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  flex-shrink: 0 !important;
+}
+
+.site-title:hover {
+  color: #e12729 !important;
+  text-decoration: none !important;
+}
+
+/* Mobile responsive logomark */
+@media (max-width: 768px) {
+  .site-title:before {
+    width: 28px !important;
+    height: 26px !important;
+    margin-right: 0.5rem !important;
+  }
+}
+
+/* Additional logo styling for consistency */
+.site-header {
+  border-bottom: 1px solid #e5e5e5 !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.site-title {
+  font-size: 1.25rem !important;
+  color: #2a2a2a !important;
+}
+</style>
+
 <!-- Inter Font from Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

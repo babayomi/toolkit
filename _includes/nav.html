@@ -1,0 +1,64 @@
+<!-- Custom navigation header with Festa logomark -->
+<nav class="site-nav">
+  <div class="site-nav-header">
+    <a href="/" class="site-title-logo">
+      <svg
+        class="festa-logomark"
+        viewBox="0 0 16 14.75"
+        preserveAspectRatio="xMidYMid meet"
+        width="32"
+        height="30"
+        style="margin-right: 0.75rem; display: inline-block; vertical-align: middle;"
+      >
+        <g fill="#e12729">
+          <defs></defs>
+          <path
+            class="cls-1"
+            d="M15,3.57V1.02H.98v12.74h2.55v-5.1h1.27v5.1h10.19v-7.64h-2.55v-2.55h2.55ZM4.8,6.12h-1.27v-2.55h1.27v2.55ZM8.94,6.12v5.1h-1.59V3.57h1.59v2.55ZM12.45,11.21h-.96v-2.55h.96v2.55Z"
+            fill="#e12729"
+          ></path>
+        </g>
+      </svg>
+      <span class="site-title-text">{{ site.title }}</span>
+    </a>
+  </div>
+</nav>
+
+<style>
+/* Festa logomark styling */
+.site-title-logo {
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  color: #2a2a2a !important;
+  font-weight: 800 !important;
+  font-size: 1.25rem !important;
+  transition: all 150ms ease !important;
+}
+
+.site-title-logo:hover {
+  color: #e12729 !important;
+  text-decoration: none !important;
+}
+
+.festa-logomark {
+  flex-shrink: 0;
+}
+
+.site-title-text {
+  line-height: 1.2 !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .festa-logomark {
+    width: 28px !important;
+    height: 26px !important;
+    margin-right: 0.5rem !important;
+  }
+  
+  .site-title-text {
+    font-size: 1.125rem !important;
+  }
+}
+</style>
