@@ -3,8 +3,8 @@
 # Site Information
 title: "Setup Your Project for Success"
 description: "Essential project design tools for nonprofits and social enterprises to build fundable, impactful, and scalable projects"
-url: "https://toolkit.festa.design"
-baseurl: ""
+url: "https://babayomi.github.io"
+baseurl: "/toolkit"
 
 # Organization Info
 author: "Festa Design Studio"
