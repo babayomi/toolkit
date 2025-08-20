@@ -18,7 +18,8 @@
       "WebFetch(domain:festa-design-studio.gitbook.io)",
       "Bash(bundle exec jekyll:*)",
       "Bash(grep:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(cp:*)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"
