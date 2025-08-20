@@ -18,10 +18,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-redirect-from
+  - jekyll-remote-theme
 
-# Theme Configuration
-theme: just-the-docs
+# Theme Configuration - using remote theme for GitHub Pages
 remote_theme: just-the-docs/just-the-docs
 
 # Just-the-docs Theme Settings
@@ -102,11 +101,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md
-  - CLAUDE.md
+  - vendor/
   - "*.txt"
   - comprehensive_prd.md
