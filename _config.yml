@@ -9,7 +9,6 @@ baseurl: "/toolkit"
 # Organization Info
 author: "Festa Design Studio"
 email: "hello@festa.design"
-logo: "/assets/images/festa-logo.png"
 
 # Jekyll Configuration
 markdown: kramdown
@@ -25,7 +24,8 @@ remote_theme: just-the-docs/just-the-docs
 
 # Just-the-docs Theme Settings
 search_enabled: true
-search.heading_level: 2
+search:
+  heading_level: 2
 heading_anchors: true
 nav_fold: false
 aux_links:

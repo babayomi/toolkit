@@ -19,7 +19,12 @@
       "Bash(bundle exec jekyll:*)",
       "Bash(grep:*)",
       "Bash(find:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "WebFetch(domain:babayomi.github.io)",
+      "Bash(gh workflow:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "WebSearch"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"
