@@ -1,0 +1,495 @@
+<!-- Custom head content for Festa Design System -->
+
+<!-- Inter Font from Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Custom Festa Design System CSS -->
+<style>
+/* ========================================
+   FESTA DESIGN SYSTEM IMPLEMENTATION
+   ======================================== */
+
+/* 1. TYPOGRAPHY SYSTEM
+   ======================================== */
+
+/* Base Font Family */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fluid Typography Scale - Display & Headings */
+.text-display, 
+.site-title {
+  font-size: clamp(3rem, 8vw, 4rem) !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.02em !important;
+  font-weight: 900 !important;
+}
+
+.text-h1, 
+h1:not(.site-title) {
+  font-size: clamp(2.25rem, 6vw, 3rem) !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.01em !important;
+  font-weight: 800 !important;
+  color: #3d3d3d !important;
+}
+
+.text-h2, 
+h2 {
+  font-size: clamp(1.875rem, 5vw, 2.25rem) !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em !important;
+  font-weight: 700 !important;
+  color: #3d3d3d !important;
+}
+
+.text-h3, 
+h3 {
+  font-size: clamp(1.5rem, 4vw, 1.875rem) !important;
+  line-height: 1.4 !important;
+  font-weight: 600 !important;
+  color: #3d3d3d !important;
+}
+
+.text-h4, 
+h4 {
+  font-size: clamp(1.25rem, 3.5vw, 1.5rem) !important;
+  line-height: 1.4 !important;
+  font-weight: 600 !important;
+  color: #3d3d3d !important;
+}
+
+.text-h5, 
+h5 {
+  font-size: clamp(1.125rem, 3vw, 1.25rem) !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  color: #3d3d3d !important;
+}
+
+.text-h6, 
+h6 {
+  font-size: clamp(1rem, 2.5vw, 1.125rem) !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  color: #3d3d3d !important;
+}
+
+/* Body Text Styles */
+.text-body-lg,
+.lead {
+  font-size: clamp(1rem, 2.5vw, 1.125rem) !important;
+  line-height: 1.7 !important;
+  letter-spacing: -0.01em !important;
+  color: #434343 !important;
+}
+
+.text-body,
+p,
+.main-content p {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  color: #434343 !important;
+}
+
+.text-body-sm,
+small,
+.text-small {
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.01em !important;
+  color: #4d4d4d !important;
+}
+
+/* 2. COLOR SYSTEM - TEXT HIERARCHY
+   ======================================== */
+
+/* Primary text colors */
+.text-primary { color: #3d3d3d !important; }
+.text-secondary { color: #434343 !important; }
+.text-muted { color: #4d4d4d !important; }
+
+/* Brand colors for accents */
+.text-chicken-comb { color: #e12729 !important; }
+.text-pepper-green { color: #007f4e !important; }
+.text-apocalyptic-orange { color: #f37324 !important; }
+.text-pot-of-gold { color: #f8cc1b !important; }
+.text-leaf { color: #72b043 !important; }
+
+/* 3. NAVIGATION LINK STYLES
+   ======================================== */
+
+/* Main navigation links */
+.site-nav a,
+.nav-list-item a,
+.nav-list-link {
+  color: #434343 !important;
+  font-weight: 400 !important;
+  transition: color 150ms ease-in-out !important;
+  text-decoration: none !important;
+}
+
+.site-nav a:hover,
+.nav-list-item a:hover,
+.nav-list-link:hover {
+  color: #00b369 !important;
+  text-decoration: none !important;
+}
+
+/* Active/Current page in navigation */
+.nav-list-item .nav-list-link.active,
+.nav-list-item.active > .nav-list-link {
+  color: #dc2626 !important;
+  font-weight: 500 !important;
+}
+
+/* Child navigation items */
+.nav-list-item .nav-list-item a {
+  color: #434343 !important;
+  font-size: 0.875rem !important;
+}
+
+.nav-list-item .nav-list-item a:hover {
+  color: #00b369 !important;
+}
+
+/* Breadcrumb navigation */
+.breadcrumb-nav-list-item a {
+  color: #888888 !important;
+  transition: color 150ms ease !important;
+}
+
+.breadcrumb-nav-list-item a:hover {
+  color: #00b369 !important;
+}
+
+.breadcrumb-nav-list-item:last-child {
+  color: #dc2626 !important;
+}
+
+/* In-content links */
+.main-content a:not(.btn) {
+  color: #007f4e !important;
+  text-decoration: underline !important;
+  transition: color 150ms ease !important;
+}
+
+.main-content a:not(.btn):hover {
+  color: #005c38 !important;
+}
+
+/* 4. BUTTON STYLES
+   ======================================== */
+
+/* Base button reset */
+.btn,
+a.btn {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: all 150ms ease-in-out !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+}
+
+/* Primary Button (Red) */
+.btn-primary,
+.btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral) {
+  background-color: #dc2626 !important;
+  color: #ffffff !important;
+  border: 2px solid #dc2626 !important;
+  padding: 12px 24px !important;
+  font-size: 1rem !important;
+}
+
+.btn-primary:hover,
+.btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral):hover {
+  background-color: #b91c1c !important;
+  border-color: #b91c1c !important;
+  color: #ffffff !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+}
+
+.btn-primary:active {
+  background-color: #991b1b !important;
+  border-color: #991b1b !important;
+  transform: translateY(0) !important;
+}
+
+/* Secondary Button (Green Outline) */
+.btn-secondary,
+.btn-outline {
+  background-color: transparent !important;
+  color: #434343 !important;
+  border: 2px solid rgba(0, 127, 78, 0.5) !important;
+  padding: 12px 24px !important;
+  font-size: 1rem !important;
+}
+
+.btn-secondary:hover,
+.btn-outline:hover {
+  background-color: #ecfff7 !important;
+  color: #007f4e !important;
+  border-color: #007f4e !important;
+}
+
+/* Neutral Button (Gray Outline) */
+.btn-neutral {
+  background-color: transparent !important;
+  color: #434343 !important;
+  border: 2px solid #d4d4d4 !important;
+  padding: 12px 24px !important;
+  font-size: 1rem !important;
+}
+
+.btn-neutral:hover {
+  background-color: rgba(246, 246, 246, 0.5) !important;
+  border-color: #a3a3a3 !important;
+}
+
+/* Button Sizes */
+.btn-sm {
+  padding: 6px 12px !important;
+  font-size: 0.875rem !important;
+}
+
+.btn-lg {
+  padding: 16px 32px !important;
+  font-size: 1.125rem !important;
+}
+
+/* Disabled state */
+.btn:disabled,
+.btn.disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+/* 5. SEARCH BOX STYLES
+   ======================================== */
+
+.search-input {
+  font-family: 'Inter', sans-serif !important;
+  border-color: #d4d4d4 !important;
+  transition: all 150ms ease !important;
+}
+
+.search-input:hover {
+  border-color: #00b369 !important;
+}
+
+.search-input:focus {
+  border-color: #007f4e !important;
+  box-shadow: 0 0 0 3px rgba(0, 127, 78, 0.1) !important;
+}
+
+/* 6. SIDEBAR STYLES
+   ======================================== */
+
+.side-bar {
+  background-color: #ffffff !important;
+  border-right: 1px solid #e5e5e5 !important;
+}
+
+.site-title {
+  color: #2a2a2a !important;
+}
+
+.site-header {
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+/* 7. MAIN CONTENT AREA
+   ======================================== */
+
+.main-content {
+  max-width: 900px !important;
+}
+
+.main-content h1:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 8. CODE BLOCKS
+   ======================================== */
+
+pre,
+code {
+  font-family: 'Courier New', Courier, monospace !important;
+  background-color: #fafafa !important;
+  border: 1px solid #d4d4d4 !important;
+  border-radius: 4px !important;
+}
+
+pre {
+  padding: 1rem !important;
+  overflow-x: auto !important;
+}
+
+code {
+  padding: 2px 4px !important;
+  font-size: 0.875em !important;
+}
+
+/* 9. TABLES
+   ======================================== */
+
+table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+
+th {
+  background-color: #f6f6f6 !important;
+  font-weight: 600 !important;
+  color: #2a2a2a !important;
+  text-align: left !important;
+  padding: 12px !important;
+  border: 1px solid #e5e5e5 !important;
+}
+
+td {
+  padding: 12px !important;
+  border: 1px solid #e5e5e5 !important;
+  color: #434343 !important;
+}
+
+/* 10. UTILITY CLASSES
+   ======================================== */
+
+.font-thin { font-weight: 100 !important; }
+.font-extralight { font-weight: 200 !important; }
+.font-light { font-weight: 300 !important; }
+.font-normal { font-weight: 400 !important; }
+.font-medium { font-weight: 500 !important; }
+.font-semibold { font-weight: 600 !important; }
+.font-bold { font-weight: 700 !important; }
+.font-extrabold { font-weight: 800 !important; }
+.font-black { font-weight: 900 !important; }
+
+/* Spacing utilities */
+.mb-2 { margin-bottom: 0.5rem !important; }
+.mb-4 { margin-bottom: 1rem !important; }
+.mb-6 { margin-bottom: 1.5rem !important; }
+.mb-8 { margin-bottom: 2rem !important; }
+.mb-12 { margin-bottom: 3rem !important; }
+
+.mt-2 { margin-top: 0.5rem !important; }
+.mt-4 { margin-top: 1rem !important; }
+.mt-6 { margin-top: 1.5rem !important; }
+.mt-8 { margin-top: 2rem !important; }
+.mt-12 { margin-top: 3rem !important; }
+
+/* Text alignment */
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+
+/* 11. SMOOTH TRANSITIONS
+   ======================================== */
+
+a,
+button,
+.btn,
+input,
+select,
+textarea {
+  transition: all 150ms ease-in-out !important;
+}
+
+/* 12. FOCUS STATES FOR ACCESSIBILITY
+   ======================================== */
+
+a:focus,
+button:focus,
+.btn:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(0, 127, 78, 0.2) !important;
+}
+
+/* 13. RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  
+  h1:not(.site-title) {
+    font-size: 2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem !important;
+  }
+  
+  h3 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* 14. CUSTOM FESTA COMPONENTS
+   ======================================== */
+
+/* Hero Section Enhancement */
+.hero-section {
+  background: linear-gradient(135deg, #ecfff7 0%, #e5f2d8 50%, #fef2f2 100%) !important;
+  padding: 3rem 2rem !important;
+  border-radius: 12px !important;
+  margin-bottom: 3rem !important;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: linear-gradient(135deg, #f6f6f6 0%, #fff7ed 100%) !important;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 12px !important;
+  padding: 2rem !important;
+  transition: all 300ms ease !important;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1) !important;
+}
+
+/* Lesson Cards */
+.lesson-card {
+  background: linear-gradient(135deg, #f6f6f6 0%, #ecfff7 100%) !important;
+  border-left: 4px solid #007f4e !important;
+  padding: 1.5rem !important;
+  margin: 1rem 0 !important;
+  border-radius: 8px !important;
+}
+
+/* Download Section */
+.download-section {
+  background: linear-gradient(135deg, #fefce8 0%, #f6f6f6 100%) !important;
+  border: 2px dashed #facc15 !important;
+  padding: 2rem !important;
+  border-radius: 12px !important;
+  text-align: center !important;
+}
+
+/* Video Embed */
+.video-embed {
+  background: linear-gradient(135deg, #f6f6f6 0%, #f6f6f6 100%) !important;
+  padding: 1rem !important;
+  border-radius: 12px !important;
+  margin: 2rem 0 !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
+</style>
