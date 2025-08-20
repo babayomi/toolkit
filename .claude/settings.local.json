@@ -24,7 +24,8 @@
       "Bash(gh workflow:*)",
       "Bash(gh run list:*)",
       "Bash(gh run view:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(gem install:*)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"
