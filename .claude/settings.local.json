@@ -12,7 +12,9 @@
       "Bash(curl:*)",
       "Bash(git commit:*)",
       "Bash(nslookup:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(touch:*)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"
