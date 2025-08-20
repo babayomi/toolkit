@@ -14,7 +14,8 @@
       "Bash(nslookup:*)",
       "Bash(rm:*)",
       "Bash(git remote set-url:*)",
-      "Bash(touch:*)"
+      "Bash(touch:*)",
+      "WebFetch(domain:festa-design-studio.gitbook.io)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"

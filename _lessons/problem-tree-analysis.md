@@ -1,139 +1,92 @@
 ---
 layout: default
-title: "1.1 Problem Tree Analysis"
-parent: Lessons
-nav_order: 2
+title: "1.1 🌳 Problem Tree Analysis"
+parent: "🌱 Building Foundation"
+nav_order: 1
+has_children: true
+permalink: /building-foundation/problem-tree-analysis/
 description: "Break down complex social challenges into clear root causes, core problems, and effects using AI-enhanced research methods"
-video_url: "https://vimeo.com/your-video-id"
-duration: "5 minutes"
-downloads:
-  - title: "MCP Builder Template"
-    url: "/assets/downloads/mcp-builder-template.pdf"
-    type: "PDF Template"
-  - title: "Problem Tree Worksheet" 
-    url: "/assets/downloads/problem-tree-worksheet.pdf"
-    type: "PDF Worksheet"
-  - title: "Quality Assurance Checklist"
-    url: "/assets/downloads/quality-checklist.pdf"
-    type: "PDF Checklist"
-tags: ["analysis", "ai-tools", "foundations"]
 ---
 
-# Problem Tree Analysis with AI-Enhanced Research
+# 🌳 Problem Tree Analysis
 
 Break down complex social challenges into clear root causes, core problems, and effects using systematic methodology enhanced with strategic AI-assisted research.
 
 ---
 
-<div class="video-embed">
-<div style="padding:56.25% 0 0 0;position:relative;">
-<iframe src="https://player.vimeo.com/video/your-video-id?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-        frameborder="0" 
-        allow="autoplay; fullscreen; picture-in-picture" 
-        allowfullscreen 
-        style="position:absolute;top:0;left:0;width:100%;height:100%;"
-        title="Problem Tree Analysis - Setup Your Project for Success">
-</iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-<p style="text-align: center; margin-top: 1rem; font-size: 0.875rem; color: #434343;">
-⏱️ <strong>Duration:</strong> 5 minutes | 
-📥 <strong>Downloads:</strong> 3 templates | 
-🎯 <strong>Outcome:</strong> Preliminary Problem Tree ready for stakeholder validation
-</p>
-</div>
+## 🎯 Master Problem Tree Analysis
 
----
+This comprehensive toolkit helps you **clarify the root causes, core problem, and consequences** of a key challenge in your project design. Whether you're tackling health issues, education gaps, environmental challenges, or economic development, problem tree analysis provides the foundation for everything from activities to budgets to impact measurement.
 
-## 🎯 What You'll Learn
+### 🌟 Why Problem Tree Analysis Matters
 
-By the end of this lesson, you will be able to:
+**The Problem with Most Social Impact Projects:**
+- Vague problem definition → Unfocused solutions
+- Assumption-based planning → Solutions that miss the mark  
+- Weak evidence base → Unconvincing proposals
+- Skip community validation → Projects that don't resonate
 
-✅ **Break down complex social challenges** into root causes, core problems, and effects  
-✅ **Use AI strategically** to accelerate research while maintaining analytical rigor  
-✅ **Build a preliminary Problem Tree** that clearly separates evidence from assumptions  
-✅ **Prepare targeted questions** for meaningful stakeholder validation  
-✅ **Create a solid foundation** for all your project design and proposal work  
-
----
-
-## 🌟 Why This Matters
-
-### The Problem with Most Social Impact Projects
-- **Vague problem definition** → Unfocused solutions
-- **Assumption-based planning** → Solutions that miss the mark  
-- **Weak evidence base** → Unconvincing proposals
-- **Skip community validation** → Projects that don't resonate
-
-### What Problem Tree Analysis Provides
+**What Problem Tree Analysis Provides:**
 - **Clarity** on what problem you're really solving
 - **Logic** that connects causes to problems to effects
 - **Evidence base** that supports your intervention choices
 - **Stakeholder questions** that guide meaningful community engagement
-- **Foundation** for everything from activities to budgets to impact measurement
 
 ---
 
-## 🌳 Understanding the Problem Tree Structure
+## 📚 Complete Problem Tree Toolkit
 
-### The Basic Framework
-```
-           🌿 EFFECTS (Branches)
-              What happens because 
-              the problem exists?
-                      ⬆️
-              🌳 CORE PROBLEM (Trunk)
-              The central issue your
-              project will address
-                      ⬆️
-           🌱 ROOT CAUSES (Roots)
-           Why does the problem exist?
-           What enables or drives it?
-```
+This section provides 8 comprehensive guides to master every aspect of problem tree analysis:
 
-### Key Components Explained
+### 🌳 [Problem Tree Template and Use Cases](template-use-cases/)
+Ready-to-use templates and real-world examples showing how to apply problem tree analysis across different sectors and contexts.
 
-**🌳 CORE PROBLEM (The Trunk)**
-- The central issue your project aims to address
-- Affects a specific population in a defined context
-- Observable, measurable, and urgent
-- Written WITHOUT causes or solutions included
+### 🛗 [Problem Tree Accessibility Companion](accessibility-companion/)
+Ensure your problem analysis is inclusive and considers accessibility needs throughout the process.
 
-**🌱 ROOT CAUSES (The Roots)**
-- Direct and underlying factors that create or perpetuate the problem
-- Can be immediate (direct) or deep (systemic)
-- Evidence-based, not assumption-driven
-- Your intervention points for creating change
+### ❓ [Problem Tree Brainstorming Questions](brainstorming-questions/)
+Essential questions to guide your thinking and uncover hidden aspects of complex problems.
 
-**🌿 EFFECTS (The Branches)**
-- Consequences and impacts of the problem existing
-- Can be primary (immediate) or secondary (long-term)
-- Help demonstrate urgency and importance
-- Connect to funder priorities and community concerns
+### 📏 [Research Planning Tips](research-planning-tips/)
+Strategic approaches to conducting thorough, efficient research that strengthens your problem tree.
+
+### 🧠 [Model Context Protocol - MCP](model-context-protocol/)
+Leverage AI-enhanced research methods to accelerate analysis while maintaining analytical rigor.
+
+### ⭐ [Quality Assurance Checklist for Literature Review](qa-literature-review/)
+Systematic approach to reviewing and validating research sources for your problem analysis.
+
+### 🎯 [Converting Assumptions to Stakeholder Questions](assumptions-to-questions/)
+Transform your analytical assumptions into meaningful questions for community engagement.
+
+### 👓 [Pro Tips for Success](pro-tips/)
+Advanced strategies and common pitfalls to avoid, based on years of real-world application.
 
 ---
 
-## 📥 Download Resources
+## 🎯 Learning Outcomes
 
-<div class="download-section" style="margin: 2rem 0;">
-<h3>Essential Templates for This Lesson</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
-<a href="/assets/downloads/mcp-builder-template.pdf" class="btn btn-outline">📄 MCP Builder Template</a>
-<a href="/assets/downloads/problem-tree-worksheet.pdf" class="btn btn-outline">📝 Problem Tree Worksheet</a>
-<a href="/assets/downloads/quality-checklist.pdf" class="btn btn-outline">✅ Quality Checklist</a>
-</div>
-</div>
+After completing this comprehensive toolkit, you will be able to:
 
----
-
-## 🚀 Next Steps
-
-After completing this lesson:
-1. **Apply the tool** to your actual project challenge
-2. **Validate with stakeholders** using the questions you've prepared
-3. **Move to Lesson 1.2** on Stakeholder Mapping & Engagement
-4. **Iterate your Problem Tree** based on community feedback
+✅ **Break down complex social challenges** systematically using evidence-based methodology  
+✅ **Use AI strategically** to accelerate research while maintaining analytical rigor  
+✅ **Build robust Problem Trees** that clearly separate evidence from assumptions  
+✅ **Prepare targeted questions** for meaningful stakeholder validation  
+✅ **Create solid foundations** for all your project design and proposal work  
 
 ---
 
-*Remember: The Problem Tree is a living document. It should evolve as you gather more evidence and stakeholder insights.*
+## 🚀 Getting Started
+
+**New to Problem Tree Analysis?**  
+Start with [🌳 Problem Tree Template and Use Cases](template-use-cases/) to understand the basic structure and see practical examples.
+
+**Ready for Advanced Techniques?**  
+Jump to [🧠 Model Context Protocol - MCP](model-context-protocol/) to learn AI-enhanced research methods.
+
+**Need Quality Assurance?**  
+Use [⭐ Quality Assurance Checklist for Literature Review](qa-literature-review/) to validate your research foundation.
+
+---
+
+*The Problem Tree is the foundation of excellent project design. Take time to master these tools - they will pay dividends throughout your project development journey.*
