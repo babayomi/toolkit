@@ -9,7 +9,7 @@ permalink: /
 <div class="hero-section" style="padding: 3rem 2rem; text-align: center; margin: -2rem -2rem 3rem -2rem; border-radius: 0 0 12px 12px;">
   <h1 style="font-size: 3rem; margin-bottom: 1rem; color: #2a2a2a;">Setup Your Project for Success</h1>
   <p style="font-size: 1.25rem; color: #434343; max-width: 600px; margin: 0 auto 2rem;">Essential project design tools for nonprofits and social enterprises to build fundable, impactful, and scalable projects</p>
-  <a href="/building-foundation/" class="btn btn-primary" style="margin-right: 1rem; margin-bottom: 0.5rem;">Start Learning</a>
+  <a href="/building-foundation/problem-tree-analysis/" class="btn btn-primary" style="margin-right: 1rem; margin-bottom: 0.5rem;">Start Learning</a>
   <a href="/building-foundation/" class="btn btn-secondary">Explore Toolkit</a>
 </div>
 
