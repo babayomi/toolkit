@@ -460,8 +460,6 @@ function downloadMarkdownTemplate() {
 
 ## 📥 Format Options for Download
 
-<div class="template-downloads">
-
 ### 📝 Lightweight Text Template
 **Perfect for slow internet connections**
 - **Size:** ~2KB (smallest file)
@@ -469,7 +467,7 @@ function downloadMarkdownTemplate() {
 - **Best for:** Very slow internet, basic mobile phones, rural areas
 - **Opens in:** Any text editor, smartphone, basic computers
 
-<button onclick="downloadTextTemplate()" class="btn btn-primary" style="margin: 1rem 0;">📝 Download Text Template (.TXT)</button>
+[📝 Download Text Template (.TXT)](#){: onclick="downloadTextTemplate()" class="download-link"}
 
 ---
 
@@ -480,7 +478,7 @@ function downloadMarkdownTemplate() {
 - **Opens in:** Microsoft Word, Google Docs, print directly
 - **Features:** Professional formatting, tables, structured layout
 
-<button onclick="downloadWordDoc()" class="btn btn-primary" style="margin: 1rem 0;">📋 Download Word Document (.DOC)</button>
+[📋 Download Word Document (.DOC)](#){: onclick="downloadWordDoc()" class="download-link"}
 
 ---
 
@@ -491,7 +489,7 @@ function downloadMarkdownTemplate() {
 - **Opens in:** Excel, Google Sheets, LibreOffice Calc
 - **Features:** Data validation, categorization, priority tracking
 
-<button onclick="downloadCSVTemplate()" class="btn btn-primary" style="margin: 1rem 0;">📊 Download Spreadsheet (.CSV)</button>
+[📊 Download Spreadsheet (.CSV)](#){: onclick="downloadCSVTemplate()" class="download-link"}
 
 ---
 
@@ -502,9 +500,7 @@ function downloadMarkdownTemplate() {
 - **Opens in:** Any text editor, markdown viewers
 - **Features:** Clean formatting, easy to share, version-friendly
 
-<button onclick="downloadMarkdownTemplate()" class="btn btn-primary" style="margin: 1rem 0;">📑 Download Markdown (.MD)</button>
-
-</div>
+[📑 Download Markdown (.MD)](#){: onclick="downloadMarkdownTemplate()" class="download-link"}
 
 ---
 
@@ -582,35 +578,46 @@ All templates include:
 *These templates ensure that everyone can participate in problem tree analysis, regardless of their technological constraints or internet connectivity.*
 
 <style>
-.btn {
+.download-link {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background: #007144;
   color: white !important;
   text-decoration: none;
-  border: none;
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: all 0.2s ease;
   font-family: inherit;
+  margin: 1rem 0;
+  border: 2px solid #007144;
 }
 
-.btn:hover {
+.download-link:hover {
   background: #005c38;
+  border-color: #005c38;
+  color: white !important;
   text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 113, 68, 0.2);
 }
 
-.btn-primary {
-  background: #007144;
+.download-link:focus {
+  outline: 2px solid #007144;
+  outline-offset: 2px;
 }
 
-.template-downloads {
-  margin: 2rem 0;
+.download-link:active {
+  transform: translateY(0);
 }
 
-.template-downloads h3 {
-  color: #007144;
-  margin-top: 2rem;
+/* Responsive download links */
+@media (max-width: 768px) {
+  .download-link {
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+  }
 }
 </style>
