@@ -12,7 +12,11 @@
     width: auto !important;
     height: auto !important;
     padding: 8px !important;
-    font-size: clamp(1rem, 2.5vw, 1.125rem !important); /* body-lg typography size */
+    font-size: clamp(
+      1rem,
+      2.5vw,
+      1.125rem
+    ) !important; /* body-lg typography size */
     font-weight: 900 !important; /* Festa black weight */
     color: #3d3d3d !important; /* Festa text color */
     line-height: 1.7 !important; /* body-lg line height */
@@ -42,13 +46,28 @@
   /* Mobile responsive - smaller logomark and text */
   @media (max-width: 768px) {
     .site-title {
-      font-size: clamp(0.75rem, 1.5vw, 0.875rem) !important; /* Much smaller text on mobile */
+      font-size: clamp(
+        0.875rem,
+        2vw,
+        1rem
+      ) !important; /* Smaller text on mobile */
       gap: 0.5rem !important;
       padding: 6px !important;
     }
     .site-title:before {
       width: 28px !important;
       height: 26px !important;
+    }
+  }
+
+  /* Desktop - larger text following h5 sizing */
+  @media (min-width: 769px) {
+    .site-title {
+      font-size: clamp(
+        1.125rem,
+        3vw,
+        1.25rem
+      ) !important; /* h5 size for desktop */
     }
   }
 
@@ -86,8 +105,7 @@
   }
 
   /* Fluid Typography Scale - Display & Headings */
-  .text-display,
-  .site-title {
+  .text-display {
     font-size: clamp(3rem, 8vw, 4rem) !important;
     line-height: 1.1 !important;
     letter-spacing: -0.02em !important;
