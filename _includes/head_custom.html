@@ -354,100 +354,120 @@
     color: #005c38 !important;
   }
 
-  /* 4. BUTTON STYLES
+  /* 4. FESTA BUTTON SYSTEM
    ======================================== */
 
-  /* Base button reset */
-  .btn,
-  a.btn {
+  /* Base Festa Button */
+  .festa-btn {
     font-family: "Inter", sans-serif !important;
     font-weight: 500 !important;
     text-decoration: none !important;
-    display: inline-block !important;
-    transition: all 150ms ease-in-out !important;
-    border-radius: 6px !important;
-    cursor: pointer !important;
-  }
-
-  /* Primary Button (Red) */
-  .btn-primary,
-  .btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral),
-  a.btn-primary,
-  a.btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral) {
-    background-color: #dc2626 !important;
-    color: #ffffff !important;
-    border: 2px solid #dc2626 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     padding: 12px 24px !important;
-    font-size: 1rem !important;
-    text-decoration: none !important;
+    font-size: 1.125rem !important;
+    height: 48px !important;
+    border-radius: 9999px !important; /* rounded-full */
+    cursor: pointer !important;
+    transition: all 150ms ease-in-out !important;
+    border: 2px solid transparent !important;
   }
 
-  .btn-primary:hover,
-  .btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral):hover,
-  a.btn-primary:hover,
-  a.btn:not(.btn-outline):not(.btn-secondary):not(.btn-neutral):hover {
+  /* Primary Button - Chicken Comb Red */
+  .festa-btn-primary {
+    background-color: #dc2626 !important;
+    color: #fafafa !important;
+    border-color: #dc2626 !important;
+  }
+
+  .festa-btn-primary:hover {
     background-color: #b91c1c !important;
     border-color: #b91c1c !important;
-    color: #ffffff !important;
-    transform: translateY(-1px) !important;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    color: #fafafa !important;
     text-decoration: none !important;
   }
 
-  .btn-primary:active,
-  a.btn-primary:active {
+  .festa-btn-primary:active {
     background-color: #991b1b !important;
     border-color: #991b1b !important;
-    color: #ffffff !important;
-    transform: translateY(0) !important;
+    color: #fafafa !important;
     text-decoration: none !important;
   }
 
-  /* Secondary Button (Green Outline) */
-  .btn-secondary,
-  .btn-outline {
-    background-color: transparent !important;
-    color: #434343 !important;
-    border: 2px solid rgba(0, 127, 78, 0.5) !important;
-    padding: 12px 24px !important;
-    font-size: 1rem !important;
+  .festa-btn-primary:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px #dc2626, 0 0 0 4px rgba(220, 38, 38, 0.2) !important;
   }
 
-  .btn-secondary:hover,
-  .btn-outline:hover {
+  /* Secondary Button - Pepper Green */
+  .festa-btn-secondary {
+    background-color: transparent !important;
+    color: #434343 !important;
+    border-color: rgba(0, 127, 78, 0.5) !important;
+  }
+
+  .festa-btn-secondary:hover {
     background-color: #ecfff7 !important;
     color: #007f4e !important;
     border-color: #007f4e !important;
+    text-decoration: none !important;
   }
 
-  /* Neutral Button (Gray Outline) */
-  .btn-neutral {
+  .festa-btn-secondary:active {
+    background-color: #d1ffe9 !important;
+    color: #007f4e !important;
+    border-color: #007f4e !important;
+    text-decoration: none !important;
+  }
+
+  .festa-btn-secondary:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px #007f4e, 0 0 0 4px rgba(0, 127, 78, 0.2) !important;
+  }
+
+  /* Neutral Button - Gray */
+  .festa-btn-neutral {
     background-color: transparent !important;
     color: #434343 !important;
-    border: 2px solid #d4d4d4 !important;
-    padding: 12px 24px !important;
-    font-size: 1rem !important;
+    border-color: #d4d4d4 !important;
   }
 
-  .btn-neutral:hover {
+  .festa-btn-neutral:hover {
     background-color: rgba(246, 246, 246, 0.5) !important;
     border-color: #a3a3a3 !important;
+    text-decoration: none !important;
+  }
+
+  .festa-btn-neutral:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px #d4d4d4, 0 0 0 4px rgba(212, 212, 212, 0.2) !important;
   }
 
   /* Button Sizes */
-  .btn-sm {
+  .festa-btn-small {
     padding: 6px 12px !important;
     font-size: 0.875rem !important;
+    height: 32px !important;
   }
 
-  .btn-lg {
-    padding: 16px 32px !important;
-    font-size: 1.125rem !important;
+  .festa-btn-medium {
+    padding: 8px 16px !important;
+    font-size: 1rem !important;
+    height: 40px !important;
+  }
+
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .festa-btn {
+      width: 100% !important;
+      margin-bottom: 0.5rem !important;
+    }
   }
 
   /* Disabled state */
-  .btn:disabled,
-  .btn.disabled {
+  .festa-btn:disabled,
+  .festa-btn.disabled {
     opacity: 0.5 !important;
     cursor: not-allowed !important;
     pointer-events: none !important;
