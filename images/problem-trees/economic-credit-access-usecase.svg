@@ -1,0 +1,223 @@
+<svg viewBox="0 0 1100 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions -->
+  <defs>
+    <!-- Standard Gradients -->
+    <linearGradient id="effectsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f9ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ecfff7;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="problemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fef2f2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fee2e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef2f2;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="causesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Standard Shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1100" height="900" fill="#fafafa"/>
+  
+  <!-- Title Section -->
+  <rect x="300" y="20" width="500" height="50" rx="25" fill="#ffffff" stroke="#e7e7e7" stroke-width="1" filter="url(#shadow)"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#2a2a2a">
+    Economic Development Challenge
+  </text>
+  <text x="550" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#737373">
+    Problem Tree Analysis - Small Business Credit Access
+  </text>
+  
+  <!-- EFFECTS Section -->
+  <g id="effects-section">
+    <!-- Section Header -->
+    <rect x="400" y="100" width="300" height="35" rx="17" fill="url(#effectsGrad)" stroke="#a3ca78" stroke-width="1"/>
+    <text x="550" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#007144">
+      🌿 EFFECTS / CONSEQUENCES
+    </text>
+    
+    <!-- Effects Cards -->
+    <g id="effects-cards">
+      <!-- Business Growth -->
+      <rect x="50" y="160" width="230" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="165" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        📉 Reduced Growth
+      </text>
+      <text x="165" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="165" dy="0">• Business expansion ↓60%</tspan>
+        <tspan x="165" dy="14">• Job creation limited</tspan>
+        <tspan x="165" dy="14">• Innovation stagnation</tspan>
+      </text>
+      
+      <!-- Poverty Cycles -->
+      <rect x="300" y="160" width="230" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="415" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        🔄 Poverty Cycles
+      </text>
+      <text x="415" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="415" dy="0">• Intergenerational poverty</tspan>
+        <tspan x="415" dy="14">• Limited wealth creation</tspan>
+        <tspan x="415" dy="14">• Economic dependency</tspan>
+      </text>
+      
+      <!-- Economic Inequality -->
+      <rect x="550" y="160" width="230" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="665" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        ⚖️ Inequality
+      </text>
+      <text x="665" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="665" dy="0">• Rural-urban gap ↑45%</tspan>
+        <tspan x="665" dy="14">• Wealth concentration</tspan>
+        <tspan x="665" dy="14">• Social stratification</tspan>
+      </text>
+      
+      <!-- Limited Diversification -->
+      <rect x="800" y="160" width="230" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="915" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        🏪 Limited Diversification
+      </text>
+      <text x="915" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="915" dy="0">• Economic monoculture</tspan>
+        <tspan x="915" dy="14">• Sector vulnerability</tspan>
+        <tspan x="915" dy="14">• Market fragility</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Connection Lines from Effects to Core Problem -->
+  <g id="effect-connections">
+    <path d="M165,250 Q165,280 400,320" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M415,250 Q415,280 450,320" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M665,250 Q665,280 650,320" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M915,250 Q915,280 700,320" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- CORE PROBLEM Section -->
+  <g id="core-problem">
+    <rect x="300" y="320" width="500" height="120" rx="20" fill="url(#problemGrad)" stroke="#f87171" stroke-width="2" filter="url(#shadow)"/>
+    <text x="550" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#dc2626">
+      🌳 CORE PROBLEM
+    </text>
+    <text x="550" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#7f1d1d">
+      Small Business Credit Access Gap
+    </text>
+    <text x="550" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#991b1b">
+      <tspan x="550" dy="0">Small business owners in rural Bangladesh cannot</tspan>
+      <tspan x="550" dy="16">access appropriate credit - only 23% have access</tspan>
+      <tspan x="550" dy="16">to formal financial services vs 58% in urban areas</tspan>
+    </text>
+  </g>
+  
+  <!-- Connection Lines from Core Problem to Causes -->
+  <g id="cause-connections">
+    <path d="M400,450 Q400,480 165,520" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M450,450 Q450,480 415,520" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M650,450 Q650,480 665,520" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M700,450 Q700,480 915,520" stroke="#b3b3b3" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- ROOT CAUSES Section -->
+  <g id="causes-section">
+    <!-- Section Header -->
+    <rect x="400" y="480" width="300" height="35" rx="17" fill="url(#causesGrad)" stroke="#d4af37" stroke-width="1"/>
+    <text x="550" y="502" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#b45309">
+      🌱 ROOT CAUSES
+    </text>
+    
+    <!-- Direct Causes -->
+    <text x="275" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#92400e">
+      DIRECT CAUSES
+    </text>
+    
+    <!-- High Collateral -->
+    <rect x="50" y="560" width="230" height="90" rx="12" fill="#fefce8" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="165" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+      🏛️ High Collateral
+    </text>
+    <text x="165" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+      <tspan x="165" dy="0">• Asset requirements ↑200%</tspan>
+      <tspan x="165" dy="14">• Property documentation</tspan>
+      <tspan x="165" dy="14">• Guarantee demands</tspan>
+    </text>
+    
+    <!-- Complex Process -->
+    <rect x="300" y="560" width="230" height="90" rx="12" fill="#fef9c3" stroke="#eab308" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="415" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+      📋 Complex Process
+    </text>
+    <text x="415" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+      <tspan x="415" dy="0">• Documentation burden</tspan>
+      <tspan x="415" dy="14">• Application complexity</tspan>
+      <tspan x="415" dy="14">• Bureaucratic delays</tspan>
+    </text>
+    
+    <!-- Underlying Causes -->
+    <text x="775" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#92400e">
+      UNDERLYING CAUSES
+    </text>
+    
+    <!-- Financial Literacy -->
+    <rect x="550" y="560" width="230" height="90" rx="12" fill="#fefce8" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="665" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+      📚 Financial Literacy
+    </text>
+    <text x="665" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+      <tspan x="665" dy="0">• Knowledge gaps</tspan>
+      <tspan x="665" dy="14">• Banking unfamiliarity</tspan>
+      <tspan x="665" dy="14">• Risk assessment skills</tspan>
+    </text>
+    
+    <!-- Infrastructure -->
+    <rect x="800" y="560" width="230" height="90" rx="12" fill="#fef9c3" stroke="#eab308" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="915" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+      🌐 Infrastructure
+    </text>
+    <text x="915" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+      <tspan x="915" dy="0">• Bank branches ↓65%</tspan>
+      <tspan x="915" dy="14">• Digital access limited</tspan>
+      <tspan x="915" dy="14">• Geographic isolation</tspan>
+    </text>
+  </g>
+  
+  <!-- Additional System Lines -->
+  <g id="system-connections" opacity="0.3">
+    <path d="M165,670 Q550,720 915,670" stroke="#cbd5e0" stroke-width="1" fill="none"/>
+    <path d="M415,670 Q550,720 665,670" stroke="#cbd5e0" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Impact Statistics -->
+  <g id="statistics">
+    <rect x="50" y="720" width="200" height="60" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="150" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1a202c">
+      📊 Access Gap
+    </text>
+    <text x="150" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">
+      <tspan x="150" dy="0">• Rural: 23% access</tspan>
+      <tspan x="150" dy="12">• Urban: 58% access</tspan>
+    </text>
+    
+    <rect x="850" y="720" width="200" height="60" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="950" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1a202c">
+      🎯 Context
+    </text>
+    <text x="950" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">
+      <tspan x="950" dy="0">• Location: Rural Bangladesh</tspan>
+      <tspan x="950" dy="12">• SMEs affected: 2.4M</tspan>
+    </text>
+  </g>
+</svg>

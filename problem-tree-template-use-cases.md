@@ -149,6 +149,17 @@ Recent graduates in Eastern Uganda lack job-relevant skills, with 68% of youth a
 
 ## 🌍 Environmental Sector Example
 
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🌍 Environmental Challenge</div>
+  <div class="problem-tree-description">Real-world example: Community forest deforestation affecting ecosystem services and local livelihoods</div>
+  
+  <img src="{{ '/images/problem-trees/environmental-deforestation-usecase.svg' | relative_url }}" alt="Environmental Deforestation Problem Tree showing effects like soil erosion, biodiversity loss, and root causes including illegal logging and weak enforcement" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/images/problem-trees/environmental-deforestation-usecase.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
+
 ### Problem Tree: Deforestation in Community Forest
 
 **🌿 EFFECTS**
@@ -171,9 +182,26 @@ Community forest in Northern Colombia has lost 35% of tree cover in past 5 years
   - Weak governance and corruption in forest management
   - Market demand for cheap timber and agricultural products
 
+### Key Insights from This Example {#environmental-insights}
+- **Specific population**: Rural communities in Northern Colombia
+- **Measurable problem**: 35% tree cover loss in 5 years across 12,000 hectares
+- **Context**: Community forest under pressure from economic and regulatory factors
+- **Clear cause-effect logic**: Shows how governance gaps lead to environmental degradation
+
 ---
 
 ## 💰 Economic Development Example
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">💰 Economic Development Challenge</div>
+  <div class="problem-tree-description">Real-world example: Credit access gap limiting small business growth in rural areas</div>
+  
+  <img src="{{ '/images/problem-trees/economic-credit-access-usecase.svg' | relative_url }}" alt="Economic Development Problem Tree showing effects like reduced growth, poverty cycles, and root causes including high collateral requirements and limited infrastructure" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/images/problem-trees/economic-credit-access-usecase.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
 
 ### Problem Tree: Limited Access to Credit for Small Businesses
 
@@ -196,6 +224,12 @@ Small business owners in rural Bangladesh cannot access appropriate credit, with
   - Banks' risk-averse approach to rural lending
   - Weak credit scoring systems for informal businesses
   - Limited financial infrastructure in rural areas
+
+### Key Insights from This Example {#economic-insights}
+- **Specific population**: Small business owners in rural Bangladesh
+- **Measurable problem**: Only 23% access to formal financial services vs 58% in urban areas
+- **Context**: Rural-urban disparity in financial services affecting 2.4M SMEs
+- **Clear cause-effect logic**: Shows how financial exclusion perpetuates economic inequality
 
 ---
 
