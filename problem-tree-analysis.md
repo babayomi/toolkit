@@ -34,33 +34,20 @@ This comprehensive toolkit helps you **clarify the root causes, core problem, an
 
 ---
 
-## 📚 Complete Problem Tree Toolkit
+## Complete Problem Tree Toolkit
 
 This section provides 8 comprehensive guides to master every aspect of problem tree analysis:
 
-### 🌳 [Problem Tree Template and Use Cases](template-use-cases/)
-Ready-to-use templates and real-world examples showing how to apply problem tree analysis across different sectors and contexts.
-
-### 🛗 [Problem Tree Accessibility Companion](accessibility-companion/)
-Ensure your problem analysis is inclusive and considers accessibility needs throughout the process.
-
-### ❓ [Problem Tree Brainstorming Questions](brainstorming-questions/)
-Essential questions to guide your thinking and uncover hidden aspects of complex problems.
-
-### 📏 [Research Planning Tips](research-planning-tips/)
-Strategic approaches to conducting thorough, efficient research that strengthens your problem tree.
-
-### 🧠 [Model Context Protocol - MCP](model-context-protocol/)
-Leverage AI-enhanced research methods to accelerate analysis while maintaining analytical rigor.
-
-### ⭐ [Quality Assurance Checklist for Literature Review](qa-literature-review/)
-Systematic approach to reviewing and validating research sources for your problem analysis.
-
-### 🎯 [Converting Assumptions to Stakeholder Questions](assumptions-to-questions/)
-Transform your analytical assumptions into meaningful questions for community engagement.
-
-### 👓 [Pro Tips for Success](pro-tips/)
-Advanced strategies and common pitfalls to avoid, based on years of real-world application.
+| Name of Toolkit | Description | Link |
+|---|---|---|
+| Problem Tree Template and Use Cases | Ready-to-use templates and real-world examples showing how to apply problem tree analysis across different sectors and contexts | [View Guide](template-use-cases/) |
+| Problem Tree Accessibility Companion | Ensure your problem analysis is inclusive and considers accessibility needs throughout the process | [View Guide](accessibility-companion/) |
+| Problem Tree Brainstorming Questions | Essential questions to guide your thinking and uncover hidden aspects of complex problems | [View Guide](brainstorming-questions/) |
+| Research Planning Tips | Strategic approaches to conducting thorough, efficient research that strengthens your problem tree | [View Guide](research-planning-tips/) |
+| Model Context Protocol - MCP | Leverage AI-enhanced research methods to accelerate analysis while maintaining analytical rigor | [View Guide](model-context-protocol/) |
+| Quality Assurance Checklist for Literature Review | Systematic approach to reviewing and validating research sources for your problem analysis | [View Guide](qa-literature-review/) |
+| Converting Assumptions to Stakeholder Questions | Transform your analytical assumptions into meaningful questions for community engagement | [View Guide](assumptions-to-questions/) |
+| Pro Tips for Success | Advanced strategies and common pitfalls to avoid, based on years of real-world application | [View Guide](pro-tips/) |
 
 ---
 
