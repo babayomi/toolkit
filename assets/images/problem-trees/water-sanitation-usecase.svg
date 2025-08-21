@@ -1,0 +1,277 @@
+<svg viewBox="0 0 1100 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions (same as others for consistency) -->
+  <defs>
+    <linearGradient id="effectsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f9ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ecfff7;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="problemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fef2f2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fee2e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef2f2;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="causesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1100" height="900" fill="#fafafa"/>
+  
+  <!-- Title Section -->
+  <rect x="300" y="20" width="500" height="50" rx="25" fill="#ffffff" stroke="#e7e7e7" stroke-width="1" filter="url(#shadow)"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#2a2a2a">
+    Water &amp; Sanitation Challenge
+  </text>
+  <text x="550" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#737373">
+    Problem Tree Analysis - Peri-Urban Settlements
+  </text>
+  
+  <!-- EFFECTS Section -->
+  <g id="effects-section">
+    <!-- Section Header -->
+    <rect x="400" y="100" width="300" height="35" rx="17" fill="url(#effectsGrad)" stroke="#a3ca78" stroke-width="1"/>
+    <text x="550" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#007144">
+      🌿 EFFECTS / CONSEQUENCES
+    </text>
+    
+    <!-- Effects Cards - Simple Clean Layout -->
+    <g id="effects-cards">
+      <!-- Disease Outbreaks -->
+      <rect x="100" y="160" width="200" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="200" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        🦠 Disease Outbreaks
+      </text>
+      <text x="200" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="200" dy="0">• Cholera epidemic</tspan>
+        <tspan x="200" dy="14">• Typhoid cases ↑</tspan>
+        <tspan x="200" dy="14">• Diarrhea 35%</tspan>
+      </text>
+      
+      <!-- Child Mortality -->
+      <rect x="330" y="160" width="200" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="430" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        💀 Child Mortality
+      </text>
+      <text x="430" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="430" dy="0">• Deaths ↑15%</tspan>
+        <tspan x="430" dy="14">• Under-5 mortality</tspan>
+        <tspan x="430" dy="14">• Malnutrition link</tspan>
+      </text>
+      
+      <!-- Education Impact -->
+      <rect x="560" y="160" width="200" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="660" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        🎒 Girls Drop Out
+      </text>
+      <text x="660" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="660" dy="0">• No toilets at school</tspan>
+        <tspan x="660" dy="14">• Menstrual hygiene</tspan>
+        <tspan x="660" dy="14">• Safety concerns</tspan>
+      </text>
+      
+      <!-- Economic Loss -->
+      <rect x="790" y="160" width="200" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="890" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        💸 Economic Losses
+      </text>
+      <text x="890" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="890" dy="0">• Healthcare costs</tspan>
+        <tspan x="890" dy="14">• Lost workdays</tspan>
+        <tspan x="890" dy="14">• Productivity ↓30%</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- CORE PROBLEM Section -->
+  <g id="problem-section">
+    <!-- Section Header -->
+    <rect x="400" y="300" width="300" height="35" rx="17" fill="url(#problemGrad)" stroke="#fca5a5" stroke-width="1"/>
+    <text x="550" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#991b1b">
+      🌳 CORE PROBLEM
+    </text>
+    
+    <!-- Main Problem Box -->
+    <rect x="200" y="350" width="700" height="100" rx="15" fill="#ffffff" stroke="#fecaca" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="200" y="350" width="700" height="100" rx="15" fill="url(#problemGrad)" opacity="0.4"/>
+    
+    <text x="550" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#b91c1c">
+      Inadequate Access to Safe Water and Sanitation
+    </text>
+    <text x="550" y="408" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#991b1b">
+      2 million people in peri-urban areas affected
+    </text>
+    <text x="550" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+      70% lack basic sanitation | 40% no clean water | Open defecation 30%
+    </text>
+  </g>
+  
+  <!-- Connection lines from Effects to Problem -->
+  <path d="M 200 240 L 380 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 430 240 L 470 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 660 240 L 580 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 890 240 L 680 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- ROOT CAUSES Section -->
+  <g id="causes-section">
+    <!-- Section Header -->
+    <rect x="400" y="500" width="300" height="35" rx="17" fill="url(#causesGrad)" stroke="#facc15" stroke-width="1"/>
+    <text x="550" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#854d0e">
+      🌱 ROOT CAUSES
+    </text>
+    
+    <!-- Primary Root Causes - Simple Layout -->
+    <g id="primary-causes">
+      <!-- Infrastructure Deficit -->
+      <rect x="50" y="560" width="230" height="90" rx="12" fill="#fefce8" stroke="#fde047" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="165" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#854d0e">
+        🏗️ Infrastructure Deficit (E)
+      </text>
+      <text x="165" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="165" dy="0">• Aging pipes 30+ yrs</tspan>
+        <tspan x="165" dy="13">• No sewerage systems</tspan>
+        <tspan x="165" dy="13">• Poor maintenance</tspan>
+      </text>
+      
+      <!-- Rapid Urbanization -->
+      <rect x="300" y="560" width="230" height="90" rx="12" fill="#fef9c3" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="415" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+        🏘️ Rapid Urbanization (E)
+      </text>
+      <text x="415" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="415" dy="0">• Population growth 8%/yr</tspan>
+        <tspan x="415" dy="13">• Informal settlements</tspan>
+        <tspan x="415" dy="13">• Unplanned expansion</tspan>
+      </text>
+      
+      <!-- Governance Failures -->
+      <rect x="550" y="560" width="230" height="90" rx="12" fill="#fefce8" stroke="#fde047" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="665" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#854d0e">
+        🏛️ Governance Failures (A)
+      </text>
+      <text x="665" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="665" dy="0">• Weak regulation</tspan>
+        <tspan x="665" dy="13">• Low budget allocation</tspan>
+        <tspan x="665" dy="13">• Poor coordination</tspan>
+      </text>
+      
+      <!-- Poverty Levels -->
+      <rect x="800" y="560" width="230" height="90" rx="12" fill="#fef9c3" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="915" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+        💰 Poverty Levels (E)
+      </text>
+      <text x="915" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="915" dy="0">• Can't afford connections</tspan>
+        <tspan x="915" dy="13">• High connection fees</tspan>
+        <tspan x="915" dy="13">• Monthly bills burden</tspan>
+      </text>
+    </g>
+    
+    <!-- Sub-causes Level 2 - Simplified -->
+    <g id="sub-causes">
+      <rect x="80" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="135" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="135" dy="0">No investment</tspan>
+        <tspan x="135" dy="11">in upgrades</tspan>
+      </text>
+      
+      <rect x="200" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="255" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="255" dy="0">Leakage</tspan>
+        <tspan x="255" dy="11">rate 45%</tspan>
+      </text>
+      
+      <rect x="360" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="415" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="415" dy="0">Rural-urban</tspan>
+        <tspan x="415" dy="11">migration</tspan>
+      </text>
+      
+      <rect x="480" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="535" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="535" dy="0">Land tenure</tspan>
+        <tspan x="535" dy="11">issues</tspan>
+      </text>
+      
+      <rect x="610" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="665" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="665" dy="0">Corruption</tspan>
+        <tspan x="665" dy="11">in sector</tspan>
+      </text>
+      
+      <rect x="730" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="785" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="785" dy="0">No community</tspan>
+        <tspan x="785" dy="11">involvement</tspan>
+      </text>
+      
+      <rect x="850" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="905" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="905" dy="0">Unemployment</tspan>
+        <tspan x="905" dy="11">rate 60%</tspan>
+      </text>
+      
+      <rect x="970" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="1025" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="1025" dy="0">Income</tspan>
+        <tspan x="1025" dy="11">&lt;$2/day</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Connection lines from Causes to Problem -->
+  <path d="M 165 560 L 380 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 415 560 L 480 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 665 560 L 580 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 915 560 L 680 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Sub-cause connections -->
+  <line x1="135" y1="675" x2="165" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="255" y1="675" x2="165" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="415" y1="675" x2="415" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="535" y1="675" x2="415" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="665" y1="675" x2="665" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="785" y1="675" x2="665" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="905" y1="675" x2="915" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="1025" y1="675" x2="915" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  
+  <!-- Legend and Statistics Box -->
+  <rect x="50" y="750" width="1000" height="100" rx="10" fill="#ffffff" stroke="#e7e7e7" stroke-width="1" filter="url(#shadow)"/>
+  
+  <!-- Legend -->
+  <text x="70" y="775" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#2a2a2a">Legend:</text>
+  
+  <circle cx="90" cy="800" r="5" fill="#bcd99b"/>
+  <text x="105" y="805" font-family="Arial, sans-serif" font-size="10" fill="#525252">Effects/Consequences</text>
+  
+  <circle cx="250" cy="800" r="5" fill="#fecaca"/>
+  <text x="265" y="805" font-family="Arial, sans-serif" font-size="10" fill="#525252">Core Problem</text>
+  
+  <circle cx="380" cy="800" r="5" fill="#facc15"/>
+  <text x="395" y="805" font-family="Arial, sans-serif" font-size="10" fill="#525252">Root Causes</text>
+  
+  <text x="520" y="805" font-family="Arial, sans-serif" font-size="10" fill="#737373">
+    (E) = Evidence-based | (A) = Assumption
+  </text>
+  
+  <!-- Key Statistics -->
+  <rect x="720" y="780" width="300" height="45" rx="8" fill="#fafafa" stroke="#e7e7e7" stroke-width="1"/>
+  <text x="730" y="800" font-family="Arial, sans-serif" font-size="10" font-weight="500" fill="#2a2a2a">Key Metrics:</text>
+  <text x="730" y="815" font-family="Arial, sans-serif" font-size="9" fill="#525252">
+    📊 2M affected | 70% lack sanitation | Cholera outbreaks annual
+  </text>
+</svg>

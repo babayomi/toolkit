@@ -26,6 +26,18 @@ Ready-to-use templates and real-world examples showing how to apply problem tree
 
 ## 📋 The Universal Problem Tree Template
 
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🛠️ Interactive Problem Tree Template</div>
+  <div class="problem-tree-description">Use this step-by-step template to build your own problem tree analysis</div>
+  
+  <img src="/assets/images/problem-trees/problem-tree-template.svg" alt="Problem Tree Template with placeholder sections for Effects, Core Problem, and Root Causes" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/problem-tree-template.svg" class="btn btn-primary" download="problem-tree-template.svg">📥 Download Template</a>
+    <a href="#template-customization-guide" class="btn btn-secondary">📝 Customization Guide</a>
+  </div>
+</div>
+
 ### Core Structure
 ```
 🌿 EFFECTS (What happens because of the problem?)
@@ -52,6 +64,18 @@ Clear, specific, measurable problem statement
 
 ## 🏥 Health Sector Example
 
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🏥 Healthcare Access Challenge</div>
+  <div class="problem-tree-description">Real-world example: Limited access to primary healthcare in rural districts affecting 3.5M people</div>
+  
+  <img src="/assets/images/problem-trees/healthcare-access-usecase.svg" alt="Healthcare Access Problem Tree showing effects like mortality increase, economic impact, and root causes including infrastructure gaps and human resource shortages" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/healthcare-access-usecase.svg" class="btn btn-primary" download="healthcare-problem-tree.svg">📥 Download Example</a>
+    <a href="#health-insights" class="btn btn-secondary">💡 Key Insights</a>
+  </div>
+</div>
+
 ### Problem Tree: Maternal Mortality in Rural Areas
 
 **🌿 EFFECTS**
@@ -74,7 +98,7 @@ Pregnant women in rural Malawi have limited access to skilled birth attendants, 
   - Cultural preference for traditional birth attendants
   - Weak referral system between community and hospital levels
 
-### Key Insights from This Example
+### Key Insights from This Example {#health-insights}
 - **Specific population**: Pregnant women in rural Malawi
 - **Measurable problem**: 349 deaths per 100,000 live births
 - **Context**: Rural areas with limited health infrastructure
@@ -83,6 +107,18 @@ Pregnant women in rural Malawi have limited access to skilled birth attendants, 
 ---
 
 ## 🎓 Education Sector Example
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🎓 Education Access Challenge</div>
+  <div class="problem-tree-description">Real-world example: Youth unemployment due to skills gap affecting 68% of recent graduates</div>
+  
+  <img src="/assets/images/problem-trees/education-access-use-case.svg" alt="Education Access Problem Tree showing effects like youth migration, social instability, and root causes including outdated curriculum and weak employer connections" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/education-access-use-case.svg" class="btn btn-primary" download="education-problem-tree.svg">📥 Download Example</a>
+    <a href="#education-insights" class="btn btn-secondary">💡 Key Insights</a>
+  </div>
+</div>
 
 ### Problem Tree: Youth Unemployment Due to Skills Gap
 
@@ -105,6 +141,12 @@ Recent graduates in Eastern Uganda lack job-relevant skills, with 68% of youth a
   - Rapid economic transformation without education system adaptation
   - Limited private sector engagement in curriculum development
   - Inadequate teacher training on modern skills requirements
+
+### Key Insights from This Example {#education-insights}
+- **Specific population**: Youth aged 18-25 in Eastern Uganda
+- **Measurable problem**: 68% unemployment rate despite completing secondary education
+- **Context**: Rapid economic transformation with static education system
+- **Clear cause-effect logic**: Shows how curriculum gaps lead to unemployable graduates
 
 ---
 
@@ -157,6 +199,226 @@ Small business owners in rural Bangladesh cannot access appropriate credit, with
   - Banks' risk-averse approach to rural lending
   - Weak credit scoring systems for informal businesses
   - Limited financial infrastructure in rural areas
+
+---
+
+## 🌍 Climate Resilience Example
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🌍 Climate Resilience Challenge</div>
+  <div class="problem-tree-description">Real-world example: Community vulnerability to climate change impacts affecting agricultural productivity</div>
+  
+  <img src="/assets/images/problem-trees/climate-resilience-usecase.svg" alt="Climate Resilience Problem Tree showing effects like crop failures, food insecurity, and root causes including lack of adaptation strategies and limited early warning systems" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/climate-resilience-usecase.svg" class="btn btn-primary" download="climate-resilience-problem-tree.svg">📥 Download Example</a>
+    <a href="#climate-insights" class="btn btn-secondary">💡 Key Insights</a>
+  </div>
+</div>
+
+### Problem Tree: Agricultural Vulnerability to Climate Change
+
+**🌿 EFFECTS**
+- Reduced crop yields and food insecurity (primary)
+- Increased migration from rural areas (secondary)
+- Loss of traditional farming knowledge (secondary)
+- Economic hardship for farming communities (primary)
+
+**🌳 CORE PROBLEM**
+Smallholder farmers in sub-Saharan Africa experience 30% crop yield losses due to increasing climate variability, affecting food security for 2.8 million people across 15 districts.
+
+**🌱 ROOT CAUSES**
+- **Direct Causes:**
+  - Limited access to climate-resilient seed varieties
+  - Inadequate water management and irrigation systems
+  - Lack of early warning systems for weather events
+  
+- **Underlying Causes:**
+  - Insufficient investment in climate adaptation infrastructure
+  - Limited technical knowledge on climate-smart agriculture
+  - Weak coordination between meteorological services and farmers
+
+### Key Insights from This Example {#climate-insights}
+- **Specific population**: Smallholder farmers in sub-Saharan Africa
+- **Measurable problem**: 30% crop yield losses affecting 2.8 million people
+- **Context**: Increasing climate variability in agricultural regions
+- **Clear cause-effect logic**: Shows how climate vulnerability cascades through food systems
+
+---
+
+## ⚖️ Gender Equality Example
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">⚖️ Gender Equality Challenge</div>
+  <div class="problem-tree-description">Real-world example: Limited women's participation in decision-making roles affecting community development</div>
+  
+  <img src="/assets/images/problem-trees/gender-equality-usecase.svg" alt="Gender Equality Problem Tree showing effects like reduced development outcomes, limited representation, and root causes including cultural barriers and institutional discrimination" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/gender-equality-usecase.svg" class="btn btn-primary" download="gender-equality-problem-tree.svg">📥 Download Example</a>
+    <a href="#gender-insights" class="btn btn-secondary">💡 Key Insights</a>
+  </div>
+</div>
+
+### Problem Tree: Women's Limited Leadership Participation
+
+**🌿 EFFECTS**
+- Reduced effectiveness of development programs (primary)
+- Perpetuation of gender-based inequalities (secondary)
+- Limited representation of women's needs in policies (primary)
+- Reduced community social capital (secondary)
+
+**🌳 CORE PROBLEM**
+Women in rural South Asia hold only 15% of leadership positions in community organizations despite comprising 52% of the adult population, limiting their influence on local development decisions.
+
+**🌱 ROOT CAUSES**
+- **Direct Causes:**
+  - Cultural norms restricting women's public participation
+  - Limited time due to unpaid domestic work burden
+  - Lack of confidence and leadership skills training
+  
+- **Underlying Causes:**
+  - Patriarchal social structures and traditional gender roles
+  - Lack of institutional support for women's leadership
+  - Economic dependence limiting autonomy and mobility
+
+### Key Insights from This Example {#gender-insights}
+- **Specific population**: Women in rural South Asia
+- **Measurable problem**: Only 15% representation despite 52% population share
+- **Context**: Traditional societies with limited women's empowerment
+- **Clear cause-effect logic**: Shows how systemic barriers limit women's civic engagement
+
+---
+
+## 🏠 Urban Housing Example
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🏠 Urban Housing Challenge</div>
+  <div class="problem-tree-description">Real-world example: Inadequate affordable housing affecting low-income urban families</div>
+  
+  <img src="/assets/images/problem-trees/urban-housing-usecase.svg" alt="Urban Housing Problem Tree showing effects like overcrowding, health risks, and root causes including high land costs and limited social housing programs" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/urban-housing-usecase.svg" class="btn btn-primary" download="urban-housing-problem-tree.svg">📥 Download Example</a>
+    <a href="#housing-insights" class="btn btn-secondary">💡 Key Insights</a>
+  </div>
+</div>
+
+### Problem Tree: Affordable Housing Shortage
+
+**🌿 EFFECTS**
+- Overcrowding and poor living conditions (primary)
+- Increased health risks and disease transmission (primary)
+- Reduced children's educational performance (secondary)
+- Social tension and community instability (secondary)
+
+**🌳 CORE PROBLEM**
+Low-income families in urban Mexico face a housing affordability crisis, with 68% spending over 50% of income on housing costs, far exceeding the recommended 30% threshold.
+
+**🌱 ROOT CAUSES**
+- **Direct Causes:**
+  - Rapid urbanization outpacing housing supply
+  - High land prices in accessible urban areas
+  - Limited access to affordable mortgage financing
+  
+- **Underlying Causes:**
+  - Inadequate urban planning and zoning policies
+  - Insufficient government investment in social housing
+  - Speculative real estate investment driving up prices
+
+### Key Insights from This Example {#housing-insights}
+- **Specific population**: Low-income families in urban Mexico
+- **Measurable problem**: 68% spending over 50% of income on housing
+- **Context**: Rapid urbanization with limited affordable housing supply
+- **Clear cause-effect logic**: Shows how housing costs affect family welfare and stability
+
+---
+
+## 🚰 Water and Sanitation Example
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🚰 Water Access Challenge</div>
+  <div class="problem-tree-description">Real-world example: Limited access to clean water and sanitation affecting community health outcomes</div>
+  
+  <img src="/assets/images/problem-trees/water-sanitation-usecase.svg" alt="Water and Sanitation Problem Tree showing effects like waterborne diseases, school absenteeism, and root causes including poor infrastructure and limited maintenance" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/water-sanitation-usecase.svg" class="btn btn-primary" download="water-sanitation-problem-tree.svg">📥 Download Example</a>
+    <a href="#water-insights" class="btn btn-secondary">💡 Key Insights</a>
+  </div>
+</div>
+
+### Problem Tree: Water, Sanitation and Hygiene (WASH) Access
+
+**🌿 EFFECTS**
+- High rates of waterborne diseases (primary)
+- Increased child mortality and malnutrition (primary)
+- Reduced school attendance, especially for girls (secondary)
+- Economic burden from healthcare costs (secondary)
+
+**🌳 CORE PROBLEM**
+Rural communities in West Africa lack access to clean water and improved sanitation, with only 35% having access to safe drinking water within 30 minutes of their homes, affecting 8.5 million people.
+
+**🌱 ROOT CAUSES**
+- **Direct Causes:**
+  - Broken or non-functional water infrastructure
+  - Lack of proper waste management systems
+  - Limited hygiene education and behavior change
+  
+- **Underlying Causes:**
+  - Insufficient government budget allocation for WASH services
+  - Weak maintenance systems and technical capacity
+  - Geographic isolation and difficult terrain for infrastructure
+
+### Key Insights from This Example {#water-insights}
+- **Specific population**: Rural communities in West Africa
+- **Measurable problem**: Only 35% access to safe drinking water affecting 8.5M people
+- **Context**: Rural areas with limited water infrastructure and maintenance
+- **Clear cause-effect logic**: Shows how water access directly impacts health and development
+
+---
+
+## 💼 Youth Employment Example
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">💼 Youth Employment Challenge</div>
+  <div class="problem-tree-description">Real-world example: High youth unemployment rates despite economic growth in urban areas</div>
+  
+  <img src="/assets/images/problem-trees/youth-employment-usecase.svg" alt="Youth Employment Problem Tree showing effects like social unrest, brain drain, and root causes including skills mismatch and limited entrepreneurship support" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-actions">
+    <a href="/assets/images/problem-trees/youth-employment-usecase.svg" class="btn btn-primary" download="youth-employment-problem-tree.svg">📥 Download Example</a>
+    <a href="#youth-employment-insights" class="btn btn-secondary">💡 Key Insights</a>
+  </div>
+</div>
+
+### Problem Tree: Youth Economic Exclusion
+
+**🌿 EFFECTS**
+- Increased social unrest and political instability (secondary)
+- Brain drain as educated youth migrate abroad (secondary)
+- Reduced economic productivity and innovation (primary)
+- Growing inequality and social fragmentation (primary)
+
+**🌳 CORE PROBLEM**
+Young people aged 15-24 in Middle Eastern cities face unemployment rates of 42%, three times the adult rate, despite higher education levels and growing economic opportunities in the region.
+
+**🌱 ROOT CAUSES**
+- **Direct Causes:**
+  - Skills mismatch between education and job market needs
+  - Limited access to startup capital and entrepreneurship support
+  - Age discrimination in hiring practices
+  
+- **Underlying Causes:**
+  - Economic policies favoring established businesses over new entrants
+  - Weak linkages between educational institutions and employers
+  - Cultural preferences for government jobs over private sector employment
+
+### Key Insights from This Example {#youth-employment-insights}
+- **Specific population**: Young people aged 15-24 in Middle Eastern cities
+- **Measurable problem**: 42% unemployment rate, three times the adult rate
+- **Context**: Urban areas with economic growth but limited youth inclusion
+- **Clear cause-effect logic**: Shows how systemic barriers exclude youth from economic opportunities
 
 ---
 

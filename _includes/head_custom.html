@@ -737,4 +737,289 @@
     margin: 2rem 0 !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
   }
+
+  /* SVG Problem Tree Component - Enhanced Responsive Design */
+  .problem-tree-embed {
+    background: linear-gradient(135deg, #fafafa 0%, #f9f9f9 100%) !important;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 16px !important;
+    padding: clamp(1rem, 4vw, 2rem) !important;
+    margin: clamp(1.5rem, 4vw, 2.5rem) 0 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+    transition: all 300ms ease !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+  
+  .problem-tree-embed:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12) !important;
+    transform: translateY(-2px) !important;
+  }
+  
+  /* SVG Responsive Scaling */
+  .problem-tree-embed img,
+  .problem-tree-embed svg {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 8px !important;
+    object-fit: contain !important;
+  }
+  
+  /* Title Responsive Typography */
+  .problem-tree-title {
+    font-size: clamp(1rem, 2.5vw, 1.25rem) !important;
+    font-weight: 600 !important;
+    color: #2a2a2a !important;
+    margin-bottom: clamp(0.5rem, 2vw, 0.75rem) !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+  }
+  
+  /* Description Responsive Typography */
+  .problem-tree-description {
+    font-size: clamp(0.875rem, 2vw, 1rem) !important;
+    color: #666 !important;
+    margin-bottom: clamp(1rem, 3vw, 1.5rem) !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    padding: 0 0.5rem !important;
+  }
+  
+  /* Actions Container */
+  .problem-tree-actions {
+    display: flex !important;
+    gap: clamp(0.75rem, 2vw, 1rem) !important;
+    justify-content: center !important;
+    margin-top: clamp(1rem, 3vw, 1.5rem) !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .problem-tree-actions .btn {
+    min-width: 140px !important;
+    padding: 0.625rem 1.25rem !important;
+    font-size: clamp(0.875rem, 2vw, 1rem) !important;
+  }
+  
+  /* Large Desktop (1440px+) */
+  @media (min-width: 1440px) {
+    .problem-tree-embed {
+      max-width: 1200px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    
+    .problem-tree-embed img,
+    .problem-tree-embed svg {
+      max-height: 800px !important;
+    }
+  }
+  
+  /* Desktop (1024px - 1439px) */
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .problem-tree-embed {
+      padding: 1.75rem !important;
+    }
+    
+    .problem-tree-embed img,
+    .problem-tree-embed svg {
+      max-height: 700px !important;
+    }
+  }
+  
+  /* Tablet Landscape (768px - 1023px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .problem-tree-embed {
+      padding: 1.5rem !important;
+      margin: 2rem 0 !important;
+    }
+    
+    .problem-tree-title {
+      font-size: 1.125rem !important;
+    }
+    
+    .problem-tree-description {
+      font-size: 0.95rem !important;
+    }
+    
+    .problem-tree-embed img,
+    .problem-tree-embed svg {
+      max-height: 600px !important;
+    }
+  }
+  
+  /* Tablet Portrait (600px - 767px) */
+  @media (min-width: 600px) and (max-width: 767px) {
+    .problem-tree-embed {
+      padding: 1.25rem !important;
+      margin: 1.75rem 0 !important;
+      border-radius: 12px !important;
+    }
+    
+    .problem-tree-actions {
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+    }
+    
+    .problem-tree-actions .btn {
+      flex: 1 1 45% !important;
+      min-width: 120px !important;
+    }
+  }
+  
+  /* Mobile Landscape (480px - 599px) */
+  @media (min-width: 480px) and (max-width: 599px) {
+    .problem-tree-embed {
+      padding: 1rem !important;
+      margin: 1.5rem -0.5rem !important;
+      border-radius: 8px !important;
+    }
+    
+    .problem-tree-title {
+      font-size: 1rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+    
+    .problem-tree-description {
+      font-size: 0.875rem !important;
+      margin-bottom: 1rem !important;
+    }
+    
+    .problem-tree-actions {
+      flex-direction: column !important;
+      gap: 0.75rem !important;
+    }
+    
+    .problem-tree-actions .btn {
+      width: 100% !important;
+      text-align: center !important;
+      padding: 0.75rem 1rem !important;
+    }
+  }
+  
+  /* Mobile Portrait (320px - 479px) */
+  @media (max-width: 479px) {
+    .problem-tree-embed {
+      padding: 0.875rem !important;
+      margin: 1.25rem -0.25rem !important;
+      border-radius: 8px !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+    }
+    
+    .problem-tree-title {
+      font-size: 0.95rem !important;
+      margin-bottom: 0.5rem !important;
+      padding: 0 0.25rem !important;
+    }
+    
+    .problem-tree-description {
+      font-size: 0.8125rem !important;
+      margin-bottom: 0.875rem !important;
+      padding: 0 0.25rem !important;
+      line-height: 1.5 !important;
+    }
+    
+    .problem-tree-embed img,
+    .problem-tree-embed svg {
+      border-radius: 4px !important;
+      margin-bottom: 0.75rem !important;
+    }
+    
+    .problem-tree-actions {
+      flex-direction: column !important;
+      gap: 0.625rem !important;
+      margin-top: 0.875rem !important;
+    }
+    
+    .problem-tree-actions .btn {
+      width: 100% !important;
+      text-align: center !important;
+      padding: 0.625rem 0.875rem !important;
+      font-size: 0.875rem !important;
+      min-width: unset !important;
+    }
+  }
+  
+  /* Ultra-small devices (below 320px) */
+  @media (max-width: 319px) {
+    .problem-tree-embed {
+      padding: 0.75rem !important;
+      margin: 1rem -0.125rem !important;
+      border-radius: 6px !important;
+    }
+    
+    .problem-tree-title {
+      font-size: 0.875rem !important;
+      margin-bottom: 0.375rem !important;
+    }
+    
+    .problem-tree-description {
+      font-size: 0.75rem !important;
+      margin-bottom: 0.75rem !important;
+    }
+    
+    .problem-tree-actions .btn {
+      padding: 0.5rem 0.75rem !important;
+      font-size: 0.8125rem !important;
+    }
+  }
+  
+  /* Touch device optimizations */
+  @media (hover: none) and (pointer: coarse) {
+    .problem-tree-embed:hover {
+      transform: none !important;
+    }
+    
+    .problem-tree-actions .btn {
+      min-height: 44px !important; /* iOS touch target minimum */
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+  }
+  
+  /* Print styles for problem trees */
+  @media print {
+    .problem-tree-embed {
+      page-break-inside: avoid !important;
+      box-shadow: none !important;
+      border: 2px solid #ddd !important;
+      margin: 1rem 0 !important;
+    }
+    
+    .problem-tree-actions {
+      display: none !important;
+    }
+    
+    .problem-tree-embed img,
+    .problem-tree-embed svg {
+      max-height: 500px !important;
+    }
+  }
+  
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .problem-tree-embed {
+      border: 2px solid currentColor !important;
+      background: transparent !important;
+    }
+    
+    .problem-tree-title,
+    .problem-tree-description {
+      color: inherit !important;
+    }
+  }
+  
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    .problem-tree-embed {
+      transition: none !important;
+    }
+    
+    .problem-tree-embed:hover {
+      transform: none !important;
+    }
+  }
 </style>
