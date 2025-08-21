@@ -62,6 +62,10 @@ defaults:
       layout: "default"
       nav_exclude: false
 
+# Include assets directory in build
+include:
+  - assets/
+
 # Exclude from processing
 exclude:
   - .sass-cache/
@@ -73,3 +77,8 @@ exclude:
   - vendor/
   - "*.txt"
   - comprehensive_prd.md
+  - docker-serve.sh
+  - serve-local.sh
+  - start-local-server.sh
+  - .ruby-version
+  - Gemfile.local
