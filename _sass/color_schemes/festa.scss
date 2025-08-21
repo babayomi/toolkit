@@ -187,34 +187,78 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-// Site title with Festa logomark
+// Site title with Festa logomark only (no text)
 .site-title {
   display: flex !important;
   align-items: center !important;
   text-decoration: none !important;
-  font-weight: 800 !important;
   transition: all 150ms ease !important;
-  font-size: 1.25rem !important;
-  color: $the-end-900 !important;
+  
+  // Hide all text completely
+  font-size: 0 !important;
+  text-indent: -9999px !important;
+  overflow: visible !important;
+  white-space: nowrap !important;
+  color: transparent !important;
+  width: auto !important;
+  min-width: 40px !important;
+  height: 40px !important;
+  padding: 5px !important;
 
   &:before {
     content: "";
-    display: inline-block !important;
-    width: 32px !important;
-    height: 30px !important;
-    margin-right: 0.75rem !important;
+    display: block !important;
+    width: 36px !important;
+    height: 34px !important;
+    margin: 0 !important;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 14.75' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e12729'%3E%3Cpath d='M15,3.57V1.02H.98v12.74h2.55v-5.1h1.27v5.1h10.19v-7.64h-2.55v-2.55h2.55ZM4.8,6.12h-1.27v-2.55h1.27v2.55ZM8.94,6.12v5.1h-1.59V3.57h1.59v2.55ZM12.45,11.21h-.96v-2.55h.96v2.55Z' fill='%23e12729'/%3E%3C/g%3E%3C/svg%3E") !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     flex-shrink: 0 !important;
+    text-indent: 0 !important;
   }
 
   &:hover {
-    color: $chicken-comb-600 !important;
+    color: transparent !important;
     text-decoration: none !important;
     background: rgba(220, 38, 38, 0.05) !important;
     border-radius: 4px !important;
+  }
+  
+  // Hide any text content aggressively
+  * {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  &::after {
+    display: none !important;
+    content: "" !important;
+  }
+  
+  // Mobile responsive
+  @media (max-width: 768px) {
+    min-width: 35px !important;
+    height: 35px !important;
+    padding: 3px !important;
+    
+    &:before {
+      width: 32px !important;
+      height: 30px !important;
+    }
+  }
+  
+  // Tablet responsive  
+  @media (max-width: 50rem) {
+    min-width: 38px !important;
+    height: 38px !important;
+    padding: 4px !important;
+    
+    &:before {
+      width: 34px !important;
+      height: 32px !important;
+    }
   }
 
   // Mobile responsive logomark
