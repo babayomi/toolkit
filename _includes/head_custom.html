@@ -4,16 +4,30 @@
 <style>
   /* Override site title to show only Festa logomark */
   .site-title {
-    display: flex !important;
-    align-items: center !important;
+    display: block !important;
     text-decoration: none !important;
-    font-weight: 800 !important;
     transition: all 150ms ease !important;
     font-size: 0 !important; /* Hide text */
     text-indent: -9999px !important; /* Hide text completely */
     overflow: hidden !important;
     width: 32px !important; /* Only logo width */
     height: 30px !important; /* Only logo height */
+    white-space: nowrap !important;
+    color: transparent !important;
+    background: transparent !important;
+  }
+  
+  /* Hide all text content in site title */
+  .site-title * {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  /* Hide any text nodes */
+  .site-title::after,
+  .site-title::before {
+    font-size: 0 !important;
+    content: "" !important;
   }
 
   .site-title:before {
@@ -46,6 +60,7 @@
       text-indent: -9999px !important;
       overflow: hidden !important;
       white-space: nowrap !important;
+      color: transparent !important;
     }
     .site-title:before {
       width: 28px !important;
@@ -58,9 +73,11 @@
     /* Extra mobile-specific text hiding */
     .site-title * {
       display: none !important;
+      visibility: hidden !important;
     }
     .site-title::after {
       display: none !important;
+      content: "" !important;
     }
   }
 
@@ -665,6 +682,12 @@
     padding: 3rem 2rem !important;
     border-radius: 12px !important;
     margin-bottom: 3rem !important;
+  }
+  
+  /* Hero section button spacing */
+  .hero-section .btn {
+    display: inline-block !important;
+    margin: 0.25rem !important;
   }
 
   /* Feature Cards */
