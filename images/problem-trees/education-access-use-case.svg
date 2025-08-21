@@ -1,0 +1,279 @@
+<svg viewBox="0 0 1100 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions -->
+  <defs>
+    <!-- Standard Gradients for all trees -->
+    <linearGradient id="effectsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f9ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ecfff7;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="problemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fef2f2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fee2e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef2f2;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="causesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Standard Shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1100" height="900" fill="#fafafa"/>
+  
+  <!-- Title Section -->
+  <rect x="300" y="20" width="500" height="50" rx="25" fill="#ffffff" stroke="#e7e7e7" stroke-width="1" filter="url(#shadow)"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#2a2a2a">
+    Education Access Challenge
+  </text>
+  <text x="550" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#737373">
+    Problem Tree Analysis - Rural Primary Education
+  </text>
+  
+  <!-- EFFECTS Section -->
+  <g id="effects-section">
+    <!-- Section Header -->
+    <rect x="400" y="100" width="300" height="35" rx="17" fill="url(#effectsGrad)" stroke="#a3ca78" stroke-width="1"/>
+    <text x="550" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#007144">
+      🌿 EFFECTS / CONSEQUENCES
+    </text>
+    
+    <!-- Effects Cards -->
+    <g id="effects-cards">
+      <!-- Youth Unemployment -->
+      <rect x="50" y="160" width="230" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="165" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        📉 Youth Unemployment
+      </text>
+      <text x="165" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="165" dy="0">• 50% unemployment rate</tspan>
+        <tspan x="165" dy="14">• Limited opportunities</tspan>
+        <tspan x="165" dy="14">• Skills deficit</tspan>
+      </text>
+      
+      <!-- Poverty Cycles -->
+      <rect x="300" y="160" width="230" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="415" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        💰 Poverty Cycles
+      </text>
+      <text x="415" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="415" dy="0">• Intergenerational poverty</tspan>
+        <tspan x="415" dy="14">• Income inequality ↑35%</tspan>
+        <tspan x="415" dy="14">• Economic stagnation</tspan>
+      </text>
+      
+      <!-- Literacy Crisis -->
+      <rect x="550" y="160" width="230" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="665" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        📖 Low Literacy
+      </text>
+      <text x="665" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="665" dy="0">• National literacy 45%</tspan>
+        <tspan x="665" dy="14">• Digital divide widens</tspan>
+        <tspan x="665" dy="14">• Knowledge gap</tspan>
+      </text>
+      
+      <!-- Gender Inequality -->
+      <rect x="800" y="160" width="230" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="915" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        ⚖️ Gender Inequality
+      </text>
+      <text x="915" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="915" dy="0">• Girls dropout 60%</tspan>
+        <tspan x="915" dy="14">• Early marriage ↑</tspan>
+        <tspan x="915" dy="14">• Limited empowerment</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- CORE PROBLEM Section -->
+  <g id="problem-section">
+    <!-- Section Header -->
+    <rect x="400" y="300" width="300" height="35" rx="17" fill="url(#problemGrad)" stroke="#fca5a5" stroke-width="1"/>
+    <text x="550" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#991b1b">
+      🌳 CORE PROBLEM
+    </text>
+    
+    <!-- Main Problem Box -->
+    <rect x="200" y="350" width="700" height="100" rx="15" fill="#ffffff" stroke="#fecaca" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="200" y="350" width="700" height="100" rx="15" fill="url(#problemGrad)" opacity="0.4"/>
+    
+    <text x="550" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#b91c1c">
+      60% of Rural Children Lack Access to Quality Education
+    </text>
+    <text x="550" y="408" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#991b1b">
+      2.5 million children affected | 40% schools non-functional
+    </text>
+    <text x="550" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+      Dropout rate 35% | Average distance to school 10km | Teacher shortage 65%
+    </text>
+  </g>
+  
+  <!-- Connection lines from Effects to Problem -->
+  <path d="M 165 240 L 380 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 415 240 L 470 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 665 240 L 580 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 915 240 L 680 350" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- ROOT CAUSES Section -->
+  <g id="causes-section">
+    <!-- Section Header -->
+    <rect x="400" y="500" width="300" height="35" rx="17" fill="url(#causesGrad)" stroke="#facc15" stroke-width="1"/>
+    <text x="550" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#854d0e">
+      🌱 ROOT CAUSES
+    </text>
+    
+    <!-- Primary Root Causes -->
+    <g id="primary-causes">
+      <!-- Infrastructure Deficit -->
+      <rect x="50" y="560" width="230" height="90" rx="12" fill="#fefce8" stroke="#fde047" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="165" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#854d0e">
+        🏗️ Infrastructure Deficit (E)
+      </text>
+      <text x="165" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="165" dy="0">• No schools within 10km</tspan>
+        <tspan x="165" dy="13">• Damaged facilities 40%</tspan>
+        <tspan x="165" dy="13">• No electricity/water</tspan>
+      </text>
+      
+      <!-- Teacher Shortage -->
+      <rect x="300" y="560" width="230" height="90" rx="12" fill="#fef9c3" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="415" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+        👩‍🏫 Teacher Shortage (E)
+      </text>
+      <text x="415" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="415" dy="0">• 1:80 teacher-student ratio</tspan>
+        <tspan x="415" dy="13">• Untrained teachers 45%</tspan>
+        <tspan x="415" dy="13">• High absenteeism 30%</tspan>
+      </text>
+      
+      <!-- Economic Barriers -->
+      <rect x="550" y="560" width="230" height="90" rx="12" fill="#fefce8" stroke="#fde047" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="665" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#854d0e">
+        💸 Economic Barriers (A)
+      </text>
+      <text x="665" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="665" dy="0">• School fees unaffordable</tspan>
+        <tspan x="665" dy="13">• Hidden costs (uniforms)</tspan>
+        <tspan x="665" dy="13">• Opportunity cost high</tspan>
+      </text>
+      
+      <!-- Cultural Factors -->
+      <rect x="800" y="560" width="230" height="90" rx="12" fill="#fef9c3" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="915" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+        🎭 Cultural Factors (A)
+      </text>
+      <text x="915" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="915" dy="0">• Girls kept for chores</tspan>
+        <tspan x="915" dy="13">• Early marriage norm</tspan>
+        <tspan x="915" dy="13">• Low value on education</tspan>
+      </text>
+    </g>
+    
+    <!-- Sub-causes Level 2 -->
+    <g id="sub-causes">
+      <rect x="80" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="135" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="135" dy="0">Poor road</tspan>
+        <tspan x="135" dy="11">network</tspan>
+      </text>
+      
+      <rect x="200" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="255" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="255" dy="0">Low budget</tspan>
+        <tspan x="255" dy="11">allocation</tspan>
+      </text>
+      
+      <rect x="360" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="415" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="415" dy="0">Poor rural</tspan>
+        <tspan x="415" dy="11">incentives</tspan>
+      </text>
+      
+      <rect x="480" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="535" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="535" dy="0">Limited</tspan>
+        <tspan x="535" dy="11">training</tspan>
+      </text>
+      
+      <rect x="610" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="665" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="665" dy="0">Poverty</tspan>
+        <tspan x="665" dy="11">rate 65%</tspan>
+      </text>
+      
+      <rect x="730" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="785" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="785" dy="0">Child</tspan>
+        <tspan x="785" dy="11">labor need</tspan>
+      </text>
+      
+      <rect x="850" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="905" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="905" dy="0">Traditional</tspan>
+        <tspan x="905" dy="11">beliefs</tspan>
+      </text>
+      
+      <rect x="970" y="675" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="1025" y="692" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="1025" dy="0">Gender</tspan>
+        <tspan x="1025" dy="11">bias</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Connection lines from Causes to Problem -->
+  <path d="M 165 560 L 380 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 415 560 L 480 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 665 560 L 580 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 915 560 L 680 450" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Sub-cause connections -->
+  <line x1="135" y1="675" x2="165" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="255" y1="675" x2="165" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="415" y1="675" x2="415" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="535" y1="675" x2="415" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="665" y1="675" x2="665" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="785" y1="675" x2="665" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="905" y1="675" x2="915" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="1025" y1="675" x2="915" y2="650" stroke="#e7e7e7" stroke-width="1"/>
+  
+  <!-- Legend and Statistics Box -->
+  <rect x="50" y="750" width="1000" height="100" rx="10" fill="#ffffff" stroke="#e7e7e7" stroke-width="1" filter="url(#shadow)"/>
+  
+  <!-- Legend -->
+  <text x="70" y="775" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#2a2a2a">Legend:</text>
+  
+  <circle cx="90" cy="800" r="5" fill="#bcd99b"/>
+  <text x="105" y="805" font-family="Arial, sans-serif" font-size="10" fill="#525252">Effects/Consequences</text>
+  
+  <circle cx="250" cy="800" r="5" fill="#fecaca"/>
+  <text x="265" y="805" font-family="Arial, sans-serif" font-size="10" fill="#525252">Core Problem</text>
+  
+  <circle cx="380" cy="800" r="5" fill="#facc15"/>
+  <text x="395" y="805" font-family="Arial, sans-serif" font-size="10" fill="#525252">Root Causes</text>
+  
+  <text x="520" y="805" font-family="Arial, sans-serif" font-size="10" fill="#737373">
+    (E) = Evidence-based | (A) = Assumption
+  </text>
+  
+  <!-- Key Statistics -->
+  <rect x="720" y="780" width="300" height="45" rx="8" fill="#fafafa" stroke="#e7e7e7" stroke-width="1"/>
+  <text x="730" y="800" font-family="Arial, sans-serif" font-size="10" font-weight="500" fill="#2a2a2a">Key Metrics:</text>
+  <text x="730" y="815" font-family="Arial, sans-serif" font-size="9" fill="#525252">
+    📊 2.5M children affected | 15 rural districts | 40% schools damaged
+  </text>
+</svg>

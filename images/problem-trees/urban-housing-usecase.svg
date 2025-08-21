@@ -1,0 +1,309 @@
+<svg viewBox="0 0 1100 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions (same as others for consistency) -->
+  <defs>
+    <linearGradient id="effectsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f9ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ecfff7;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="problemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fef2f2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fee2e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef2f2;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="causesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.08"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1100" height="900" fill="#fafafa"/>
+  
+  <!-- Title Section -->
+  <rect x="300" y="20" width="500" height="50" rx="25" fill="#ffffff" stroke="#e7e7e7" stroke-width="1" filter="url(#shadow)"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#2a2a2a">
+    Urban Housing Crisis
+  </text>
+  <text x="550" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#737373">
+    Problem Tree Analysis - Affordable Housing Access
+  </text>
+  
+  <!-- EFFECTS Section -->
+  <g id="effects-section">
+    <!-- Section Header -->
+    <rect x="400" y="100" width="300" height="35" rx="17" fill="url(#effectsGrad)" stroke="#a3ca78" stroke-width="1"/>
+    <text x="550" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#007144">
+      🌿 EFFECTS / CONSEQUENCES
+    </text>
+    
+    <!-- Effects Cards -->
+    <g id="effects-cards">
+      <!-- Informal Settlements -->
+      <rect x="50" y="160" width="230" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="165" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        🏚️ Informal Settlements
+      </text>
+      <text x="165" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="165" dy="0">• Slum growth 15%/yr</tspan>
+        <tspan x="165" dy="14">• No basic services</tspan>
+        <tspan x="165" dy="14">• Unsafe structures</tspan>
+      </text>
+      
+      <!-- Health Risks -->
+      <rect x="300" y="160" width="230" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="415" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        🏥 Public Health Risks
+      </text>
+      <text x="415" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="415" dy="0">• Overcrowding disease</tspan>
+        <tspan x="415" dy="14">• Mental health crisis</tspan>
+        <tspan x="415" dy="14">• Child development ↓</tspan>
+      </text>
+      
+      <!-- Social Segregation -->
+      <rect x="550" y="160" width="230" height="80" rx="12" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="665" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5b7c37">
+        🏘️ Social Segregation
+      </text>
+      <text x="665" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#46612b">
+        <tspan x="665" dy="0">• Inequality deepens</tspan>
+        <tspan x="665" dy="14">• Ghettoization</tspan>
+        <tspan x="665" dy="14">• Social tension ↑</tspan>
+      </text>
+      
+      <!-- Homelessness -->
+      <rect x="800" y="160" width="230" height="80" rx="12" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="915" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#007144">
+        🚶 Homelessness Rising
+      </text>
+      <text x="915" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#005c38">
+        <tspan x="915" dy="0">• Street population ↑40%</tspan>
+        <tspan x="915" dy="14">• Family homelessness</tspan>
+        <tspan x="915" dy="14">• Youth vulnerability</tspan>
+      </text>
+    </g>
+    
+    <!-- Additional Effects Row -->
+    <g id="additional-effects">
+      <rect x="250" y="260" width="180" height="60" rx="10" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1" filter="url(#shadow)"/>
+      <text x="340" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#5b7c37">
+        👨‍👩‍👧‍👦 Family Stress
+      </text>
+      <text x="340" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#46612b">
+        <tspan x="340" dy="0">• Instability</tspan>
+        <tspan x="340" dy="12">• Breakdown</tspan>
+      </text>
+      
+      <rect x="460" y="260" width="180" height="60" rx="10" fill="#ecfff7" stroke="#a7ffd8" stroke-width="1" filter="url(#shadow)"/>
+      <text x="550" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#007144">
+        🏫 Education Impact
+      </text>
+      <text x="550" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#005c38">
+        <tspan x="550" dy="0">• School changes</tspan>
+        <tspan x="550" dy="12">• Performance ↓</tspan>
+      </text>
+      
+      <rect x="670" y="260" width="180" height="60" rx="10" fill="#f3f9ec" stroke="#bcd99b" stroke-width="1" filter="url(#shadow)"/>
+      <text x="760" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#5b7c37">
+        💼 Economic Drain
+      </text>
+      <text x="760" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#46612b">
+        <tspan x="760" dy="0">• Productivity loss</tspan>
+        <tspan x="760" dy="12">• Commute costs</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- CORE PROBLEM Section -->
+  <g id="problem-section">
+    <!-- Section Header -->
+    <rect x="400" y="360" width="300" height="35" rx="17" fill="url(#problemGrad)" stroke="#fca5a5" stroke-width="1"/>
+    <text x="550" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#991b1b">
+      🌳 CORE PROBLEM
+    </text>
+    
+    <!-- Main Problem Box -->
+    <rect x="200" y="410" width="700" height="100" rx="15" fill="#ffffff" stroke="#fecaca" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="200" y="410" width="700" height="100" rx="15" fill="url(#problemGrad)" opacity="0.4"/>
+    
+    <text x="550" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#b91c1c">
+      Unaffordable Housing for Low &amp; Middle-Income Families
+    </text>
+    <text x="550" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#991b1b">
+      70% spending &gt;50% of income on rent | 5 million households affected
+    </text>
+    <text x="550" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+      Average wait for social housing: 8 years | Homeownership rate dropped 25%
+    </text>
+  </g>
+  
+  <!-- Connection lines from Effects to Problem -->
+  <path d="M 165 240 L 380 410" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 415 240 L 470 410" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 665 240 L 580 410" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 915 240 L 680 410" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 340 320 L 430 410" stroke="#d1d1d1" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+  <path d="M 550 320 L 550 410" stroke="#d1d1d1" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+  <path d="M 760 320 L 620 410" stroke="#d1d1d1" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+  
+  <!-- ROOT CAUSES Section -->
+  <g id="causes-section">
+    <!-- Section Header -->
+    <rect x="400" y="560" width="300" height="35" rx="17" fill="url(#causesGrad)" stroke="#facc15" stroke-width="1"/>
+    <text x="550" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#854d0e">
+      🌱 ROOT CAUSES
+    </text>
+    
+    <!-- Primary Root Causes -->
+    <g id="primary-causes">
+      <!-- Land Speculation -->
+      <rect x="50" y="620" width="230" height="90" rx="12" fill="#fefce8" stroke="#fde047" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="165" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#854d0e">
+        🏗️ Land Speculation (E)
+      </text>
+      <text x="165" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="165" dy="0">• Foreign investment</tspan>
+        <tspan x="165" dy="13">• Weak regulation</tspan>
+        <tspan x="165" dy="13">• Land hoarding</tspan>
+      </text>
+      
+      <!-- Income-Housing Gap -->
+      <rect x="300" y="620" width="230" height="90" rx="12" fill="#fef9c3" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="415" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+        💰 Income-Housing Gap (E)
+      </text>
+      <text x="415" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="415" dy="0">• Stagnant wages</tspan>
+        <tspan x="415" dy="13">• Construction costs ↑</tspan>
+        <tspan x="415" dy="13">• Materials inflation</tspan>
+      </text>
+      
+      <!-- Limited Social Housing -->
+      <rect x="550" y="620" width="230" height="90" rx="12" fill="#fefce8" stroke="#fde047" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="665" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#854d0e">
+        🏛️ Limited Social Housing (E)
+      </text>
+      <text x="665" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="665" dy="0">• Low govt investment</tspan>
+        <tspan x="665" dy="13">• Private luxury focus</tspan>
+        <tspan x="665" dy="13">• PPP failures</tspan>
+      </text>
+      
+      <!-- Rapid Urbanization -->
+      <rect x="800" y="620" width="230" height="90" rx="12" fill="#fef9c3" stroke="#facc15" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="915" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#a16207">
+        🌆 Rapid Urbanization (A)
+      </text>
+      <text x="915" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#713f12">
+        <tspan x="915" dy="0">• Rural-urban migration</tspan>
+        <tspan x="915" dy="13">• Job concentration</tspan>
+        <tspan x="915" dy="13">• Supply-demand gap</tspan>
+      </text>
+    </g>
+    
+    <!-- Sub-causes Level 2 -->
+    <g id="sub-causes">
+      <rect x="80" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="135" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="135" dy="0">Property as</tspan>
+        <tspan x="135" dy="11">investment</tspan>
+      </text>
+      
+      <rect x="200" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="255" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="255" dy="0">Empty units</tspan>
+        <tspan x="255" dy="11">15% vacant</tspan>
+      </text>
+      
+      <rect x="360" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="415" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="415" dy="0">Real wages</tspan>
+        <tspan x="415" dy="11">-5% decade</tspan>
+      </text>
+      
+      <rect x="480" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="535" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="535" dy="0">Labor costs</tspan>
+        <tspan x="535" dy="11">↑30%</tspan>
+      </text>
+      
+      <rect x="610" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="665" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="665" dy="0">Budget cut</tspan>
+        <tspan x="665" dy="11">60% in 10yr</tspan>
+      </text>
+      
+      <rect x="730" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="785" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="785" dy="0">Zoning</tspan>
+        <tspan x="785" dy="11">restrictions</tspan>
+      </text>
+      
+      <rect x="850" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="905" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="905" dy="0">Economic</tspan>
+        <tspan x="905" dy="11">centralization</tspan>
+      </text>
+      
+      <rect x="970" y="735" width="110" height="40" rx="8" fill="#fffef7" stroke="#fef9c3" stroke-width="1"/>
+      <text x="1025" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4037">
+        <tspan x="1025" dy="0">Planning</tspan>
+        <tspan x="1025" dy="11">failure</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Connection lines from Causes to Problem -->
+  <path d="M 165 620 L 380 510" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 415 620 L 480 510" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 665 620 L 580 510" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 915 620 L 680 510" stroke="#d1d1d1" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Sub-cause connections -->
+  <line x1="135" y1="735" x2="165" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="255" y1="735" x2="165" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="415" y1="735" x2="415" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="535" y1="735" x2="415" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="665" y1="735" x2="665" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="785" y1="735" x2="665" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="905" y1="735" x2="915" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  <line x1="1025" y1="735" x2="915" y2="710" stroke="#e7e7e7" stroke-width="1"/>
+  
+  <!-- Legend and Statistics Box -->
+  <rect x="50" y="810" width="1000" height="70" rx="10" fill="#ffffff" stroke="#e7e7e7" stroke-width="1" filter="url(#shadow)"/>
+  
+  <!-- Legend -->
+  <text x="70" y="835" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#2a2a2a">Legend:</text>
+  
+  <circle cx="90" cy="855" r="5" fill="#bcd99b"/>
+  <text x="105" y="860" font-family="Arial, sans-serif" font-size="10" fill="#525252">Effects/Consequences</text>
+  
+  <circle cx="250" cy="855" r="5" fill="#fecaca"/>
+  <text x="265" y="860" font-family="Arial, sans-serif" font-size="10" fill="#525252">Core Problem</text>
+  
+  <circle cx="380" cy="855" r="5" fill="#facc15"/>
+  <text x="395" y="860" font-family="Arial, sans-serif" font-size="10" fill="#525252">Root Causes</text>
+  
+  <text x="520" y="860" font-family="Arial, sans-serif" font-size="10" fill="#737373">
+    (E) = Evidence-based | (A) = Assumption
+  </text>
+  
+  <!-- Key Statistics -->
+  <rect x="720" y="835" width="300" height="35" rx="8" fill="#fafafa" stroke="#e7e7e7" stroke-width="1"/>
+  <text x="730" y="855" font-family="Arial, sans-serif" font-size="9" fill="#525252">
+    📊 5M households | 70% income on rent | 40% homeless ↑ | 8yr wait
+  </text>
+</svg>
