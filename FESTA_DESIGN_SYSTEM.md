@@ -176,12 +176,12 @@ The typography system uses responsive font sizes with `clamp()` for fluid typogr
 
 ```blade
 <x-core.button 
-    variant="primary"      {{-- primary, secondary, neutral --}}
-    size="large"          {{-- small, medium, large --}}
-    type="button"         {{-- button, submit, reset --}}
-    fullWidth="false"     {{-- true for full-width buttons --}}
-    disabled="false"      {{-- true to disable --}}
-    href="/path"          {{-- converts to anchor link --}}
+    variant="primary"      <!-- primary, secondary, neutral -->
+    size="large"          <!-- small, medium, large -->
+    type="button"         <!-- button, submit, reset -->
+    fullWidth="false"     <!-- true for full-width buttons -->
+    disabled="false"      <!-- true to disable -->
+    href="/path"          <!-- converts to anchor link -->
 >
     Button Text
 </x-core.button>
