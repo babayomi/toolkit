@@ -32,9 +32,6 @@ Ready-to-use templates and real-world examples showing how to apply problem tree
   
   <img src="/assets/images/problem-trees/problem-tree-template.svg" alt="Problem Tree Template with placeholder sections for Effects, Core Problem, and Root Causes" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#template-customization-guide" class="btn btn-primary">📝 Customization Guide</a>
-  </div>
 </div>
 
 ### Core Structure
@@ -69,9 +66,6 @@ Clear, specific, measurable problem statement
   
   <img src="/assets/images/problem-trees/healthcare-access-usecase.svg" alt="Healthcare Access Problem Tree showing effects like mortality increase, economic impact, and root causes including infrastructure gaps and human resource shortages" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#health-insights" class="btn btn-primary">💡 Key Insights</a>
-  </div>
 </div>
 
 ### Problem Tree: Maternal Mortality in Rural Areas
@@ -112,9 +106,6 @@ Pregnant women in rural Malawi have limited access to skilled birth attendants, 
   
   <img src="/assets/images/problem-trees/education-access-use-case.svg" alt="Education Access Problem Tree showing effects like youth migration, social instability, and root causes including outdated curriculum and weak employer connections" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#education-insights" class="btn btn-primary">💡 Key Insights</a>
-  </div>
 </div>
 
 ### Problem Tree: Youth Unemployment Due to Skills Gap
@@ -207,9 +198,6 @@ Small business owners in rural Bangladesh cannot access appropriate credit, with
   
   <img src="/assets/images/problem-trees/climate-resilience-usecase.svg" alt="Climate Resilience Problem Tree showing effects like crop failures, food insecurity, and root causes including lack of adaptation strategies and limited early warning systems" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#climate-insights" class="btn btn-primary">💡 Key Insights</a>
-  </div>
 </div>
 
 ### Problem Tree: Agricultural Vulnerability to Climate Change
@@ -250,9 +238,6 @@ Smallholder farmers in sub-Saharan Africa experience 30% crop yield losses due t
   
   <img src="/assets/images/problem-trees/gender-equality-usecase.svg" alt="Gender Equality Problem Tree showing effects like reduced development outcomes, limited representation, and root causes including cultural barriers and institutional discrimination" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#gender-insights" class="btn btn-primary">💡 Key Insights</a>
-  </div>
 </div>
 
 ### Problem Tree: Women's Limited Leadership Participation
@@ -293,9 +278,6 @@ Women in rural South Asia hold only 15% of leadership positions in community org
   
   <img src="/assets/images/problem-trees/urban-housing-usecase.svg" alt="Urban Housing Problem Tree showing effects like overcrowding, health risks, and root causes including high land costs and limited social housing programs" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#housing-insights" class="btn btn-primary">💡 Key Insights</a>
-  </div>
 </div>
 
 ### Problem Tree: Affordable Housing Shortage
@@ -336,9 +318,6 @@ Low-income families in urban Mexico face a housing affordability crisis, with 68
   
   <img src="/assets/images/problem-trees/water-sanitation-usecase.svg" alt="Water and Sanitation Problem Tree showing effects like waterborne diseases, school absenteeism, and root causes including poor infrastructure and limited maintenance" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#water-insights" class="btn btn-primary">💡 Key Insights</a>
-  </div>
 </div>
 
 ### Problem Tree: Water, Sanitation and Hygiene (WASH) Access
@@ -379,9 +358,6 @@ Rural communities in West Africa lack access to clean water and improved sanitat
   
   <img src="/assets/images/problem-trees/youth-employment-usecase.svg" alt="Youth Employment Problem Tree showing effects like social unrest, brain drain, and root causes including skills mismatch and limited entrepreneurship support" style="width: 100%; height: auto; border-radius: 8px;">
   
-  <div class="problem-tree-actions">
-    <a href="#youth-employment-insights" class="btn btn-primary">💡 Key Insights</a>
-  </div>
 </div>
 
 ### Problem Tree: Youth Economic Exclusion
