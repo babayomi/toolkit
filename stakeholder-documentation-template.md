@@ -26,6 +26,114 @@ Good documentation doesn't just record what happened - it actively supports anal
 - Capturing nuances that inform solution design
 - Building evidence base for proposals and reports
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#f6f6f6"/>
+    
+    <!-- Stakeholder insights (left) -->
+    <g id="insights" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+        <rect x="50" y="80" width="200" height="240" rx="8" fill="#007f4e" opacity="0.2"/>
+        <text x="150" y="110" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#007f4e">STAKEHOLDER INSIGHTS</text>
+        
+        <!-- Individual insights -->
+        <rect x="70" y="130" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+            <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1s" fill="freeze"/>
+        </rect>
+        <text x="150" y="147" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Community Priority 1</text>
+        
+        <rect x="70" y="165" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+            <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1.3s" fill="freeze"/>
+        </rect>
+        <text x="150" y="182" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Validation Evidence</text>
+        
+        <rect x="70" y="200" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+            <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1.6s" fill="freeze"/>
+        </rect>
+        <text x="150" y="217" text-anchor="middle" font-family="Inter" font-size="10" fill="white">New Root Cause</text>
+        
+        <rect x="70" y="235" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+            <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1.9s" fill="freeze"/>
+        </rect>
+        <text x="150" y="252" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Refined Effects</text>
+        
+        <rect x="70" y="270" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+            <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="2.2s" fill="freeze"/>
+        </rect>
+        <text x="150" y="287" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Cultural Context</text>
+    </g>
+    
+    <!-- Integration arrow -->
+    <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+        <path d="M 270 200 Q 350 200 430 200" stroke="#f37324" stroke-width="4" fill="none" marker-end="url(#orangeArrow)"/>
+        <text x="350" y="190" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#f37324">INTEGRATION</text>
+    </g>
+    
+    <!-- Updated Problem Tree (right) -->
+    <g id="updated-tree" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+        <rect x="450" y="80" width="300" height="240" rx="8" fill="#72b043" opacity="0.2"/>
+        <text x="600" y="110" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#72b043">REFINED PROBLEM TREE</text>
+        
+        <!-- Tree structure with updates -->
+        <!-- Effects -->
+        <rect x="470" y="130" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+        <text x="510" y="150" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">EFFECTS</text>
+        
+        <rect x="560" y="130" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+        <text x="600" y="150" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">NEW EFFECT</text>
+        
+        <rect x="650" y="130" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+        <text x="690" y="150" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">REFINED</text>
+        
+        <!-- Core Problem -->
+        <rect x="520" y="180" width="160" height="40" rx="6" fill="#72b043" opacity="0.5"/>
+        <text x="600" y="200" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">CORE PROBLEM</text>
+        <text x="600" y="215" text-anchor="middle" font-family="Inter" font-size="10" fill="white">(Community Validated)</text>
+        
+        <!-- Root Causes -->
+        <rect x="470" y="240" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+        <text x="510" y="260" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">CAUSE 1</text>
+        
+        <rect x="560" y="240" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+        <text x="600" y="260" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">NEW CAUSE</text>
+        
+        <rect x="650" y="240" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+        <text x="690" y="260" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">VALIDATED</text>
+        
+        <!-- Evidence tags -->
+        <circle cx="485" cy="145" r="6" fill="#007f4e">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+        </circle>
+        <text x="485" y="150" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+        
+        <circle cx="575" cy="145" r="6" fill="#007f4e">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.7s" fill="freeze"/>
+        </circle>
+        <text x="575" y="150" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+        
+        <circle cx="485" cy="255" r="6" fill="#007f4e">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.9s" fill="freeze"/>
+        </circle>
+        <text x="485" y="260" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+        
+        <circle cx="575" cy="255" r="6" fill="#007f4e">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4.1s" fill="freeze"/>
+        </circle>
+        <text x="575" y="260" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+    </g>
+    
+    <!-- Arrow marker -->
+    <defs>
+        <marker id="orangeArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#f37324"/>
+        </marker>
+    </defs>
+</svg>
+</div>
+
 ---
 
 ## 📋 Core Documentation Framework

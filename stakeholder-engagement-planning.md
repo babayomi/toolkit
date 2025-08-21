@@ -22,6 +22,92 @@ You've identified stakeholders with the [Identification Template](../stakeholder
 ### Strategic Sequencing
 The order of engagement matters. Start with high-power/high-interest stakeholders who can open doors, provide critical validation, and help you refine your approach before broader engagement.
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#f6f6f6"/>
+    
+    <!-- Problem Tree (simplified) -->
+    <g id="problem-tree" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+        <rect x="50" y="150" width="120" height="100" rx="8" fill="#e12729" opacity="0.2"/>
+        <text x="110" y="190" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#e12729">PROBLEM</text>
+        <text x="110" y="210" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#e12729">TREE</text>
+        
+        <!-- (A) tags -->
+        <circle cx="90" cy="170" r="8" fill="#f37324" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+        </circle>
+        <text x="90" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">A</text>
+        
+        <circle cx="130" cy="170" r="8" fill="#f37324" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
+        </circle>
+        <text x="130" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">A</text>
+        
+        <circle cx="90" cy="230" r="8" fill="#f37324" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+        </circle>
+        <text x="90" y="235" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">A</text>
+    </g>
+    
+    <!-- Connecting arrows -->
+    <g id="connecting-arrows" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="1.5s" fill="freeze"/>
+        <path d="M 170 200 Q 250 200 330 200" stroke="#007f4e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+        <path d="M 470 200 Q 550 200 630 200" stroke="#007f4e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- Stakeholder Engagement -->
+    <g id="stakeholder-engagement" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
+        <rect x="330" y="150" width="140" height="100" rx="8" fill="#007f4e" opacity="0.2"/>
+        <text x="400" y="185" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">STAKEHOLDER</text>
+        <text x="400" y="205" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">ENGAGEMENT</text>
+        <text x="400" y="225" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">& VALIDATION</text>
+        
+        <!-- People icons -->
+        <circle cx="360" cy="170" r="6" fill="#007f4e" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/>
+        </circle>
+        <circle cx="400" cy="170" r="6" fill="#007f4e" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.7s" fill="freeze"/>
+        </circle>
+        <circle cx="440" cy="170" r="6" fill="#007f4e" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.9s" fill="freeze"/>
+        </circle>
+    </g>
+    
+    <!-- Refined Analysis -->
+    <g id="refined-analysis" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+        <rect x="630" y="150" width="120" height="100" rx="8" fill="#72b043" opacity="0.2"/>
+        <text x="690" y="185" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#72b043">REFINED</text>
+        <text x="690" y="205" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#72b043">PROBLEM</text>
+        <text x="690" y="225" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#72b043">ANALYSIS</text>
+        
+        <!-- (E) tags -->
+        <circle cx="670" cy="170" r="8" fill="#007f4e" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+        </circle>
+        <text x="670" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">E</text>
+        
+        <circle cx="710" cy="170" r="8" fill="#007f4e" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.7s" fill="freeze"/>
+        </circle>
+        <text x="710" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">E</text>
+    </g>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+        </marker>
+    </defs>
+</svg>
+</div>
+
 ---
 
 ## 📅 Five-Phase Engagement Framework

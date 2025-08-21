@@ -26,6 +26,109 @@ Remember, your goal is to validate the assumptions (A) from your [Problem Tree A
 
 ## 📐 Understanding the Power-Interest Grid
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f6f6f6"/>
+    
+    <!-- Grid lines -->
+    <g id="grid" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+        <line x1="400" y1="100" x2="400" y2="500" stroke="#2a2a2a" stroke-width="2"/>
+        <line x1="150" y1="300" x2="650" y2="300" stroke="#2a2a2a" stroke-width="2"/>
+    </g>
+    
+    <!-- Quadrant backgrounds -->
+    <g id="quadrants" opacity="0">
+        <animate attributeName="opacity" values="0;0.1" dur="1s" begin="0.5s" fill="freeze"/>
+        <!-- High Power, High Interest -->
+        <rect x="400" y="100" width="250" height="200" fill="#007f4e"/>
+        <!-- High Power, Low Interest -->
+        <rect x="400" y="300" width="250" height="200" fill="#f37324"/>
+        <!-- Low Power, High Interest -->
+        <rect x="150" y="100" width="250" height="200" fill="#72b043"/>
+        <!-- Low Power, Low Interest -->
+        <rect x="150" y="300" width="250" height="200" fill="#f8cc1b"/>
+    </g>
+    
+    <!-- Axis labels -->
+    <g id="axis-labels" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+        <!-- Power axis -->
+        <text x="80" y="200" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a" transform="rotate(-90 80 200)">HIGH POWER</text>
+        <text x="80" y="400" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a" transform="rotate(-90 80 400)">LOW POWER</text>
+        
+        <!-- Interest axis -->
+        <text x="275" y="80" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a">HIGH INTEREST</text>
+        <text x="525" y="80" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a">LOW INTEREST</text>
+    </g>
+    
+    <!-- Quadrant labels and strategies -->
+    <g id="quadrant-labels" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+        
+        <!-- High Power, High Interest -->
+        <text x="525" y="140" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">MANAGE CLOSELY</text>
+        <text x="525" y="160" text-anchor="middle" font-family="Inter" font-size="12" fill="white">Partnership</text>
+        
+        <!-- High Power, Low Interest -->
+        <text x="525" y="340" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">KEEP SATISFIED</text>
+        <text x="525" y="360" text-anchor="middle" font-family="Inter" font-size="12" fill="white">Communicate</text>
+        
+        <!-- Low Power, High Interest -->
+        <text x="275" y="140" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">KEEP INFORMED</text>
+        <text x="275" y="160" text-anchor="middle" font-family="Inter" font-size="12" fill="white">Engagement</text>
+        
+        <!-- Low Power, Low Interest -->
+        <text x="275" y="340" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="#2a2a2a">MONITOR</text>
+        <text x="275" y="360" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Minimal</text>
+    </g>
+    
+    <!-- Example stakeholders -->
+    <g id="stakeholder-examples" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+        
+        <!-- High Power, High Interest -->
+        <circle cx="480" cy="200" r="8" fill="white">
+            <animate attributeName="cy" values="300;200" dur="0.5s" begin="2s" fill="freeze"/>
+        </circle>
+        <circle cx="520" cy="180" r="8" fill="white">
+            <animate attributeName="cy" values="300;180" dur="0.5s" begin="2.2s" fill="freeze"/>
+        </circle>
+        <circle cx="560" cy="220" r="8" fill="white">
+            <animate attributeName="cy" values="300;220" dur="0.5s" begin="2.4s" fill="freeze"/>
+        </circle>
+        
+        <!-- High Power, Low Interest -->
+        <circle cx="480" cy="380" r="8" fill="white">
+            <animate attributeName="cy" values="300;380" dur="0.5s" begin="2.6s" fill="freeze"/>
+        </circle>
+        <circle cx="520" cy="420" r="8" fill="white">
+            <animate attributeName="cy" values="300;420" dur="0.5s" begin="2.8s" fill="freeze"/>
+        </circle>
+        
+        <!-- Low Power, High Interest -->
+        <circle cx="320" cy="200" r="8" fill="white">
+            <animate attributeName="cy" values="300;200" dur="0.5s" begin="3s" fill="freeze"/>
+        </circle>
+        <circle cx="280" cy="180" r="8" fill="white">
+            <animate attributeName="cy" values="300;180" dur="0.5s" begin="3.2s" fill="freeze"/>
+        </circle>
+        <circle cx="240" cy="220" r="8" fill="white">
+            <animate attributeName="cy" values="300;220" dur="0.5s" begin="3.4s" fill="freeze"/>
+        </circle>
+        
+        <!-- Low Power, Low Interest -->
+        <circle cx="320" cy="380" r="8" fill="#2a2a2a">
+            <animate attributeName="cy" values="300;380" dur="0.5s" begin="3.6s" fill="freeze"/>
+        </circle>
+        <circle cx="240" cy="420" r="8" fill="#2a2a2a">
+            <animate attributeName="cy" values="300;420" dur="0.5s" begin="3.8s" fill="freeze"/>
+        </circle>
+    </g>
+</svg>
+</div>
+
 ### The Four Quadrants Framework
 
 ```

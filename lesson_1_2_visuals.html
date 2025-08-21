@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1.2: Stakeholder Mapping & Engagement - Animated Visuals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #2a2a2a;
+            background: linear-gradient(135deg, #f6f6f6 0%, #ecfff7 50%, #f6f6f6 100%);
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #007f4e;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #e12729;
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 600;
+            margin: 3rem 0 1.5rem 0;
+            border-bottom: 3px solid #f37324;
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            color: #007f4e;
+            font-size: clamp(1.25rem, 3vw, 1.5rem);
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+        }
+        
+        .visual-container {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e5f2d8;
+        }
+        
+        .visual-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        svg {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .description {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #ecfff7;
+            border-radius: 8px;
+            border-left: 4px solid #007f4e;
+        }
+        
+        .animation-controls {
+            margin: 1rem 0;
+            text-align: center;
+        }
+        
+        .play-button {
+            background: #007f4e;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .play-button:hover {
+            background: #005c38;
+        }
+        
+        .hierarchy-1 { border-left-color: #e12729; }
+        .hierarchy-2 { border-left-color: #f37324; }
+        .hierarchy-3 { border-left-color: #007f4e; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lesson 1.2: Stakeholder Mapping & Engagement</h1>
+        <p style="text-align: center; font-size: 1.125rem; color: #007f4e; margin-bottom: 3rem;">Animated Visual Guide</p>
+
+        <!-- PRIMARY HIERARCHY: Core Framework Visuals -->
+        <h2>Core Framework Visuals</h2>
+
+        <div class="visual-container">
+            <h3>1. Stakeholder Mapping Framework - Three-Layer System</h3>
+            <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect width="800" height="600" fill="#f6f6f6"/>
+                
+                <!-- Concentric circles representing stakeholder layers -->
+                <g id="stakeholder-layers">
+                    <!-- Tertiary (outermost) -->
+                    <circle cx="400" cy="300" r="280" fill="none" stroke="#d1ffe9" stroke-width="3" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+                        <animate attributeName="r" values="350;280" dur="1s" begin="0s" fill="freeze"/>
+                    </circle>
+                    
+                    <!-- Secondary (middle) -->
+                    <circle cx="400" cy="300" r="180" fill="none" stroke="#a7ffd8" stroke-width="3" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+                        <animate attributeName="r" values="250;180" dur="1s" begin="0.5s" fill="freeze"/>
+                    </circle>
+                    
+                    <!-- Primary (innermost) -->
+                    <circle cx="400" cy="300" r="100" fill="none" stroke="#007f4e" stroke-width="4" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+                        <animate attributeName="r" values="150;100" dur="1s" begin="1s" fill="freeze"/>
+                    </circle>
+                </g>
+                
+                <!-- Labels -->
+                <g id="labels">
+                    <text x="400" y="300" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#007f4e" opacity="0">
+                        PRIMARY
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+                    </text>
+                    <text x="400" y="320" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e" opacity="0">
+                        Directly Affected
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+                    </text>
+                    
+                    <text x="400" y="450" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#72b043" opacity="0">
+                        SECONDARY
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+                    </text>
+                    <text x="400" y="470" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043" opacity="0">
+                        Influence & Expertise
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+                    </text>
+                    
+                    <text x="400" y="560" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#f8cc1b" opacity="0">
+                        TERTIARY
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+                    </text>
+                    <text x="400" y="580" text-anchor="middle" font-family="Inter" font-size="12" fill="#f8cc1b" opacity="0">
+                        Indirect Interest
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+                    </text>
+                </g>
+                
+                <!-- Stakeholder Icons -->
+                <g id="stakeholder-icons">
+                    <!-- Primary stakeholders -->
+                    <g opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+                        <circle cx="380" cy="280" r="8" fill="#007f4e"/>
+                        <circle cx="420" cy="280" r="8" fill="#007f4e"/>
+                        <circle cx="380" cy="320" r="8" fill="#007f4e"/>
+                        <circle cx="420" cy="320" r="8" fill="#007f4e"/>
+                    </g>
+                    
+                    <!-- Secondary stakeholders -->
+                    <g opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+                        <circle cx="320" cy="380" r="8" fill="#72b043"/>
+                        <circle cx="480" cy="380" r="8" fill="#72b043"/>
+                        <circle cx="300" cy="220" r="8" fill="#72b043"/>
+                        <circle cx="500" cy="220" r="8" fill="#72b043"/>
+                        <circle cx="320" cy="220" r="8" fill="#72b043"/>
+                        <circle cx="480" cy="220" r="8" fill="#72b043"/>
+                    </g>
+                    
+                    <!-- Tertiary stakeholders -->
+                    <g opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4s" fill="freeze"/>
+                        <circle cx="200" cy="500" r="6" fill="#f8cc1b"/>
+                        <circle cx="600" cy="500" r="6" fill="#f8cc1b"/>
+                        <circle cx="150" cy="150" r="6" fill="#f8cc1b"/>
+                        <circle cx="650" cy="150" r="6" fill="#f8cc1b"/>
+                        <circle cx="200" cy="100" r="6" fill="#f8cc1b"/>
+                        <circle cx="600" cy="100" r="6" fill="#f8cc1b"/>
+                    </g>
+                </g>
+            </svg>
+            <div class="description hierarchy-1">
+                <strong>Core Framework:</strong> The three-layer stakeholder mapping system showing Primary (directly affected), Secondary (influence & expertise), and Tertiary (indirect interest) stakeholders with visual hierarchy through size and positioning.
+            </div>
+        </div>
+
+        <div class="visual-container">
+            <h3>2. Power-Interest Analysis Grid</h3>
+            <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect width="800" height="600" fill="#f6f6f6"/>
+                
+                <!-- Grid lines -->
+                <g id="grid" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+                    <line x1="400" y1="100" x2="400" y2="500" stroke="#2a2a2a" stroke-width="2"/>
+                    <line x1="150" y1="300" x2="650" y2="300" stroke="#2a2a2a" stroke-width="2"/>
+                </g>
+                
+                <!-- Quadrant backgrounds -->
+                <g id="quadrants" opacity="0">
+                    <animate attributeName="opacity" values="0;0.1" dur="1s" begin="0.5s" fill="freeze"/>
+                    <!-- High Power, High Interest -->
+                    <rect x="400" y="100" width="250" height="200" fill="#007f4e"/>
+                    <!-- High Power, Low Interest -->
+                    <rect x="400" y="300" width="250" height="200" fill="#f37324"/>
+                    <!-- Low Power, High Interest -->
+                    <rect x="150" y="100" width="250" height="200" fill="#72b043"/>
+                    <!-- Low Power, Low Interest -->
+                    <rect x="150" y="300" width="250" height="200" fill="#f8cc1b"/>
+                </g>
+                
+                <!-- Axis labels -->
+                <g id="axis-labels" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+                    <!-- Power axis -->
+                    <text x="80" y="200" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a" transform="rotate(-90 80 200)">HIGH POWER</text>
+                    <text x="80" y="400" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a" transform="rotate(-90 80 400)">LOW POWER</text>
+                    
+                    <!-- Interest axis -->
+                    <text x="275" y="80" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a">HIGH INTEREST</text>
+                    <text x="525" y="80" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#2a2a2a">LOW INTEREST</text>
+                </g>
+                
+                <!-- Quadrant labels and strategies -->
+                <g id="quadrant-labels" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+                    
+                    <!-- High Power, High Interest -->
+                    <text x="525" y="140" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">MANAGE CLOSELY</text>
+                    <text x="525" y="160" text-anchor="middle" font-family="Inter" font-size="12" fill="white">Partnership</text>
+                    
+                    <!-- High Power, Low Interest -->
+                    <text x="525" y="340" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">KEEP SATISFIED</text>
+                    <text x="525" y="360" text-anchor="middle" font-family="Inter" font-size="12" fill="white">Communicate</text>
+                    
+                    <!-- Low Power, High Interest -->
+                    <text x="275" y="140" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">KEEP INFORMED</text>
+                    <text x="275" y="160" text-anchor="middle" font-family="Inter" font-size="12" fill="white">Engagement</text>
+                    
+                    <!-- Low Power, Low Interest -->
+                    <text x="275" y="340" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="#2a2a2a">MONITOR</text>
+                    <text x="275" y="360" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Minimal</text>
+                </g>
+                
+                <!-- Example stakeholders -->
+                <g id="stakeholder-examples" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+                    
+                    <!-- High Power, High Interest -->
+                    <circle cx="480" cy="200" r="8" fill="white">
+                        <animate attributeName="cy" values="300;200" dur="0.5s" begin="2s" fill="freeze"/>
+                    </circle>
+                    <circle cx="520" cy="180" r="8" fill="white">
+                        <animate attributeName="cy" values="300;180" dur="0.5s" begin="2.2s" fill="freeze"/>
+                    </circle>
+                    <circle cx="560" cy="220" r="8" fill="white">
+                        <animate attributeName="cy" values="300;220" dur="0.5s" begin="2.4s" fill="freeze"/>
+                    </circle>
+                    
+                    <!-- High Power, Low Interest -->
+                    <circle cx="480" cy="380" r="8" fill="white">
+                        <animate attributeName="cy" values="300;380" dur="0.5s" begin="2.6s" fill="freeze"/>
+                    </circle>
+                    <circle cx="520" cy="420" r="8" fill="white">
+                        <animate attributeName="cy" values="300;420" dur="0.5s" begin="2.8s" fill="freeze"/>
+                    </circle>
+                    
+                    <!-- Low Power, High Interest -->
+                    <circle cx="320" cy="200" r="8" fill="white">
+                        <animate attributeName="cy" values="300;200" dur="0.5s" begin="3s" fill="freeze"/>
+                    </circle>
+                    <circle cx="280" cy="180" r="8" fill="white">
+                        <animate attributeName="cy" values="300;180" dur="0.5s" begin="3.2s" fill="freeze"/>
+                    </circle>
+                    <circle cx="240" cy="220" r="8" fill="white">
+                        <animate attributeName="cy" values="300;220" dur="0.5s" begin="3.4s" fill="freeze"/>
+                    </circle>
+                    
+                    <!-- Low Power, Low Interest -->
+                    <circle cx="320" cy="380" r="8" fill="#2a2a2a">
+                        <animate attributeName="cy" values="300;380" dur="0.5s" begin="3.6s" fill="freeze"/>
+                    </circle>
+                    <circle cx="240" cy="420" r="8" fill="#2a2a2a">
+                        <animate attributeName="cy" values="300;420" dur="0.5s" begin="3.8s" fill="freeze"/>
+                    </circle>
+                </g>
+            </svg>
+            <div class="description hierarchy-1">
+                <strong>Power-Interest Grid:</strong> The foundational analysis tool showing four engagement strategies based on stakeholder power and interest levels, with animated stakeholder placement and strategy labels.
+            </div>
+        </div>
+
+        <!-- SECONDARY HIERARCHY: Process Flow Visuals -->
+        <h2>Process Flow Visuals</h2>
+
+        <div class="visual-container">
+            <h3>3. Problem Tree to Stakeholder Engagement Flow</h3>
+            <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect width="800" height="400" fill="#f6f6f6"/>
+                
+                <!-- Problem Tree (simplified) -->
+                <g id="problem-tree" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+                    <rect x="50" y="150" width="120" height="100" rx="8" fill="#e12729" opacity="0.2"/>
+                    <text x="110" y="190" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#e12729">PROBLEM</text>
+                    <text x="110" y="210" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#e12729">TREE</text>
+                    
+                    <!-- (A) tags -->
+                    <circle cx="90" cy="170" r="8" fill="#f37324" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+                    </circle>
+                    <text x="90" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">A</text>
+                    
+                    <circle cx="130" cy="170" r="8" fill="#f37324" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
+                    </circle>
+                    <text x="130" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">A</text>
+                    
+                    <circle cx="90" cy="230" r="8" fill="#f37324" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+                    </circle>
+                    <text x="90" y="235" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">A</text>
+                </g>
+                
+                <!-- Connecting arrows -->
+                <g id="connecting-arrows" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="1.5s" fill="freeze"/>
+                    <path d="M 170 200 Q 250 200 330 200" stroke="#007f4e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+                    <path d="M 470 200 Q 550 200 630 200" stroke="#007f4e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+                </g>
+                
+                <!-- Stakeholder Engagement -->
+                <g id="stakeholder-engagement" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
+                    <rect x="330" y="150" width="140" height="100" rx="8" fill="#007f4e" opacity="0.2"/>
+                    <text x="400" y="185" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">STAKEHOLDER</text>
+                    <text x="400" y="205" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">ENGAGEMENT</text>
+                    <text x="400" y="225" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">& VALIDATION</text>
+                    
+                    <!-- People icons -->
+                    <circle cx="360" cy="170" r="6" fill="#007f4e" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/>
+                    </circle>
+                    <circle cx="400" cy="170" r="6" fill="#007f4e" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.7s" fill="freeze"/>
+                    </circle>
+                    <circle cx="440" cy="170" r="6" fill="#007f4e" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.9s" fill="freeze"/>
+                    </circle>
+                </g>
+                
+                <!-- Refined Analysis -->
+                <g id="refined-analysis" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+                    <rect x="630" y="150" width="120" height="100" rx="8" fill="#72b043" opacity="0.2"/>
+                    <text x="690" y="185" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#72b043">REFINED</text>
+                    <text x="690" y="205" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#72b043">PROBLEM</text>
+                    <text x="690" y="225" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#72b043">ANALYSIS</text>
+                    
+                    <!-- (E) tags -->
+                    <circle cx="670" cy="170" r="8" fill="#007f4e" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+                    </circle>
+                    <text x="670" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">E</text>
+                    
+                    <circle cx="710" cy="170" r="8" fill="#007f4e" opacity="0">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.7s" fill="freeze"/>
+                    </circle>
+                    <text x="710" y="175" text-anchor="middle" font-family="Inter" font-size="10" font-weight="700" fill="white">E</text>
+                </g>
+                
+                <!-- Arrow marker definition -->
+                <defs>
+                    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                            refX="9" refY="3.5" orient="auto">
+                        <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+                    </marker>
+                </defs>
+            </svg>
+            <div class="description hierarchy-2">
+                <strong>Process Flow:</strong> Shows how Problem Tree assumptions (A) are validated through stakeholder engagement to create evidence-based (E) refined analysis, demonstrating the transformation from preliminary to community-grounded understanding.
+            </div>
+        </div>
+
+        <div class="visual-container">
+            <h3>4. Engagement Strategy by Stakeholder Type</h3>
+            <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect width="800" height="500" fill="#f6f6f6"/>
+                
+                <!-- Three engagement approaches -->
+                <g id="primary-engagement" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+                    <rect x="50" y="100" width="200" height="120" rx="8" fill="#007f4e" opacity="0.2"/>
+                    <text x="150" y="130" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#007f4e">PRIMARY STAKEHOLDERS</text>
+                    <text x="150" y="150" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Community Meetings</text>
+                    <text x="150" y="170" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Focus Groups</text>
+                    <text x="150" y="190" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Open-ended Questions</text>
+                    <text x="150" y="210" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Extended Time</text>
+                    
+                    <!-- Community icons -->
+                    <g transform="translate(120, 250)">
+                        <circle cx="0" cy="0" r="15" fill="#007f4e" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+                        </circle>
+                        <circle cx="30" cy="0" r="15" fill="#007f4e" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
+                        </circle>
+                        <circle cx="60" cy="0" r="15" fill="#007f4e" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+                        </circle>
+                        <circle cx="15" cy="25" r="15" fill="#007f4e" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.6s" fill="freeze"/>
+                        </circle>
+                        <circle cx="45" cy="25" r="15" fill="#007f4e" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.8s" fill="freeze"/>
+                        </circle>
+                    </g>
+                </g>
+                
+                <g id="secondary-engagement" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+                    <rect x="300" y="100" width="200" height="120" rx="8" fill="#72b043" opacity="0.2"/>
+                    <text x="400" y="130" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#72b043">SECONDARY STAKEHOLDERS</text>
+                    <text x="400" y="150" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Structured Interviews</text>
+                    <text x="400" y="170" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Expert Consultations</text>
+                    <text x="400" y="190" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Direct Questions</text>
+                    <text x="400" y="210" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Time-Efficient</text>
+                    
+                    <!-- Professional icons -->
+                    <g transform="translate(380, 250)">
+                        <rect x="0" y="0" width="20" height="20" rx="3" fill="#72b043" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+                        </rect>
+                        <rect x="25" y="0" width="20" height="20" rx="3" fill="#72b043" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.7s" fill="freeze"/>
+                        </rect>
+                        <rect x="10" y="25" width="20" height="20" rx="3" fill="#72b043" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.9s" fill="freeze"/>
+                        </rect>
+                    </g>
+                </g>
+                
+                <g id="tertiary-engagement" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+                    <rect x="550" y="100" width="200" height="120" rx="8" fill="#f8cc1b" opacity="0.2"/>
+                    <text x="650" y="130" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#2a2a2a">TERTIARY STAKEHOLDERS</text>
+                    <text x="650" y="150" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Brief Updates</text>
+                    <text x="650" y="170" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Informational Meetings</text>
+                    <text x="650" y="190" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Focused Questions</text>
+                    <text x="650" y="210" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Minimal Time</text>
+                    
+                    <!-- Minimal engagement icons -->
+                    <g transform="translate(630, 250)">
+                        <circle cx="0" cy="0" r="8" fill="#f8cc1b" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+                        </circle>
+                        <circle cx="20" cy="0" r="8" fill="#f8cc1b" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.2s" fill="freeze"/>
+                        </circle>
+                        <circle cx="40" cy="0" r="8" fill="#f8cc1b" opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="freeze"/>
+                        </circle>
+                    </g>
+                </g>
+                
+                <!-- Connection lines -->
+                <g opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+                    <path d="M 150 350 Q 150 400 150 450" stroke="#007f4e" stroke-width="2" fill="none"/>
+                    <path d="M 400 350 Q 400 400 400 450" stroke="#72b043" stroke-width="2" fill="none"/>
+                    <path d="M 650 350 Q 650 400 650 450" stroke="#f8cc1b" stroke-width="2" fill="none"/>
+                </g>
+                
+                <!-- Bottom integration bar -->
+                <rect x="100" y="450" width="600" height="30" rx="15" fill="#007f4e" opacity="0">
+                    <animate attributeName="opacity" values="0;0.3" dur="1s" begin="3s" fill="freeze"/>
+                </rect>
+                <text x="400" y="470" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#007f4e" opacity="0">
+                    INTEGRATED STAKEHOLDER INSIGHTS
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="3.5s" fill="freeze"/>
+                </text>
+            </svg>
+            <div class="description hierarchy-2">
+                <strong>Engagement Strategy:</strong> Demonstrates differentiated engagement approaches for each stakeholder category, showing how methods, timing, and depth of engagement adapt to stakeholder characteristics and capacity.
+            </div>
+        </div>
+
+        <!-- TERTIARY HIERARCHY: Supporting Process Visuals -->
+        <h2>Supporting Process Visuals</h2>
+
+        <div class="visual-grid">
+            <div class="visual-container">
+                <h3>5. Successful vs Unsuccessful Engagement</h3>
+                <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Background -->
+                    <rect width="600" height="300" fill="#f6f6f6"/>
+                    
+                    <!-- Split screen divider -->
+                    <line x1="300" y1="0" x2="300" y2="300" stroke="#2a2a2a" stroke-width="2"/>
+                    
+                    <!-- Unsuccessful side (left) -->
+                    <g id="unsuccessful">
+                        <rect x="0" y="0" width="300" height="300" fill="#fee2e2" opacity="0.3"/>
+                        <text x="150" y="30" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="#e12729">UNSUCCESSFUL</text>
+                        
+                        <!-- Isolated planning -->
+                        <rect x="50" y="60" width="200" height="60" rx="8" fill="#e12729" opacity="0.2" stroke="#e12729" stroke-width="2"/>
+                        <text x="150" y="85" text-anchor="middle" font-family="Inter" font-size="12" fill="#e12729">Isolated Planning</text>
+                        <text x="150" y="105" text-anchor="middle" font-family="Inter" font-size="10" fill="#e12729">No community input</text>
+                        
+                        <!-- Failed implementation -->
+                        <rect x="50" y="140" width="200" height="60" rx="8" fill="#e12729" opacity="0.2" stroke="#e12729" stroke-width="2"/>
+                        <text x="150" y="165" text-anchor="middle" font-family="Inter" font-size="12" fill="#e12729">Failed Implementation</text>
+                        <text x="150" y="185" text-anchor="middle" font-family="Inter" font-size="10" fill="#e12729">Community resistance</text>
+                        
+                        <!-- Poor results -->
+                        <rect x="50" y="220" width="200" height="60" rx="8" fill="#e12729" opacity="0.2" stroke="#e12729" stroke-width="2"/>
+                        <text x="150" y="245" text-anchor="middle" font-family="Inter" font-size="12" fill="#e12729">Poor Results</text>
+                        <text x="150" y="265" text-anchor="middle" font-family="Inter" font-size="10" fill="#e12729">Wasted resources</text>
+                        
+                        <!-- Negative flow arrows -->
+                        <path d="M 150 120 L 150 140" stroke="#e12729" stroke-width="2" marker-end="url(#redArrow)"/>
+                        <path d="M 150 200 L 150 220" stroke="#e12729" stroke-width="2" marker-end="url(#redArrow)"/>
+                    </g>
+                    
+                    <!-- Successful side (right) -->
+                    <g id="successful">
+                        <rect x="300" y="0" width="300" height="300" fill="#ecfff7" opacity="0.3"/>
+                        <text x="450" y="30" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="#007f4e">SUCCESSFUL</text>
+                        
+                        <!-- Collaborative planning -->
+                        <rect x="350" y="60" width="200" height="60" rx="8" fill="#007f4e" opacity="0.2" stroke="#007f4e" stroke-width="2"/>
+                        <text x="450" y="85" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Collaborative Planning</text>
+                        <text x="450" y="105" text-anchor="middle" font-family="Inter" font-size="10" fill="#007f4e">Community-grounded</text>
+                        
+                        <!-- Strong implementation -->
+                        <rect x="350" y="140" width="200" height="60" rx="8" fill="#007f4e" opacity="0.2" stroke="#007f4e" stroke-width="2"/>
+                        <text x="450" y="165" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Strong Implementation</text>
+                        <text x="450" y="185" text-anchor="middle" font-family="Inter" font-size="10" fill="#007f4e">Community support</text>
+                        
+                        <!-- Lasting impact -->
+                        <rect x="350" y="220" width="200" height="60" rx="8" fill="#007f4e" opacity="0.2" stroke="#007f4e" stroke-width="2"/>
+                        <text x="450" y="245" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Lasting Impact</text>
+                        <text x="450" y="265" text-anchor="middle" font-family="Inter" font-size="10" fill="#007f4e">Sustainable change</text>
+                        
+                        <!-- Positive flow arrows -->
+                        <path d="M 450 120 L 450 140" stroke="#007f4e" stroke-width="2" marker-end="url(#greenArrow)"/>
+                        <path d="M 450 200 L 450 220" stroke="#007f4e" stroke-width="2" marker-end="url(#greenArrow)"/>
+                    </g>
+                    
+                    <!-- Arrow markers -->
+                    <defs>
+                        <marker id="redArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                            <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+                        </marker>
+                        <marker id="greenArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                            <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <div class="description hierarchy-3">
+                    <strong>Engagement Comparison:</strong> Visual contrast between projects that skip stakeholder engagement (leading to failure) versus those that prioritize community collaboration (leading to success).
+                </div>
+            </div>
+
+            <div class="visual-container">
+                <h3>6. Best Practices Checklist</h3>
+                <svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Background -->
+                    <rect width="500" height="400" fill="#f6f6f6"/>
+                    
+                    <!-- Checklist container -->
+                    <rect x="50" y="50" width="400" height="300" rx="12" fill="white" stroke="#007f4e" stroke-width="2"/>
+                    
+                    <!-- Header -->
+                    <rect x="50" y="50" width="400" height="50" rx="12" fill="#007f4e"/>
+                    <text x="250" y="80" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">ENGAGEMENT BEST PRACTICES</text>
+                    
+                    <!-- Checklist items -->
+                    <g id="checklist-items">
+                        <!-- Item 1 -->
+                        <g opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+                            <circle cx="80" cy="140" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+                            <path d="M 75 140 L 78 143 L 85 136" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1s" fill="freeze"/>
+                            </path>
+                            <text x="100" y="145" font-family="Inter" font-size="12" fill="#2a2a2a">Meet people where they are</text>
+                        </g>
+                        
+                        <!-- Item 2 -->
+                        <g opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+                            <circle cx="80" cy="170" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+                            <path d="M 75 170 L 78 173 L 85 166" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.5s" fill="freeze"/>
+                            </path>
+                            <text x="100" y="175" font-family="Inter" font-size="12" fill="#2a2a2a">Be transparent about purpose</text>
+                        </g>
+                        
+                        <!-- Item 3 -->
+                        <g opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+                            <circle cx="80" cy="200" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+                            <path d="M 75 200 L 78 203 L 85 196" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/>
+                            </path>
+                            <text x="100" y="205" font-family="Inter" font-size="12" fill="#2a2a2a">Create space for surprises</text>
+                        </g>
+                        
+                        <!-- Item 4 -->
+                        <g opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+                            <circle cx="80" cy="230" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+                            <path d="M 75 230 L 78 233 L 85 226" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/>
+                            </path>
+                            <text x="100" y="235" font-family="Inter" font-size="12" fill="#2a2a2a">Use appropriate timing</text>
+                        </g>
+                        
+                        <!-- Item 5 -->
+                        <g opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+                            <circle cx="80" cy="260" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+                            <path d="M 75 260 L 78 263 L 85 256" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3s" fill="freeze"/>
+                            </path>
+                            <text x="100" y="265" font-family="Inter" font-size="12" fill="#2a2a2a">Close the feedback loop</text>
+                        </g>
+                        
+                        <!-- Item 6 -->
+                        <g opacity="0">
+                            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+                            <circle cx="80" cy="290" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+                            <path d="M 75 290 L 78 293 L 85 286" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.5s" fill="freeze"/>
+                            </path>
+                            <text x="100" y="295" font-family="Inter" font-size="12" fill="#2a2a2a">Build ongoing relationships</text>
+                        </g>
+                    </g>
+                </svg>
+                <div class="description hierarchy-3">
+                    <strong>Best Practices:</strong> Animated checklist showing the six core principles for meaningful stakeholder engagement, with progressive reveal to emphasize each practice.
+                </div>
+            </div>
+        </div>
+
+        <div class="visual-container">
+            <h3>7. Integration Back to Problem Tree</h3>
+            <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect width="800" height="400" fill="#f6f6f6"/>
+                
+                <!-- Stakeholder insights (left) -->
+                <g id="insights" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+                    <rect x="50" y="80" width="200" height="240" rx="8" fill="#007f4e" opacity="0.2"/>
+                    <text x="150" y="110" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#007f4e">STAKEHOLDER INSIGHTS</text>
+                    
+                    <!-- Individual insights -->
+                    <rect x="70" y="130" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1s" fill="freeze"/>
+                    </rect>
+                    <text x="150" y="147" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Community Priority 1</text>
+                    
+                    <rect x="70" y="165" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1.3s" fill="freeze"/>
+                    </rect>
+                    <text x="150" y="182" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Validation Evidence</text>
+                    
+                    <rect x="70" y="200" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1.6s" fill="freeze"/>
+                    </rect>
+                    <text x="150" y="217" text-anchor="middle" font-family="Inter" font-size="10" fill="white">New Root Cause</text>
+                    
+                    <rect x="70" y="235" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="1.9s" fill="freeze"/>
+                    </rect>
+                    <text x="150" y="252" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Refined Effects</text>
+                    
+                    <rect x="70" y="270" width="160" height="25" rx="4" fill="#007f4e" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1" dur="0.5s" begin="2.2s" fill="freeze"/>
+                    </rect>
+                    <text x="150" y="287" text-anchor="middle" font-family="Inter" font-size="10" fill="white">Cultural Context</text>
+                </g>
+                
+                <!-- Integration arrow -->
+                <g opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+                    <path d="M 270 200 Q 350 200 430 200" stroke="#f37324" stroke-width="4" fill="none" marker-end="url(#orangeArrow)"/>
+                    <text x="350" y="190" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#f37324">INTEGRATION</text>
+                </g>
+                
+                <!-- Updated Problem Tree (right) -->
+                <g id="updated-tree" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+                    <rect x="450" y="80" width="300" height="240" rx="8" fill="#72b043" opacity="0.2"/>
+                    <text x="600" y="110" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#72b043">REFINED PROBLEM TREE</text>
+                    
+                    <!-- Tree structure with updates -->
+                    <!-- Effects -->
+                    <rect x="470" y="130" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+                    <text x="510" y="150" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">EFFECTS</text>
+                    
+                    <rect x="560" y="130" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+                    <text x="600" y="150" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">NEW EFFECT</text>
+                    
+                    <rect x="650" y="130" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+                    <text x="690" y="150" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">REFINED</text>
+                    
+                    <!-- Core Problem -->
+                    <rect x="520" y="180" width="160" height="40" rx="6" fill="#72b043" opacity="0.5"/>
+                    <text x="600" y="200" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">CORE PROBLEM</text>
+                    <text x="600" y="215" text-anchor="middle" font-family="Inter" font-size="10" fill="white">(Community Validated)</text>
+                    
+                    <!-- Root Causes -->
+                    <rect x="470" y="240" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+                    <text x="510" y="260" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">CAUSE 1</text>
+                    
+                    <rect x="560" y="240" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+                    <text x="600" y="260" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">NEW CAUSE</text>
+                    
+                    <rect x="650" y="240" width="80" height="30" rx="4" fill="#72b043" opacity="0.3"/>
+                    <text x="690" y="260" text-anchor="middle" font-family="Inter" font-size="10" fill="#72b043">VALIDATED</text>
+                    
+                    <!-- Evidence tags -->
+                    <circle cx="485" cy="145" r="6" fill="#007f4e">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+                    </circle>
+                    <text x="485" y="150" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+                    
+                    <circle cx="575" cy="145" r="6" fill="#007f4e">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.7s" fill="freeze"/>
+                    </circle>
+                    <text x="575" y="150" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+                    
+                    <circle cx="485" cy="255" r="6" fill="#007f4e">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.9s" fill="freeze"/>
+                    </circle>
+                    <text x="485" y="260" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+                    
+                    <circle cx="575" cy="255" r="6" fill="#007f4e">
+                        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4.1s" fill="freeze"/>
+                    </circle>
+                    <text x="575" y="260" text-anchor="middle" font-family="Inter" font-size="8" font-weight="700" fill="white">E</text>
+                </g>
+                
+                <!-- Arrow marker -->
+                <defs>
+                    <marker id="orangeArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                        <polygon points="0 0, 10 3.5, 0 7" fill="#f37324"/>
+                    </marker>
+                </defs>
+            </svg>
+            <div class="description hierarchy-3">
+                <strong>Integration Process:</strong> Shows how stakeholder insights flow back into the Problem Tree, converting assumptions to evidence (E tags) and adding new elements discovered through community engagement.
+            </div>
+        </div>
+
+        <div class="visual-container">
+            <h3>8. Community Settings for Engagement</h3>
+            <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect width="800" height="500" fill="#f6f6f6"/>
+                
+                <!-- Title -->
+                <text x="400" y="30" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="#007f4e">MEETING PEOPLE WHERE THEY ARE</text>
+                
+                <!-- Community Center -->
+                <g id="community-center" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+                    <rect x="50" y="80" width="200" height="120" rx="8" fill="#007f4e" opacity="0.2"/>
+                    <rect x="70" y="60" width="160" height="20" rx="4" fill="#007f4e"/>
+                    <text x="150" y="75" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">Community Center</text>
+                    
+                    <!-- Tables and chairs -->
+                    <rect x="80" y="120" width="40" height="20" rx="2" fill="#007f4e"/>
+                    <rect x="130" y="120" width="40" height="20" rx="2" fill="#007f4e"/>
+                    <rect x="180" y="120" width="40" height="20" rx="2" fill="#007f4e"/>
+                    
+                    <!-- People icons -->
+                    <circle cx="100" cy="110" r="5" fill="#007f4e"/>
+                    <circle cx="150" cy="110" r="5" fill="#007f4e"/>
+                    <circle cx="200" cy="110" r="5" fill="#007f4e"/>
+                    <circle cx="90" cy="160" r="5" fill="#007f4e"/>
+                    <circle cx="160" cy="160" r="5" fill="#007f4e"/>
+                    <circle cx="210" cy="160" r="5" fill="#007f4e"/>
+                </g>
+                
+                <!-- Religious Space -->
+                <g id="religious-space" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+                    <rect x="300" y="80" width="200" height="120" rx="8" fill="#72b043" opacity="0.2"/>
+                    <polygon points="380,60 420,60 420,80 380,80" fill="#72b043"/>
+                    <polygon points="395,50 405,50 400,60" fill="#72b043"/>
+                    <text x="400" y="75" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">Religious Space</text>
+                    
+                    <!-- Seating arrangement -->
+                    <rect x="320" y="120" width="160" height="10" rx="2" fill="#72b043"/>
+                    <rect x="320" y="140" width="160" height="10" rx="2" fill="#72b043"/>
+                    <rect x="320" y="160" width="160" height="10" rx="2" fill="#72b043"/>
+                    
+                    <!-- People icons -->
+                    <circle cx="340" cy="125" r="4" fill="#72b043"/>
+                    <circle cx="360" cy="125" r="4" fill="#72b043"/>
+                    <circle cx="380" cy="125" r="4" fill="#72b043"/>
+                    <circle cx="420" cy="125" r="4" fill="#72b043"/>
+                    <circle cx="440" cy="125" r="4" fill="#72b043"/>
+                    <circle cx="460" cy="125" r="4" fill="#72b043"/>
+                </g>
+                
+                <!-- Home/Informal Setting -->
+                <g id="home-setting" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="1.5s" fill="freeze"/>
+                    <rect x="550" y="80" width="200" height="120" rx="8" fill="#f8cc1b" opacity="0.2"/>
+                    <polygon points="630,60 670,60 650,50" fill="#f8cc1b"/>
+                    <rect x="620" y="60" width="60" height="20" rx="4" fill="#f8cc1b"/>
+                    <text x="650" y="75" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#2a2a2a">Home Setting</text>
+                    
+                    <!-- Informal seating -->
+                    <circle cx="600" cy="140" r="15" fill="#f8cc1b" opacity="0.5"/>
+                    <circle cx="650" cy="130" r="15" fill="#f8cc1b" opacity="0.5"/>
+                    <circle cx="700" cy="150" r="15" fill="#f8cc1b" opacity="0.5"/>
+                    
+                    <!-- People icons -->
+                    <circle cx="600" cy="140" r="5" fill="#f8cc1b"/>
+                    <circle cx="650" cy="130" r="5" fill="#f8cc1b"/>
+                    <circle cx="700" cy="150" r="5" fill="#f8cc1b"/>
+                </g>
+                
+                <!-- Workplace -->
+                <g id="workplace" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
+                    <rect x="50" y="280" width="200" height="120" rx="8" fill="#e12729" opacity="0.2"/>
+                    <rect x="70" y="260" width="160" height="20" rx="4" fill="#e12729"/>
+                    <text x="150" y="275" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">Workplace</text>
+                    
+                    <!-- Office desks -->
+                    <rect x="80" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+                    <rect x="120" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+                    <rect x="160" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+                    <rect x="200" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+                    
+                    <!-- People icons -->
+                    <circle cx="95" cy="310" r="5" fill="#e12729"/>
+                    <circle cx="135" cy="310" r="5" fill="#e12729"/>
+                    <circle cx="175" cy="310" r="5" fill="#e12729"/>
+                    <circle cx="215" cy="310" r="5" fill="#e12729"/>
+                </g>
+                
+                <!-- Market/Public Space -->
+                <g id="market-space" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+                    <rect x="300" y="280" width="200" height="120" rx="8" fill="#f37324" opacity="0.2"/>
+                    <text x="400" y="300" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#f37324">Market/Public Space</text>
+                    
+                    <!-- Market stalls -->
+                    <rect x="320" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+                    <rect x="355" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+                    <rect x="390" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+                    <rect x="425" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+                    <rect x="460" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+                    
+                    <!-- People moving around -->
+                    <circle cx="330" cy="365" r="4" fill="#f37324"/>
+                    <circle cx="370" cy="370" r="4" fill="#f37324"/>
+                    <circle cx="410" cy="365" r="4" fill="#f37324"/>
+                    <circle cx="450" cy="375" r="4" fill="#f37324"/>
+                </g>
+                
+                <!-- Virtual/Remote -->
+                <g id="virtual-space" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+                    <rect x="550" y="280" width="200" height="120" rx="8" fill="#007f4e" opacity="0.2"/>
+                    <rect x="570" y="300" width="160" height="80" rx="4" fill="#2a2a2a"/>
+                    <text x="650" y="290" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">Virtual/Remote</text>
+                    
+                    <!-- Video call grid -->
+                    <rect x="590" y="320" width="30" height="25" rx="2" fill="#007f4e"/>
+                    <rect x="630" y="320" width="30" height="25" rx="2" fill="#007f4e"/>
+                    <rect x="670" y="320" width="30" height="25" rx="2" fill="#007f4e"/>
+                    <rect x="590" y="350" width="30" height="25" rx="2" fill="#007f4e"/>
+                    <rect x="630" y="350" width="30" height="25" rx="2" fill="#007f4e"/>
+                    <rect x="670" y="350" width="30" height="25" rx="2" fill="#007f4e"/>
+                    
+                    <!-- People in video calls -->
+                    <circle cx="605" cy="332" r="3" fill="white"/>
+                    <circle cx="645" cy="332" r="3" fill="white"/>
+                    <circle cx="685" cy="332" r="3" fill="white"/>
+                    <circle cx="605" cy="362" r="3" fill="white"/>
+                    <circle cx="645" cy="362" r="3" fill="white"/>
+                    <circle cx="685" cy="362" r="3" fill="white"/>
+                </g>
+                
+                <!-- Connection lines -->
+                <g opacity="0">
+                    <animate attributeName="opacity" values="0;0.3" dur="1s" begin="3.5s" fill="freeze"/>
+                    <path d="M 400 450 Q 200 470 150 420" stroke="#007f4e" stroke-width="2" stroke-dasharray="5,5"/>
+                    <path d="M 400 450 Q 400 470 400 420" stroke="#007f4e" stroke-width="2" stroke-dasharray="5,5"/>
+                    <path d="M 400 450 Q 600 470 650 420" stroke="#007f4e" stroke-width="2" stroke-dasharray="5,5"/>
+                </g>
+                
+                <!-- Bottom message -->
+                <rect x="200" y="440" width="400" height="40" rx="20" fill="#007f4e" opacity="0">
+                    <animate attributeName="opacity" values="0;0.9" dur="1s" begin="4s" fill="freeze"/>
+                </rect>
+                <text x="400" y="465" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="white" opacity="0">
+                    ADAPT TO COMMUNITY PREFERENCES & ACCESSIBILITY
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="4.5s" fill="freeze"/>
+                </text>
+            </svg>
+            <div class="description hierarchy-3">
+                <strong>Community Settings:</strong> Illustrates the diversity of appropriate engagement settings, emphasizing the importance of meeting stakeholders in familiar, comfortable, and culturally appropriate spaces.
+            </div>
+        </div>
+
+        <div class="animation-controls">
+            <button class="play-button" onclick="location.reload()">🔄 Replay All Animations</button>
+        </div>
+
+        <div style="margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, #ecfff7 0%, #f6f6f6 100%); border-radius: 12px; text-align: center;">
+            <h2 style="color: #007f4e; margin-bottom: 1rem;">Visual Learning Summary</h2>
+            <p style="font-size: 1.125rem; color: #2a2a2a; line-height: 1.7;">
+                These animated visuals support the core learning objectives of Lesson 1.2 by illustrating the systematic approach to stakeholder mapping and engagement. Each visual reinforces key concepts through progressive animation that mirrors the step-by-step methodology taught in the lesson.
+            </p>
+            <div style="margin-top: 2rem;">
+                <p style="font-weight: 600; color: #007f4e;">Key Visual Hierarchies:</p>
+                <p style="margin: 0.5rem 0;"><span style="color: #e12729;">█</span> Primary Framework Visuals (Core concepts)</p>
+                <p style="margin: 0.5rem 0;"><span style="color: #f37324;">█</span> Process Flow Visuals (Implementation guidance)</p>
+                <p style="margin: 0.5rem 0;"><span style="color: #007f4e;">█</span> Supporting Process Visuals (Practical application)</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

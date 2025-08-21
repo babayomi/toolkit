@@ -33,6 +33,83 @@ Culture influences:
 - **When and where** conversations can happen
 - **How decisions** are made collectively
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="500" height="400" fill="#f6f6f6"/>
+    
+    <!-- Checklist container -->
+    <rect x="50" y="50" width="400" height="300" rx="12" fill="white" stroke="#007f4e" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="50" y="50" width="400" height="50" rx="12" fill="#007f4e"/>
+    <text x="250" y="80" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="white">ENGAGEMENT BEST PRACTICES</text>
+    
+    <!-- Checklist items -->
+    <g id="checklist-items">
+        <!-- Item 1 -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+            <circle cx="80" cy="140" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+            <path d="M 75 140 L 78 143 L 85 136" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1s" fill="freeze"/>
+            </path>
+            <text x="100" y="145" font-family="Inter" font-size="12" fill="#2a2a2a">Meet people where they are</text>
+        </g>
+        
+        <!-- Item 2 -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+            <circle cx="80" cy="170" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+            <path d="M 75 170 L 78 173 L 85 166" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.5s" fill="freeze"/>
+            </path>
+            <text x="100" y="175" font-family="Inter" font-size="12" fill="#2a2a2a">Be transparent about purpose</text>
+        </g>
+        
+        <!-- Item 3 -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+            <circle cx="80" cy="200" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+            <path d="M 75 200 L 78 203 L 85 196" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/>
+            </path>
+            <text x="100" y="205" font-family="Inter" font-size="12" fill="#2a2a2a">Create space for surprises</text>
+        </g>
+        
+        <!-- Item 4 -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+            <circle cx="80" cy="230" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+            <path d="M 75 230 L 78 233 L 85 226" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/>
+            </path>
+            <text x="100" y="235" font-family="Inter" font-size="12" fill="#2a2a2a">Use appropriate timing</text>
+        </g>
+        
+        <!-- Item 5 -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+            <circle cx="80" cy="260" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+            <path d="M 75 260 L 78 263 L 85 256" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3s" fill="freeze"/>
+            </path>
+            <text x="100" y="265" font-family="Inter" font-size="12" fill="#2a2a2a">Close the feedback loop</text>
+        </g>
+        
+        <!-- Item 6 -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+            <circle cx="80" cy="290" r="8" fill="white" stroke="#007f4e" stroke-width="2"/>
+            <path d="M 75 290 L 78 293 L 85 286" stroke="#007f4e" stroke-width="2" fill="none" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.5s" fill="freeze"/>
+            </path>
+            <text x="100" y="295" font-family="Inter" font-size="12" fill="#2a2a2a">Build ongoing relationships</text>
+        </g>
+    </g>
+</svg>
+</div>
+
 ---
 
 ## 🔍 Pre-Engagement Cultural Research

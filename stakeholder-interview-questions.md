@@ -25,6 +25,106 @@ Transform your Problem Tree elements into exploration themes:
 - **Core Problem** → "Tell me about your experience with..."
 - **Effects** → "What happens when..."
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="800" height="500" fill="#f6f6f6"/>
+    
+    <!-- Three engagement approaches -->
+    <g id="primary-engagement" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+        <rect x="50" y="100" width="200" height="120" rx="8" fill="#007f4e" opacity="0.2"/>
+        <text x="150" y="130" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#007f4e">PRIMARY STAKEHOLDERS</text>
+        <text x="150" y="150" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Community Meetings</text>
+        <text x="150" y="170" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Focus Groups</text>
+        <text x="150" y="190" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Open-ended Questions</text>
+        <text x="150" y="210" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Extended Time</text>
+        
+        <!-- Community icons -->
+        <g transform="translate(120, 250)">
+            <circle cx="0" cy="0" r="15" fill="#007f4e" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+            </circle>
+            <circle cx="30" cy="0" r="15" fill="#007f4e" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
+            </circle>
+            <circle cx="60" cy="0" r="15" fill="#007f4e" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+            </circle>
+            <circle cx="15" cy="25" r="15" fill="#007f4e" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.6s" fill="freeze"/>
+            </circle>
+            <circle cx="45" cy="25" r="15" fill="#007f4e" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.8s" fill="freeze"/>
+            </circle>
+        </g>
+    </g>
+    
+    <g id="secondary-engagement" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+        <rect x="300" y="100" width="200" height="120" rx="8" fill="#72b043" opacity="0.2"/>
+        <text x="400" y="130" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#72b043">SECONDARY STAKEHOLDERS</text>
+        <text x="400" y="150" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Structured Interviews</text>
+        <text x="400" y="170" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Expert Consultations</text>
+        <text x="400" y="190" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Direct Questions</text>
+        <text x="400" y="210" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043">Time-Efficient</text>
+        
+        <!-- Professional icons -->
+        <g transform="translate(380, 250)">
+            <rect x="0" y="0" width="20" height="20" rx="3" fill="#72b043" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+            </rect>
+            <rect x="25" y="0" width="20" height="20" rx="3" fill="#72b043" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.7s" fill="freeze"/>
+            </rect>
+            <rect x="10" y="25" width="20" height="20" rx="3" fill="#72b043" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.9s" fill="freeze"/>
+            </rect>
+        </g>
+    </g>
+    
+    <g id="tertiary-engagement" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+        <rect x="550" y="100" width="200" height="120" rx="8" fill="#f8cc1b" opacity="0.2"/>
+        <text x="650" y="130" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#2a2a2a">TERTIARY STAKEHOLDERS</text>
+        <text x="650" y="150" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Brief Updates</text>
+        <text x="650" y="170" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Informational Meetings</text>
+        <text x="650" y="190" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Focused Questions</text>
+        <text x="650" y="210" text-anchor="middle" font-family="Inter" font-size="12" fill="#2a2a2a">Minimal Time</text>
+        
+        <!-- Minimal engagement icons -->
+        <g transform="translate(630, 250)">
+            <circle cx="0" cy="0" r="8" fill="#f8cc1b" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+            </circle>
+            <circle cx="20" cy="0" r="8" fill="#f8cc1b" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.2s" fill="freeze"/>
+            </circle>
+            <circle cx="40" cy="0" r="8" fill="#f8cc1b" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="freeze"/>
+            </circle>
+        </g>
+    </g>
+    
+    <!-- Connection lines -->
+    <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+        <path d="M 150 350 Q 150 400 150 450" stroke="#007f4e" stroke-width="2" fill="none"/>
+        <path d="M 400 350 Q 400 400 400 450" stroke="#72b043" stroke-width="2" fill="none"/>
+        <path d="M 650 350 Q 650 400 650 450" stroke="#f8cc1b" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Bottom integration bar -->
+    <rect x="100" y="450" width="600" height="30" rx="15" fill="#007f4e" opacity="0">
+        <animate attributeName="opacity" values="0;0.3" dur="1s" begin="3s" fill="freeze"/>
+    </rect>
+    <text x="400" y="470" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#007f4e" opacity="0">
+        INTEGRATED STAKEHOLDER INSIGHTS
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="3.5s" fill="freeze"/>
+    </text>
+</svg>
+</div>
+
 ---
 
 ## 🎯 Universal Opening Questions

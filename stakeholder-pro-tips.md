@@ -80,6 +80,159 @@ Instead of creating new meetings, join existing gatherings.
 - Health clinics, school events
 - Agricultural demonstrations, training sessions
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="800" height="500" fill="#f6f6f6"/>
+    
+    <!-- Title -->
+    <text x="400" y="30" text-anchor="middle" font-family="Inter" font-size="18" font-weight="700" fill="#007f4e">MEETING PEOPLE WHERE THEY ARE</text>
+    
+    <!-- Community Center -->
+    <g id="community-center" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+        <rect x="50" y="80" width="200" height="120" rx="8" fill="#007f4e" opacity="0.2"/>
+        <rect x="70" y="60" width="160" height="20" rx="4" fill="#007f4e"/>
+        <text x="150" y="75" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">Community Center</text>
+        
+        <!-- Tables and chairs -->
+        <rect x="80" y="120" width="40" height="20" rx="2" fill="#007f4e"/>
+        <rect x="130" y="120" width="40" height="20" rx="2" fill="#007f4e"/>
+        <rect x="180" y="120" width="40" height="20" rx="2" fill="#007f4e"/>
+        
+        <!-- People icons -->
+        <circle cx="100" cy="110" r="5" fill="#007f4e"/>
+        <circle cx="150" cy="110" r="5" fill="#007f4e"/>
+        <circle cx="200" cy="110" r="5" fill="#007f4e"/>
+        <circle cx="90" cy="160" r="5" fill="#007f4e"/>
+        <circle cx="160" cy="160" r="5" fill="#007f4e"/>
+        <circle cx="210" cy="160" r="5" fill="#007f4e"/>
+    </g>
+    
+    <!-- Religious Space -->
+    <g id="religious-space" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+        <rect x="300" y="80" width="200" height="120" rx="8" fill="#72b043" opacity="0.2"/>
+        <polygon points="380,60 420,60 420,80 380,80" fill="#72b043"/>
+        <polygon points="395,50 405,50 400,60" fill="#72b043"/>
+        <text x="400" y="75" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">Religious Space</text>
+        
+        <!-- Seating arrangement -->
+        <rect x="320" y="120" width="160" height="10" rx="2" fill="#72b043"/>
+        <rect x="320" y="140" width="160" height="10" rx="2" fill="#72b043"/>
+        <rect x="320" y="160" width="160" height="10" rx="2" fill="#72b043"/>
+        
+        <!-- People icons -->
+        <circle cx="340" cy="125" r="4" fill="#72b043"/>
+        <circle cx="360" cy="125" r="4" fill="#72b043"/>
+        <circle cx="380" cy="125" r="4" fill="#72b043"/>
+        <circle cx="420" cy="125" r="4" fill="#72b043"/>
+        <circle cx="440" cy="125" r="4" fill="#72b043"/>
+        <circle cx="460" cy="125" r="4" fill="#72b043"/>
+    </g>
+    
+    <!-- Home/Informal Setting -->
+    <g id="home-setting" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="1.5s" fill="freeze"/>
+        <rect x="550" y="80" width="200" height="120" rx="8" fill="#f8cc1b" opacity="0.2"/>
+        <polygon points="630,60 670,60 650,50" fill="#f8cc1b"/>
+        <rect x="620" y="60" width="60" height="20" rx="4" fill="#f8cc1b"/>
+        <text x="650" y="75" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#2a2a2a">Home Setting</text>
+        
+        <!-- Informal seating -->
+        <circle cx="600" cy="140" r="15" fill="#f8cc1b" opacity="0.5"/>
+        <circle cx="650" cy="130" r="15" fill="#f8cc1b" opacity="0.5"/>
+        <circle cx="700" cy="150" r="15" fill="#f8cc1b" opacity="0.5"/>
+        
+        <!-- People icons -->
+        <circle cx="600" cy="140" r="5" fill="#f8cc1b"/>
+        <circle cx="650" cy="130" r="5" fill="#f8cc1b"/>
+        <circle cx="700" cy="150" r="5" fill="#f8cc1b"/>
+    </g>
+    
+    <!-- Workplace -->
+    <g id="workplace" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
+        <rect x="50" y="280" width="200" height="120" rx="8" fill="#e12729" opacity="0.2"/>
+        <rect x="70" y="260" width="160" height="20" rx="4" fill="#e12729"/>
+        <text x="150" y="275" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="white">Workplace</text>
+        
+        <!-- Office desks -->
+        <rect x="80" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+        <rect x="120" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+        <rect x="160" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+        <rect x="200" y="320" width="30" height="20" rx="2" fill="#e12729"/>
+        
+        <!-- People icons -->
+        <circle cx="95" cy="310" r="5" fill="#e12729"/>
+        <circle cx="135" cy="310" r="5" fill="#e12729"/>
+        <circle cx="175" cy="310" r="5" fill="#e12729"/>
+        <circle cx="215" cy="310" r="5" fill="#e12729"/>
+    </g>
+    
+    <!-- Market/Public Space -->
+    <g id="market-space" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+        <rect x="300" y="280" width="200" height="120" rx="8" fill="#f37324" opacity="0.2"/>
+        <text x="400" y="300" text-anchor="middle" font-family="Inter" font-size="14" font-weight="600" fill="#f37324">Market/Public Space</text>
+        
+        <!-- Market stalls -->
+        <rect x="320" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+        <rect x="355" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+        <rect x="390" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+        <rect x="425" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+        <rect x="460" y="320" width="25" height="25" rx="2" fill="#f37324" opacity="0.6"/>
+        
+        <!-- People moving around -->
+        <circle cx="330" cy="365" r="4" fill="#f37324"/>
+        <circle cx="370" cy="370" r="4" fill="#f37324"/>
+        <circle cx="410" cy="365" r="4" fill="#f37324"/>
+        <circle cx="450" cy="375" r="4" fill="#f37324"/>
+    </g>
+    
+    <!-- Virtual/Remote -->
+    <g id="virtual-space" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+        <rect x="550" y="280" width="200" height="120" rx="8" fill="#007f4e" opacity="0.2"/>
+        <rect x="570" y="300" width="160" height="80" rx="4" fill="#2a2a2a"/>
+        <text x="650" y="290" text-anchor="middle" font-family="Inter" font-size="12" font-weight="600" fill="#007f4e">Virtual/Remote</text>
+        
+        <!-- Video call grid -->
+        <rect x="590" y="320" width="30" height="25" rx="2" fill="#007f4e"/>
+        <rect x="630" y="320" width="30" height="25" rx="2" fill="#007f4e"/>
+        <rect x="670" y="320" width="30" height="25" rx="2" fill="#007f4e"/>
+        <rect x="590" y="350" width="30" height="25" rx="2" fill="#007f4e"/>
+        <rect x="630" y="350" width="30" height="25" rx="2" fill="#007f4e"/>
+        <rect x="670" y="350" width="30" height="25" rx="2" fill="#007f4e"/>
+        
+        <!-- People in video calls -->
+        <circle cx="605" cy="332" r="3" fill="white"/>
+        <circle cx="645" cy="332" r="3" fill="white"/>
+        <circle cx="685" cy="332" r="3" fill="white"/>
+        <circle cx="605" cy="362" r="3" fill="white"/>
+        <circle cx="645" cy="362" r="3" fill="white"/>
+        <circle cx="685" cy="362" r="3" fill="white"/>
+    </g>
+    
+    <!-- Connection lines -->
+    <g opacity="0">
+        <animate attributeName="opacity" values="0;0.3" dur="1s" begin="3.5s" fill="freeze"/>
+        <path d="M 400 450 Q 200 470 150 420" stroke="#007f4e" stroke-width="2" stroke-dasharray="5,5"/>
+        <path d="M 400 450 Q 400 470 400 420" stroke="#007f4e" stroke-width="2" stroke-dasharray="5,5"/>
+        <path d="M 400 450 Q 600 470 650 420" stroke="#007f4e" stroke-width="2" stroke-dasharray="5,5"/>
+    </g>
+    
+    <!-- Bottom message -->
+    <rect x="200" y="440" width="400" height="40" rx="20" fill="#007f4e" opacity="0">
+        <animate attributeName="opacity" values="0;0.9" dur="1s" begin="4s" fill="freeze"/>
+    </rect>
+    <text x="400" y="465" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="white" opacity="0">
+        ADAPT TO COMMUNITY PREFERENCES & ACCESSIBILITY
+        <animate attributeName="opacity" values="0;1" dur="1s" begin="4.5s" fill="freeze"/>
+    </text>
+</svg>
+</div>
+
 **The Approach:**
 1. **Attend as Observer First**: Build familiarity before engaging
 2. **Contribute Before Extracting**: Bring value to their gathering

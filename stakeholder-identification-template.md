@@ -29,6 +29,98 @@ Use your Problem Tree as a stakeholder discovery map - every branch suggests peo
 
 ## 🎯 The Three Stakeholder Categories
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f6f6f6"/>
+    
+    <!-- Concentric circles representing stakeholder layers -->
+    <g id="stakeholder-layers">
+        <!-- Tertiary (outermost) -->
+        <circle cx="400" cy="300" r="280" fill="none" stroke="#d1ffe9" stroke-width="3" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+            <animate attributeName="r" values="350;280" dur="1s" begin="0s" fill="freeze"/>
+        </circle>
+        
+        <!-- Secondary (middle) -->
+        <circle cx="400" cy="300" r="180" fill="none" stroke="#a7ffd8" stroke-width="3" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+            <animate attributeName="r" values="250;180" dur="1s" begin="0.5s" fill="freeze"/>
+        </circle>
+        
+        <!-- Primary (innermost) -->
+        <circle cx="400" cy="300" r="100" fill="none" stroke="#007f4e" stroke-width="4" opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+            <animate attributeName="r" values="150;100" dur="1s" begin="1s" fill="freeze"/>
+        </circle>
+    </g>
+    
+    <!-- Labels -->
+    <g id="labels">
+        <text x="400" y="300" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#007f4e" opacity="0">
+            PRIMARY
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+        </text>
+        <text x="400" y="320" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e" opacity="0">
+            Directly Affected
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+        </text>
+        
+        <text x="400" y="450" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#72b043" opacity="0">
+            SECONDARY
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+        </text>
+        <text x="400" y="470" text-anchor="middle" font-family="Inter" font-size="12" fill="#72b043" opacity="0">
+            Influence & Expertise
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+        </text>
+        
+        <text x="400" y="560" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#f8cc1b" opacity="0">
+            TERTIARY
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+        </text>
+        <text x="400" y="580" text-anchor="middle" font-family="Inter" font-size="12" fill="#f8cc1b" opacity="0">
+            Indirect Interest
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+        </text>
+    </g>
+    
+    <!-- Stakeholder Icons -->
+    <g id="stakeholder-icons">
+        <!-- Primary stakeholders -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+            <circle cx="380" cy="280" r="8" fill="#007f4e"/>
+            <circle cx="420" cy="280" r="8" fill="#007f4e"/>
+            <circle cx="380" cy="320" r="8" fill="#007f4e"/>
+            <circle cx="420" cy="320" r="8" fill="#007f4e"/>
+        </g>
+        
+        <!-- Secondary stakeholders -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+            <circle cx="320" cy="380" r="8" fill="#72b043"/>
+            <circle cx="480" cy="380" r="8" fill="#72b043"/>
+            <circle cx="300" cy="220" r="8" fill="#72b043"/>
+            <circle cx="500" cy="220" r="8" fill="#72b043"/>
+            <circle cx="320" cy="220" r="8" fill="#72b043"/>
+            <circle cx="480" cy="220" r="8" fill="#72b043"/>
+        </g>
+        
+        <!-- Tertiary stakeholders -->
+        <g opacity="0">
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4s" fill="freeze"/>
+            <circle cx="200" cy="500" r="6" fill="#f8cc1b"/>
+            <circle cx="600" cy="500" r="6" fill="#f8cc1b"/>
+            <circle cx="150" cy="150" r="6" fill="#f8cc1b"/>
+            <circle cx="650" cy="150" r="6" fill="#f8cc1b"/>
+            <circle cx="200" cy="100" r="6" fill="#f8cc1b"/>
+            <circle cx="600" cy="100" r="6" fill="#f8cc1b"/>
+        </g>
+    </g>
+</svg>
+</div>
+
 ### Primary Stakeholders (Directly Affected)
 **Definition:** People who experience the problem directly or will be directly affected by your project outcomes.
 

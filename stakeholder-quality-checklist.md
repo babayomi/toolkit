@@ -16,6 +16,76 @@ Evaluation criteria to ensure your engagement is meaningful, diverse, and genera
 
 ## 🎯 Quality Engagement vs. Box-Checking
 
+<div class="visual-container" style="background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); border: 1px solid #e5f2d8;">
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; border-radius: 8px;">
+    <!-- Background -->
+    <rect width="600" height="300" fill="#f6f6f6"/>
+    
+    <!-- Split screen divider -->
+    <line x1="300" y1="0" x2="300" y2="300" stroke="#2a2a2a" stroke-width="2"/>
+    
+    <!-- Unsuccessful side (left) -->
+    <g id="unsuccessful">
+        <rect x="0" y="0" width="300" height="300" fill="#fee2e2" opacity="0.3"/>
+        <text x="150" y="30" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="#e12729">UNSUCCESSFUL</text>
+        
+        <!-- Isolated planning -->
+        <rect x="50" y="60" width="200" height="60" rx="8" fill="#e12729" opacity="0.2" stroke="#e12729" stroke-width="2"/>
+        <text x="150" y="85" text-anchor="middle" font-family="Inter" font-size="12" fill="#e12729">Isolated Planning</text>
+        <text x="150" y="105" text-anchor="middle" font-family="Inter" font-size="10" fill="#e12729">No community input</text>
+        
+        <!-- Failed implementation -->
+        <rect x="50" y="140" width="200" height="60" rx="8" fill="#e12729" opacity="0.2" stroke="#e12729" stroke-width="2"/>
+        <text x="150" y="165" text-anchor="middle" font-family="Inter" font-size="12" fill="#e12729">Failed Implementation</text>
+        <text x="150" y="185" text-anchor="middle" font-family="Inter" font-size="10" fill="#e12729">Community resistance</text>
+        
+        <!-- Poor results -->
+        <rect x="50" y="220" width="200" height="60" rx="8" fill="#e12729" opacity="0.2" stroke="#e12729" stroke-width="2"/>
+        <text x="150" y="245" text-anchor="middle" font-family="Inter" font-size="12" fill="#e12729">Poor Results</text>
+        <text x="150" y="265" text-anchor="middle" font-family="Inter" font-size="10" fill="#e12729">Wasted resources</text>
+        
+        <!-- Negative flow arrows -->
+        <path d="M 150 120 L 150 140" stroke="#e12729" stroke-width="2" marker-end="url(#redArrow)"/>
+        <path d="M 150 200 L 150 220" stroke="#e12729" stroke-width="2" marker-end="url(#redArrow)"/>
+    </g>
+    
+    <!-- Successful side (right) -->
+    <g id="successful">
+        <rect x="300" y="0" width="300" height="300" fill="#ecfff7" opacity="0.3"/>
+        <text x="450" y="30" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="#007f4e">SUCCESSFUL</text>
+        
+        <!-- Collaborative planning -->
+        <rect x="350" y="60" width="200" height="60" rx="8" fill="#007f4e" opacity="0.2" stroke="#007f4e" stroke-width="2"/>
+        <text x="450" y="85" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Collaborative Planning</text>
+        <text x="450" y="105" text-anchor="middle" font-family="Inter" font-size="10" fill="#007f4e">Community-grounded</text>
+        
+        <!-- Strong implementation -->
+        <rect x="350" y="140" width="200" height="60" rx="8" fill="#007f4e" opacity="0.2" stroke="#007f4e" stroke-width="2"/>
+        <text x="450" y="165" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Strong Implementation</text>
+        <text x="450" y="185" text-anchor="middle" font-family="Inter" font-size="10" fill="#007f4e">Community support</text>
+        
+        <!-- Lasting impact -->
+        <rect x="350" y="220" width="200" height="60" rx="8" fill="#007f4e" opacity="0.2" stroke="#007f4e" stroke-width="2"/>
+        <text x="450" y="245" text-anchor="middle" font-family="Inter" font-size="12" fill="#007f4e">Lasting Impact</text>
+        <text x="450" y="265" text-anchor="middle" font-family="Inter" font-size="10" fill="#007f4e">Sustainable change</text>
+        
+        <!-- Positive flow arrows -->
+        <path d="M 450 120 L 450 140" stroke="#007f4e" stroke-width="2" marker-end="url(#greenArrow)"/>
+        <path d="M 450 200 L 450 220" stroke="#007f4e" stroke-width="2" marker-end="url(#greenArrow)"/>
+    </g>
+    
+    <!-- Arrow markers -->
+    <defs>
+        <marker id="redArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+        </marker>
+        <marker id="greenArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+        </marker>
+    </defs>
+</svg>
+</div>
+
 ### The Difference That Matters
 
 **Box-Checking Engagement:**
