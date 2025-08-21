@@ -476,48 +476,11 @@ Young people aged 15-24 in Middle Eastern cities face unemployment rates of 42%,
 
 ---
 
-## 📊 Common Patterns Across Sectors
-
-### Pattern 1: Infrastructure Limitations
-**Appears in:** Health (clinic access), Education (school facilities), Economic development (market access)
-**Recognition**: Geographic barriers, physical infrastructure gaps, transportation challenges
-
-### Pattern 2: Capacity Constraints  
-**Appears in:** All sectors - insufficient skilled personnel, training gaps, institutional weaknesses
-**Recognition**: Human resource shortages, skill mismatches, weak systems
-
-### Pattern 3: Financial Barriers
-**Appears in:** Healthcare costs, education fees, business capital, infrastructure investment
-**Recognition**: Affordability issues, limited funding, economic inequality
-
-### Pattern 4: Governance and Policy Issues
-**Appears in:** Weak implementation, policy gaps, corruption, lack of coordination
-**Recognition**: Institutional failures, regulatory problems, accountability deficits
-
-### Pattern 5: Social and Cultural Factors
-**Appears in:** Traditional practices, social norms, discrimination, community resistance
-**Recognition**: Behavioral barriers, cultural conflicts, social exclusion
-
----
-
-## 📥 Download Templates
-
-<div class="download-section">
-<h3>Ready-to-Use Templates</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
-<a href="/assets/downloads/problem-tree-template-blank.pdf" class="btn btn-outline">📄 Blank Problem Tree Template</a>
-<a href="/assets/downloads/problem-tree-examples-sectors.pdf" class="btn btn-outline">📚 Sector Examples Collection</a>
-<a href="/assets/downloads/problem-tree-quality-criteria.pdf" class="btn btn-outline">✅ Quality Assessment Checklist</a>
-</div>
-</div>
-
----
-
 ## 🚀 Next Steps
 
-1. **Download the blank template** and apply it to your project
-2. **Study the sector example** most relevant to your work  
-3. **Complete your first draft** problem tree
+1. **Review the sector examples** above to find the most relevant to your work
+2. **Use the embedded template** to structure your own problem tree analysis
+3. **Complete your first draft** problem tree following the customization guide
 4. **Move to [🛗 Accessibility Companion](../accessibility-companion/)** to ensure inclusivity
 5. **Use [❓ Brainstorming Questions](../brainstorming-questions/)** to refine your analysis
 
