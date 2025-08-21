@@ -4,9 +4,9 @@
 
   {% unless site.plugins contains "jekyll-seo-tag" %}
   <title>
-    {% if page.title %} {{ page.title }} - {{ site.title }} {% else %} {{
-    site.title }}{% unless site.title == site.description %} - {{
-    site.description }}{% endunless %} {% endif %}
+    {% if page.title %} {{ page.title }} {% else %} {{ site.title }}{% unless
+    site.title == site.description %} - {{ site.description }}{% endunless %} {%
+    endif %}
   </title>
 
   {% if page.description %}

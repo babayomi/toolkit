@@ -25,7 +25,10 @@
       "Bash(gh run list:*)",
       "Bash(gh run view:*)",
       "WebSearch",
-      "Bash(gem install:*)"
+      "Bash(gem install:*)",
+      "Bash(bundle update:*)",
+      "Bash(bundle --version)",
+      "Bash(jekyll build:*)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"
