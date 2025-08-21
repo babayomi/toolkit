@@ -4,17 +4,20 @@
 <style>
   /* Override site title to show only Festa logomark */
   .site-title {
-    display: block !important;
+    display: flex !important;
+    align-items: center !important;
     text-decoration: none !important;
     transition: all 150ms ease !important;
     font-size: 0 !important; /* Hide text */
     text-indent: -9999px !important; /* Hide text completely */
-    overflow: hidden !important;
-    width: 32px !important; /* Only logo width */
-    height: 30px !important; /* Only logo height */
+    overflow: visible !important; /* Allow logo to show fully */
+    width: auto !important; /* Auto width to accommodate logo */
+    min-width: 40px !important; /* Minimum width for logo */
+    height: 40px !important; /* Adequate height for logo */
     white-space: nowrap !important;
     color: transparent !important;
     background: transparent !important;
+    padding: 5px !important; /* Add padding for better visibility */
   }
   
   /* Hide all text content in site title */
@@ -33,8 +36,8 @@
   .site-title:before {
     content: "";
     display: block !important;
-    width: 32px !important;
-    height: 30px !important;
+    width: 36px !important;
+    height: 34px !important;
     margin: 0 !important;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 14.75' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e12729'%3E%3Cpath d='M15,3.57V1.02H.98v12.74h2.55v-5.1h1.27v5.1h10.19v-7.64h-2.55v-2.55h2.55ZM4.8,6.12h-1.27v-2.55h1.27v2.55ZM8.94,6.12v5.1h-1.59V3.57h1.59v2.55ZM12.45,11.21h-.96v-2.55h.96v2.55Z' fill='%23e12729'/%3E%3C/g%3E%3C/svg%3E") !important;
     background-size: contain !important;
@@ -54,17 +57,19 @@
   /* Mobile responsive logomark */
   @media (max-width: 768px) {
     .site-title {
-      width: 28px !important;
-      height: 26px !important;
+      width: auto !important;
+      min-width: 35px !important;
+      height: 35px !important;
       font-size: 0 !important;
       text-indent: -9999px !important;
-      overflow: hidden !important;
+      overflow: visible !important;
       white-space: nowrap !important;
       color: transparent !important;
+      padding: 3px !important;
     }
     .site-title:before {
-      width: 28px !important;
-      height: 26px !important;
+      width: 32px !important;
+      height: 30px !important;
       margin: 0 !important;
       text-indent: 0 !important;
       position: relative !important;
@@ -88,19 +93,21 @@
     backdrop-filter: blur(8px) !important;
   }
 
-  /* Override any theme-specific mobile styles */
+  /* Tablet responsive logomark */
   @media screen and (max-width: 50rem) {
     .site-title {
       font-size: 0 !important;
       text-indent: -9999px !important;
-      overflow: hidden !important;
-      width: 28px !important;
-      height: 26px !important;
+      overflow: visible !important;
+      width: auto !important;
+      min-width: 38px !important;
+      height: 38px !important;
       white-space: nowrap !important;
+      padding: 4px !important;
     }
     .site-title:before {
-      width: 28px !important;
-      height: 26px !important;
+      width: 34px !important;
+      height: 32px !important;
       text-indent: 0 !important;
       position: relative !important;
       z-index: 1 !important;
