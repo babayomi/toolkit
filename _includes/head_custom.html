@@ -788,19 +788,17 @@
     padding: 0 0.5rem !important;
   }
   
-  /* Actions Container */
+  /* Actions Container - Simplified for single button */
   .problem-tree-actions {
     display: flex !important;
-    gap: clamp(0.75rem, 2vw, 1rem) !important;
     justify-content: center !important;
     margin-top: clamp(1rem, 3vw, 1.5rem) !important;
-    flex-wrap: wrap !important;
   }
   
   .problem-tree-actions .btn {
-    min-width: 140px !important;
-    padding: 0.625rem 1.25rem !important;
+    padding: 0.625rem 1.5rem !important;
     font-size: clamp(0.875rem, 2vw, 1rem) !important;
+    min-width: 160px !important;
   }
   
   /* Large Desktop (1440px+) */
@@ -858,14 +856,8 @@
       border-radius: 12px !important;
     }
     
-    .problem-tree-actions {
-      flex-direction: row !important;
-      flex-wrap: wrap !important;
-    }
-    
     .problem-tree-actions .btn {
-      flex: 1 1 45% !important;
-      min-width: 120px !important;
+      min-width: 150px !important;
     }
   }
   
@@ -887,15 +879,9 @@
       margin-bottom: 1rem !important;
     }
     
-    .problem-tree-actions {
-      flex-direction: column !important;
-      gap: 0.75rem !important;
-    }
-    
     .problem-tree-actions .btn {
-      width: 100% !important;
-      text-align: center !important;
       padding: 0.75rem 1rem !important;
+      min-width: 140px !important;
     }
   }
   
@@ -927,18 +913,10 @@
       margin-bottom: 0.75rem !important;
     }
     
-    .problem-tree-actions {
-      flex-direction: column !important;
-      gap: 0.625rem !important;
-      margin-top: 0.875rem !important;
-    }
-    
     .problem-tree-actions .btn {
-      width: 100% !important;
-      text-align: center !important;
       padding: 0.625rem 0.875rem !important;
       font-size: 0.875rem !important;
-      min-width: unset !important;
+      min-width: 120px !important;
     }
   }
   
