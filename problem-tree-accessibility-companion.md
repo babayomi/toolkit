@@ -534,21 +534,17 @@ function downloadMarkdownTemplate() {
 
 ## 📶 Connection Speed Guide
 
-<div style="background: #f3f9ec; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
-
-**Very Slow (< 50 Kbps)**  
-📝 Use Text Template - downloads in under 1 second
-
-**Slow (50-500 Kbps)**  
-📑 Use Markdown or CSV - downloads in 2-3 seconds  
-
-**Medium (500 Kbps - 2 Mbps)**  
-📋 Any format works well - downloads in under 5 seconds
-
-**Fast (> 2 Mbps)**  
-📦 Download multiple formats or complete toolkit
-
-</div>
+> **Very Slow (< 50 Kbps)**  
+> 📝 Use Text Template - downloads in under 1 second
+> 
+> **Slow (50-500 Kbps)**  
+> 📑 Use Markdown or CSV - downloads in 2-3 seconds  
+> 
+> **Medium (500 Kbps - 2 Mbps)**  
+> 📋 Any format works well - downloads in under 5 seconds
+> 
+> **Fast (> 2 Mbps)**  
+> 📦 Download multiple formats or complete toolkit
 
 ---
 
