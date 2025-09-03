@@ -44,9 +44,6 @@ color_scheme: festa
 
 # Collections for organizing content
 collections:
-  lessons:
-    output: true
-    permalink: /:collection/:name/
   resources:
     output: true
     permalink: /:collection/:name/
@@ -58,12 +55,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: "lessons"
-    values:
-      layout: "default"
-      nav_exclude: false
   - scope:
       path: ""
       type: "resources"

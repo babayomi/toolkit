@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "Lesson 2.3: Budget Estimation"
-module: "Operationalization Module"
-lesson_number: 7
-nav_order: 7
-permalink: /lessons/07-budget-estimation/
+title: "1.8 Budget Estimation"
+parent: "Operationalize Theory of Change"
+nav_order: 4
+permalink: /operationalize-theory-of-change/budget-estimation/
 description: "Create realistic, transparent budgets that align activities with resources and demonstrate accountability to funders"
 video_url: "https://vimeo.com/your-video-id"
 duration: "6 minutes"

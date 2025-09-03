@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Foundation Module"
-nav_exclude: true
-permalink: /foundation-module/
-redirect_to: /lessons/
+title: "Building Foundation"
+nav_order: 2
+has_children: true
+permalink: /building-foundation/
 description: "Master the core tools for understanding and structuring your project with evidence-based analysis and community validation"
 ---
 

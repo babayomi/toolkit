@@ -1,15 +1,11 @@
 ---
 layout: default
-title: "Lesson 1.1: Problem Tree Analysis"
-module: "Foundation Module"
-lesson_number: 1
+title: "1.1 Problem Tree Analysis"
+parent: "Building Foundation"
 nav_order: 1
 has_children: true
-permalink: /lessons/01-problem-tree-analysis/
+permalink: /building-foundation/problem-tree-analysis/
 description: "Break down complex social challenges into clear root causes, core problems, and effects using AI-enhanced research methods"
-video_url: "https://vimeo.com/your-video-id"
-duration: "8 minutes"
-tags: ["foundation", "analysis", "research"]
 ---
 
 # 🌳 Problem Tree Analysis
