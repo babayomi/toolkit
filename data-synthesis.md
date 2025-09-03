@@ -1119,14 +1119,34 @@ Use [📈 Evidence Strength Assessment Guide](evidence-assessment/) to build cre
 
 ---
 
-## 📥 Download Resources
+## 📥 Interactive Template Resources
 
 <div class="download-section" style="margin: 2rem 0;">
 <h3>Essential Templates for This Lesson</h3>
+<p><strong>💡 How to Use:</strong> Click each link to open an interactive template. Use your browser's print function and select "Save as PDF" to download a clean, fillable version for offline use.</p>
+
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
-<a href="/assets/downloads/affinity-analysis-template/" class="btn btn-outline">🧩 Affinity Analysis Template</a>
-<a href="/assets/downloads/problem-tree-integration-worksheet/" class="btn btn-outline">🌳 Problem Tree Integration Worksheet</a>
-<a href="/assets/downloads/digital-tool-setup-guide/" class="btn btn-outline">💻 Digital Tool Setup Guide</a>
+<div style="text-align: center;">
+<a href="/assets/downloads/affinity-analysis-template/" class="btn btn-outline" target="_blank">🧩 Affinity Analysis Template</a>
+<p style="font-size: 0.8em; margin-top: 0.5rem; color: #666;">Complete 4-phase methodology worksheet</p>
+</div>
+
+<div style="text-align: center;">
+<a href="/assets/downloads/problem-tree-integration-worksheet/" class="btn btn-outline" target="_blank">🌳 Problem Tree Integration Worksheet</a>
+<p style="font-size: 0.8em; margin-top: 0.5rem; color: #666;">Systematic theme-to-tree mapping tool</p>
+</div>
+
+<div style="text-align: center;">
+<a href="/assets/downloads/digital-tool-setup-guide/" class="btn btn-outline" target="_blank">💻 Digital Tool Setup Guide</a>
+<p style="font-size: 0.8em; margin-top: 0.5rem; color: #666;">Platform comparison & setup instructions</p>
+</div>
+</div>
+
+<div style="background: #f0f8ff; padding: 1rem; margin-top: 1rem; border-radius: 5px; border-left: 4px solid #007f4e;">
+<strong>📋 Template Usage Options:</strong><br>
+• <strong>Print to PDF:</strong> Open template → Browser Print → "Save as PDF" → Fill digitally or print<br>
+• <strong>Digital Collaboration:</strong> Copy sections into Miro, Mural, or other collaboration tools<br>
+• <strong>Team Workshops:</strong> Print multiple copies for collaborative analysis sessions
 </div>
 </div>
 
