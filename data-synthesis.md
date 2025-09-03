@@ -10,13 +10,13 @@ video_url: "https://vimeo.com/your-video-id"
 duration: "5 minutes"
 downloads:
   - title: "Affinity Analysis Template"
-    url: "/assets/downloads/affinity-analysis-template/"
+    url: "/downloads/affinity-analysis-template/"
     type: "Interactive Template"
   - title: "Problem Tree Integration Worksheet"
-    url: "/assets/downloads/problem-tree-integration-worksheet/"
+    url: "/downloads/problem-tree-integration-worksheet/"
     type: "Interactive Worksheet"
   - title: "Digital Tool Setup Guide"
-    url: "/assets/downloads/digital-tool-setup-guide/"
+    url: "/downloads/digital-tool-setup-guide/"
     type: "Setup Guide"
 tags: ["analysis", "synthesis", "foundations"]
 ---
@@ -1127,17 +1127,17 @@ Use [📈 Evidence Strength Assessment Guide](evidence-assessment/) to build cre
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
 <div style="text-align: center;">
-<a href="/assets/downloads/affinity-analysis-template/" class="btn btn-outline" target="_blank">🧩 Affinity Analysis Template</a>
+<a href="/downloads/affinity-analysis-template/" class="btn btn-outline" target="_blank">🧩 Affinity Analysis Template</a>
 <p style="font-size: 0.8em; margin-top: 0.5rem; color: #666;">Complete 4-phase methodology worksheet</p>
 </div>
 
 <div style="text-align: center;">
-<a href="/assets/downloads/problem-tree-integration-worksheet/" class="btn btn-outline" target="_blank">🌳 Problem Tree Integration Worksheet</a>
+<a href="/downloads/problem-tree-integration-worksheet/" class="btn btn-outline" target="_blank">🌳 Problem Tree Integration Worksheet</a>
 <p style="font-size: 0.8em; margin-top: 0.5rem; color: #666;">Systematic theme-to-tree mapping tool</p>
 </div>
 
 <div style="text-align: center;">
-<a href="/assets/downloads/digital-tool-setup-guide/" class="btn btn-outline" target="_blank">💻 Digital Tool Setup Guide</a>
+<a href="/downloads/digital-tool-setup-guide/" class="btn btn-outline" target="_blank">💻 Digital Tool Setup Guide</a>
 <p style="font-size: 0.8em; margin-top: 0.5rem; color: #666;">Platform comparison & setup instructions</p>
 </div>
 </div>
