@@ -28,7 +28,8 @@
       "Bash(gem install:*)",
       "Bash(bundle update:*)",
       "Bash(bundle --version)",
-      "Bash(jekyll build:*)"
+      "Bash(jekyll build:*)",
+      "Bash(git revert:*)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"
