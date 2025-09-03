@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "1.5 Logical Framework (Logframe)"
-parent: "Operationalize Theory of Change"
-nav_order: 1
-permalink: /operationalize-theory-of-change/logical-framework/
+title: "Lesson 2.1: Logical Framework (Logframe)"
+module: "Operationalization Module"
+lesson_number: 5
+nav_order: 5
+permalink: /lessons/05-logical-framework/
 description: "Convert your Theory of Change into a structured planning framework with clear goals, outcomes, indicators, and assumptions"
 video_url: "https://vimeo.com/your-video-id"
 duration: "7 minutes"

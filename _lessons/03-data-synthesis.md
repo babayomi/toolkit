@@ -1,10 +1,11 @@
 ---
 layout: default
-title: "1.3 Synthesize Data Using Affinity Diagrams"
-parent: "Building Foundation"
+title: "Lesson 1.3: Data Synthesis Using Affinity Diagrams"
+module: "Foundation Module"
+lesson_number: 3
 nav_order: 3
 description: "Transform scattered insights from research and stakeholder engagement into clear, actionable categories for project design"
-permalink: /building-foundation/synthesize-data-affinity-diagrams/
+permalink: /lessons/03-data-synthesis/
 video_url: "https://vimeo.com/your-video-id"
 duration: "5 minutes"
 downloads:

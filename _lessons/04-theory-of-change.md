@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "1.4 Theory of Change"
-parent: "Building Foundation"
+title: "Lesson 1.4: Theory of Change"
+module: "Foundation Module"
+lesson_number: 4
 nav_order: 4
-permalink: /building-foundation/theory-of-change/
+permalink: /lessons/04-theory-of-change/
 description: "Create a clear roadmap connecting your problem analysis to long-term impact through logical pathways of change"
 video_url: "https://vimeo.com/your-video-id"
 duration: "6 minutes"
