@@ -10,14 +10,14 @@ video_url: "https://vimeo.com/your-video-id"
 duration: "5 minutes"
 downloads:
   - title: "Affinity Analysis Template"
-    url: "/assets/downloads/affinity-analysis-template.pdf"
-    type: "PDF Template"
-  - title: "Problem Tree Integration Guide"
-    url: "/assets/downloads/problem-tree-integration-guide.pdf"
-    type: "PDF Guide"
-  - title: "Digital Tools Setup Guide"
-    url: "/assets/downloads/digital-synthesis-tools.pdf"
-    type: "PDF Guide"
+    url: "/assets/downloads/affinity-analysis-template/"
+    type: "Interactive Template"
+  - title: "Problem Tree Integration Worksheet"
+    url: "/assets/downloads/problem-tree-integration-worksheet/"
+    type: "Interactive Worksheet"
+  - title: "Digital Tool Setup Guide"
+    url: "/assets/downloads/digital-tool-setup-guide/"
+    type: "Setup Guide"
 tags: ["analysis", "synthesis", "foundations"]
 ---
 
@@ -1124,9 +1124,9 @@ Use [📈 Evidence Strength Assessment Guide](evidence-assessment/) to build cre
 <div class="download-section" style="margin: 2rem 0;">
 <h3>Essential Templates for This Lesson</h3>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
-<a href="/assets/downloads/affinity-analysis-template.pdf" class="btn btn-outline">🧩 Affinity Analysis Template</a>
-<a href="/assets/downloads/problem-tree-integration-guide.pdf" class="btn btn-outline">🌳 Problem Tree Integration</a>
-<a href="/assets/downloads/digital-synthesis-tools.pdf" class="btn btn-outline">💻 Digital Tools Setup</a>
+<a href="/assets/downloads/affinity-analysis-template/" class="btn btn-outline">🧩 Affinity Analysis Template</a>
+<a href="/assets/downloads/problem-tree-integration-worksheet/" class="btn btn-outline">🌳 Problem Tree Integration Worksheet</a>
+<a href="/assets/downloads/digital-tool-setup-guide/" class="btn btn-outline">💻 Digital Tool Setup Guide</a>
 </div>
 </div>
 
