@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Problem Tree Integration Worksheet"
+title: "🌳 Problem Tree Integration Worksheet"
 parent: "1.3 Synthesize Data Using Affinity Diagrams"
 grand_parent: "Building Foundation"
 nav_order: 5

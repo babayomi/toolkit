@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Evidence Strength Assessment Guide"
+title: "📈 Evidence Strength Assessment Guide"
 parent: "1.3 Synthesize Data Using Affinity Diagrams"
 grand_parent: "Building Foundation"
 nav_order: 8

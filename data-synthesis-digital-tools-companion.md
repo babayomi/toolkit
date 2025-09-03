@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Digital vs Physical Tools Companion"
+title: "💻 Digital vs Physical Tools Companion"
 parent: "1.3 Synthesize Data Using Affinity Diagrams"
 grand_parent: "Building Foundation"
 nav_order: 3
