@@ -1,288 +1,298 @@
 ---
 layout: default
-title: "1.4 Theory of Change"
+title: "1.4 Develop Theory of Change"
 parent: "Building Foundation"
 nav_order: 4
+has_children: true
 permalink: /building-foundation/theory-of-change/
-description: "Create a clear roadmap connecting your problem analysis to long-term impact through logical pathways of change"
+description: "Transform your community-validated problem analysis into a clear roadmap for change that stakeholders understand and support"
 video_url: "https://vimeo.com/your-video-id"
-duration: "6 minutes"
+duration: "8 minutes"
 downloads:
-  - title: "Theory of Change Canvas"
-    url: "/assets/downloads/theory-of-change-canvas.pdf"
+  - title: "Theory of Change Development Template"
+    url: "/assets/downloads/theory-of-change-template.pdf"
     type: "PDF Template"
-  - title: "Logic Model Builder"
-    url: "/assets/downloads/logic-model-template.xlsx"
+  - title: "Logic Model Worksheet"
+    url: "/assets/downloads/logic-model-worksheet.xlsx"
     type: "Excel Template"
-  - title: "Assumptions Testing Guide"
-    url: "/assets/downloads/assumptions-testing.pdf"
-    type: "PDF Guide"
-tags: ["strategy", "planning", "foundations"]
+  - title: "Assumption Testing Checklist"
+    url: "/assets/downloads/assumption-testing-checklist.pdf"
+    type: "PDF Checklist"
+tags: ["theory-of-change", "logic-model", "foundations", "planning"]
 ---
 
-# Theory of Change: Your Roadmap to Impact
+# 1.4 Develop Theory of Change
 
-Create a clear, logical pathway connecting your problem analysis to long-term impact, showing how your project activities will lead to meaningful change.
-
----
-
-<div class="video-embed">
-<div style="padding:56.25% 0 0 0;position:relative;">
-<iframe src="https://player.vimeo.com/video/your-video-id?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-        frameborder="0" 
-        allow="autoplay; fullscreen; picture-in-picture" 
-        allowfullscreen 
-        style="position:absolute;top:0;left:0;width:100%;height:100%;"
-        title="Theory of Change - Setup Your Project for Success">
-</iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-<p style="text-align: center; margin-top: 1rem; font-size: 0.875rem; color: #434343;">
-⏱️ <strong>Duration:</strong> 6 minutes | 
-📥 <strong>Downloads:</strong> 3 templates | 
-🎯 <strong>Outcome:</strong> Complete Theory of Change ready for implementation planning
-</p>
-</div>
+Transform your community-validated problem analysis into a clear roadmap for change that stakeholders understand and support. Theory of Change development converts your Problem Tree insights and stakeholder engagement into actionable intervention logic with testable assumptions.
 
 ---
 
-## 🎯 What You'll Learn
+## 🎯 Learning Objectives
 
-By the end of this lesson, you will be able to:
+By completing this lesson, you will:
 
-✅ **Design logical pathways** from activities to long-term impact  
-✅ **Identify critical assumptions** that your theory depends on  
-✅ **Create compelling impact narratives** that resonate with funders  
-✅ **Build measurable frameworks** for tracking progress toward change  
-✅ **Connect all project elements** in a coherent strategy  
-
----
-
-## 🌟 Why Theory of Change Matters
-
-### The Problem with Activity-Focused Planning
-- **Unclear impact connection** → Activities that don't lead to real change
-- **Weak funding proposals** → Can't articulate why your approach will work
-- **Difficult evaluation** → No clear way to measure success
-- **Mission drift** → Projects that lose focus over time
-
-### What a Strong Theory of Change Provides
-- **Clear impact logic** that shows how activities create change
-- **Compelling narrative** that funders and partners can understand
-- **Measurable milestones** for tracking progress
-- **Strategic focus** that keeps your project on track
-- **Evidence framework** for demonstrating results
+- **Create evidence-based Theory of Change** from your integrated Problem Tree and stakeholder insights
+- **Design logical intervention pathways** that address root causes while building on community assets
+- **Identify and test assumptions** critical to your change strategy before implementation
+- **Develop community-validated outcomes** that reflect stakeholder priorities and definitions of success
+- **Build strategic foundation** for Module 2 implementation planning and resource mobilization
 
 ---
 
-## 🗺️ Understanding Theory of Change Structure
+## 🔗 Building on Previous Foundation
 
-### The Core Logic Chain
+Your Theory of Change development builds directly on work completed in previous lessons:
 
-```
-INPUTS → ACTIVITIES → OUTPUTS → OUTCOMES → IMPACT
-   ↓        ↓          ↓         ↓        ↓
-Resources → What we do → What we → Changes → Long-term
-we use     with inputs   produce   that     systemic
-                                  result   change
-```
+### From Problem Tree Analysis (Lesson 1.1)
+- **Root cause identification** provides intervention targeting points
+- **Cause-effect relationships** inform logical change pathways
+- **Problem statement clarity** guides outcome definition
+- **Evidence base** strengthens assumption identification
 
-### Key Components Explained
+### From Stakeholder Mapping (Lesson 1.2) 
+- **Stakeholder priorities** influence outcome selection and success indicators
+- **Change agent identification** reveals implementation partnership opportunities
+- **Power dynamics understanding** informs realistic pathway design
+- **Community assets mapping** identifies leverage points for change
 
-**🔧 INPUTS (Resources)**
-- Staff time and expertise
-- Financial resources
-- Partnerships and networks
-- Technology and materials
-- Community knowledge and participation
-
-**🎯 ACTIVITIES (What We Do)**
-- Training workshops
-- Community meetings
-- Research and analysis
-- Advocacy campaigns
-- Service delivery
-
-**📊 OUTPUTS (Direct Products)**
-- Number of people trained
-- Reports published
-- Events held
-- Services provided
-- Partnerships formed
-
-**🌱 OUTCOMES (Changes That Result)**
-- **Short-term** (3-12 months): Knowledge, skills, awareness
-- **Medium-term** (1-3 years): Behavior, practices, policies
-- **Long-term** (3-10 years): Conditions, systems, culture
-
-**🌍 IMPACT (Ultimate Change)**
-- Systemic transformation
-- Population-level improvements
-- Sustainable change that persists
+### From Data Synthesis (Lesson 1.3)
+- **Community-validated insights** ground Theory of Change in stakeholder experience
+- **Evidence strength assessment** supports assumption testing priorities
+- **Cultural considerations** ensure culturally appropriate change pathways
+- **Priority themes** focus Theory of Change on most critical intervention areas
 
 ---
 
-## 📋 Building Your Theory of Change
+## 📋 What is Theory of Change?
 
-### Step 1: Start with Impact (Work Backwards)
+Theory of Change is your project's **strategic hypothesis** about how specific interventions will lead to desired outcomes through logical cause-effect relationships, explicitly stating assumptions that can be tested and adapted.
 
-**Define Your Long-term Vision:**
-- What does success look like 10 years from now?
-- What systemic changes need to happen?
-- How will life be different for your target population?
+### Theory of Change vs Logic Model
 
-**Example Impact Statements:**
-- "Youth in rural areas have equal access to quality employment opportunities"
-- "Community health workers are recognized and supported as essential healthcare providers"
-- "Small-scale farmers achieve food security and sustainable livelihoods"
+**Theory of Change:**
+- **Narrative explanation** of how and why change happens
+- **Assumption-explicit** with testable hypotheses about change pathways
+- **Community-grounded** in stakeholder experience and priorities
+- **Adaptive framework** designed for learning and refinement
 
-### Step 2: Identify Necessary Outcomes (Preconditions)
+**Logic Model:**
+- **Visual diagram** showing inputs → activities → outputs → outcomes → impact
+- **Resource-focused** on what you'll do and what you expect to achieve
+- **Implementation planning** tool for program design and evaluation
+- **Results framework** for monitoring and measurement
 
-**Work backwards from impact:**
-- What needs to be true for this impact to occur?
-- What changes in behavior, policy, or systems are required?
-- What capacity or resources must exist?
-
-**Outcome Categories:**
-- **Individual**: Knowledge, skills, attitudes, behaviors
-- **Organizational**: Policies, practices, capacity, partnerships
-- **Community**: Norms, resources, infrastructure, leadership
-- **Systems**: Laws, regulations, funding, institutions
-
-### Step 3: Design Activities and Outputs
-
-**Connect activities to outcomes:**
-- What specific activities will produce these outcomes?
-- How will you measure the immediate products of these activities?
-- What resources do you need to implement these activities?
-
-### Step 4: Test Your Logic
-
-**Critical Questions:**
-- Does each level logically lead to the next?
-- Are there missing steps in your logic chain?
-- What assumptions are you making?
-- What external factors could affect your theory?
+*Your Theory of Change will include both narrative explanation and logic model visualization.*
 
 ---
 
-## 🔍 Identifying and Testing Assumptions
+## 🌟 Theory of Change Development Process
 
-### Types of Assumptions
+### Phase 1: Foundation Integration (30-40 minutes)
+Convert your Problem Tree integration and stakeholder insights into change pathway starting points.
 
-**Activity Assumptions:**
-- "If we provide training, people will attend"
-- "Community leaders will support our approach"
-- "Participants will have basic literacy skills"
+**Key Activities:**
+- Map priority themes to intervention opportunities
+- Identify root causes addressable through your project approach
+- Clarify stakeholder-defined success outcomes
+- Document community assets available for change process
 
-**Impact Assumptions:**
-- "Changing individual behavior will lead to community change"
-- "Improved skills will lead to better employment outcomes"
-- "Increased awareness will lead to policy change"
+### Phase 2: Logic Pathway Design (45-60 minutes)
+Design cause-effect sequences connecting your interventions to desired outcomes.
 
-**Context Assumptions:**
-- "Political conditions will remain stable"
-- "Economic conditions won't worsen significantly"
-- "Other organizations won't duplicate our efforts"
+**Key Activities:**
+- Create if-then pathway statements linking activities to outcomes
+- Sequence short-term → medium-term → long-term change progression
+- Identify critical assumptions underlying each pathway step
+- Test pathway logic against stakeholder experience and evidence
 
-### Testing Your Assumptions
+### Phase 3: Assumption Testing (30-45 minutes)
+Explicitly identify and assess assumptions critical to your change strategy success.
 
-**Research Methods:**
-- Literature review of similar interventions
-- Stakeholder interviews and focus groups
-- Pilot programs or small tests
-- Expert consultation
+**Key Activities:**
+- Extract assumptions embedded in change pathway logic
+- Assess assumption strength against available evidence
+- Prioritize assumptions most critical to test during implementation
+- Design assumption testing approaches for high-risk hypotheses
 
-**Risk Assessment:**
-- What happens if this assumption is wrong?
-- How likely is this assumption to hold true?
-- Can we influence factors that affect this assumption?
-- Do we have backup strategies if assumptions fail?
+### Phase 4: Community Validation (20-30 minutes)
+Test Theory of Change logic and outcomes against stakeholder priorities and experience.
 
----
-
-## 🎨 Visual Mapping Techniques
-
-### The Theory of Change Canvas
-
-**Left to Right Flow:**
-1. **Context & Problem** (Problem Tree insights)
-2. **Inputs & Activities** (What we'll do)
-3. **Short-term Outcomes** (Immediate changes)
-4. **Medium-term Outcomes** (Deeper changes)
-5. **Long-term Impact** (Ultimate vision)
-
-**Top to Bottom:**
-- **Assumptions** (What we believe must be true)
-- **External Factors** (Things outside our control)
-- **Indicators** (How we'll measure progress)
-
-### Logic Model Format
-
-**Horizontal Logic:**
-- Resources → Activities → Outputs → Outcomes → Impact
-
-**Vertical Logic:**
-- Assumptions and external factors for each level
-- Indicators and targets for measurement
-- Timeline and milestones
+**Key Activities:**
+- Validate outcome relevance and measurement approaches
+- Test change pathway realism against community knowledge
+- Confirm assumption accuracy through stakeholder input
+- Refine Theory of Change based on community feedback
 
 ---
 
-## 📊 Making Your Theory Measurable
+## 🎨 Theory of Change Components
 
-### Indicator Types
+### Core Problem Statement
+Clear, community-validated statement of the central issue your project addresses.
 
-**Output Indicators** (Quantity/Quality of Products)
-- Number of people trained
-- Number of events held
-- Quality ratings from participants
-- Materials produced and distributed
+**Example Components:**
+- **Who is affected:** Specific populations experiencing the problem
+- **What is the problem:** Issue framed in stakeholder language
+- **Where it occurs:** Geographic and contextual boundaries
+- **Why it matters:** Consequences and broader significance
 
-**Outcome Indicators** (Evidence of Change)
-- Changes in knowledge or skills (pre/post tests)
-- Behavior change (observation, surveys)
-- Policy changes (analysis of new policies)
-- Institutional changes (new procedures, structures)
+### Long-term Vision (Impact)
+Aspirational but achievable change you're working toward over 5-10 years.
 
-**Impact Indicators** (Long-term Systemic Change)
-- Population-level statistics
-- Systems-level improvements
-- Sustainable change measures
-- Unintended positive consequences
+**Vision Characteristics:**
+- **Community-grounded:** Reflects stakeholder definitions of success
+- **Systemic:** Addresses root causes, not just symptoms
+- **Measurable:** Can be assessed through observable indicators
+- **Inspiring:** Motivates ongoing effort and partnership
 
-### SMART Indicators
+### Outcome Chain
+Logical sequence of short → medium → long-term changes leading to your vision.
 
-Make each indicator:
-- **Specific**: Clear and well-defined
-- **Measurable**: Quantifiable or clearly observable
-- **Achievable**: Realistic given resources and timeframe
-- **Relevant**: Directly related to your outcomes
-- **Time-bound**: Clear timeline for achievement
+**Outcome Levels:**
+- **Short-term (6-18 months):** Individual and community capacity changes
+- **Medium-term (18 months-3 years):** Behavioral and system practice changes
+- **Long-term (3-5 years):** Structural and environmental changes
 
----
+### Change Pathways
+Specific routes connecting your interventions to each outcome level.
 
-## 📥 Download Resources
+**Pathway Elements:**
+- **If-then logic:** Clear causal relationships between actions and results
+- **Assumption identification:** Explicit hypotheses about why pathways will work
+- **Evidence base:** Supporting data from Problem Tree and stakeholder engagement
+- **Risk acknowledgment:** Factors that could prevent pathway success
 
-<div class="download-section" style="margin: 2rem 0;">
-<h3>Essential Templates for This Lesson</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
-<a href="/assets/downloads/theory-of-change-canvas.pdf" class="btn btn-outline">🗺️ Theory of Change Canvas</a>
-<a href="/assets/downloads/logic-model-template.xlsx" class="btn btn-outline">📊 Logic Model Builder</a>
-<a href="/assets/downloads/assumptions-testing.pdf" class="btn btn-outline">🔍 Assumptions Testing</a>
-</div>
-</div>
+### Critical Assumptions
+Testable hypotheses underlying your change pathway logic.
 
----
-
-## 🚀 Next Steps
-
-After completing this lesson:
-1. **Create your Theory of Change** using the canvas template
-2. **Identify and test key assumptions** with stakeholders
-3. **Move to Lesson 2.1** on Logical Framework to operationalize your theory
-4. **Share your theory** with key stakeholders for feedback and buy-in
+**Assumption Categories:**
+- **Stakeholder behavior:** How people will respond to interventions
+- **System dynamics:** How existing systems will interact with change efforts
+- **Resource availability:** Sustained access to necessary resources
+- **External conditions:** Broader environment factors affecting change
 
 ---
 
-*Remember: Your Theory of Change is a living document. Update it as you learn and as conditions change.*
+## 🔄 Integration with Problem Tree
+
+Your Theory of Change directly transforms Problem Tree analysis into action strategy:
+
+### Root Cause → Intervention Design
+- **High-impact root causes** become primary intervention targets
+- **Addressable causes** within your capacity become activity focus areas
+- **Systemic causes** become partnership and advocacy priorities
+
+### Effect Chain → Outcome Sequence
+- **Problem effects** become outcome indicators when reversed
+- **Effect relationships** inform outcome sequencing and measurement timing
+- **Impact scope** determines long-term vision boundaries
+
+### Evidence Base → Assumption Validation
+- **Strong evidence (E)** supports confident change pathway design
+- **Moderate evidence (E*)** becomes early implementation validation priorities
+- **Working hypotheses (A)** become explicit assumptions requiring testing
+
+---
+
+## 🤝 Community-Centered Approach
+
+Theory of Change development maintains community voice and ownership throughout:
+
+### Stakeholder-Defined Success
+Outcomes reflect community priorities and definitions rather than external standards.
+
+**Community Ownership Elements:**
+- Success indicators that stakeholders recognize and value
+- Outcome language using community terminology and concepts
+- Change pathways compatible with cultural values and practices
+- Implementation approaches building on existing community assets
+
+### Cultural Appropriateness
+Change pathways designed for cultural context and local systems.
+
+**Cultural Integration:**
+- Intervention approaches compatible with traditional knowledge systems
+- Change processes respecting community decision-making patterns
+- Success measures honoring collective as well as individual outcomes
+- Timeline expectations realistic for cultural change processes
+
+### Power Dynamic Awareness
+Theory of Change acknowledges and addresses power imbalances affecting change.
+
+**Power-Conscious Design:**
+- Pathways that strengthen marginalized community voices
+- Intervention approaches that don't reinforce existing inequalities
+- Assumption testing that includes power dynamic considerations
+- Outcome measures that track equitable benefit distribution
+
+---
+
+## 📊 Quality Theory of Change Characteristics
+
+### Logic Strength
+- **Clear causal connections** between interventions and outcomes at each level
+- **Evidence-based assumptions** grounded in Problem Tree analysis and stakeholder input
+- **Realistic timelines** for change processes based on community experience
+- **Appropriate scope** matching organizational capacity and resource availability
+
+### Community Grounding
+- **Stakeholder priorities** reflected in outcome selection and measurement approaches
+- **Community language** used in outcome descriptions and success indicators
+- **Cultural compatibility** of change pathways and intervention approaches
+- **Local asset integration** building on existing community strengths and resources
+
+### Implementation Readiness
+- **Actionable pathways** providing clear guidance for intervention design
+- **Testable assumptions** with specific approaches for validation during implementation
+- **Flexible framework** allowing adaptation based on learning and changing conditions
+- **Partnership clarity** identifying collaboration opportunities and requirements
+
+### Strategic Coherence
+- **Integrated approach** connecting individual, community, and system change levels
+- **Root cause targeting** addressing fundamental rather than symptomatic issues
+- **Leverage point identification** focusing resources on highest-impact intervention opportunities
+- **Sustainable change** pathways designed for long-term continuation beyond project period
+
+---
+
+## 🚀 Preparing for Module 2: Operationalization
+
+Your completed Theory of Change provides essential foundation for Module 2 implementation planning:
+
+### Project Design Framework
+Theory of Change becomes blueprint for detailed intervention design, resource planning, and partnership development.
+
+### Measurement Strategy
+Outcome sequences and assumption testing priorities guide evaluation framework development and indicator selection.
+
+### Risk Management
+Identified assumptions and external factors inform risk assessment and mitigation planning for implementation phase.
+
+### Stakeholder Engagement
+Community validation process establishes ongoing partnership foundation for implementation collaboration and feedback.
+
+---
+
+## 📚 Child Pages & Deep Dives
+
+Explore comprehensive guidance for each aspect of Theory of Change development:
+
+1. **[🎯 Theory of Change Development Template & Examples](/building-foundation/theory-of-change/development-template/)** - Step-by-step template with real project examples and sector-specific adaptations
+
+2. **[🌳 Building from Problem Tree Integration](/building-foundation/theory-of-change/problem-tree-integration/)** - Systematic method to convert Problem Tree analysis into Theory of Change foundation
+
+3. **[🔧 Component Design Guide](/building-foundation/theory-of-change/component-design/)** - Detailed guidance for crafting vision, outcomes, pathways, and assumptions
+
+4. **[🔍 Assumption Identification & Testing](/building-foundation/theory-of-change/assumption-testing/)** - Framework for identifying critical assumptions and designing validation approaches
+
+5. **[🤝 Community Validation Methods](/building-foundation/theory-of-change/community-validation/)** - Stakeholder engagement approaches for testing Theory of Change with communities
+
+6. **[✅ Logic Testing & Quality Assurance](/building-foundation/theory-of-change/logic-testing/)** - Systematic methods for testing change pathway logic and overall coherence
+
+7. **[📊 Visual Mapping Tools](/building-foundation/theory-of-change/visual-tools/)** - Digital and physical tools for creating Theory of Change diagrams and presentations
+
+8. **[🎯 Module 2 Bridge](/building-foundation/theory-of-change/module-2-bridge/)** - How Theory of Change connects to operationalization, implementation, and scaling strategies
+
+---
+
+*Theory of Change development transforms your foundation work into actionable strategy that communities understand and support. This strategic clarity becomes your guide for all implementation decisions and adaptation throughout your project lifecycle.*
