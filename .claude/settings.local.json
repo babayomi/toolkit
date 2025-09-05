@@ -29,7 +29,10 @@
       "Bash(bundle update:*)",
       "Bash(bundle --version)",
       "Bash(jekyll build:*)",
-      "Bash(git revert:*)"
+      "Bash(git revert:*)",
+      "Bash(jekyll --version)",
+      "Bash(sed:*)",
+      "Bash(xmllint:*)"
     ],
     "additionalDirectories": [
       "/Users/abayomi/Documents"

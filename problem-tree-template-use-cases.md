@@ -38,8 +38,8 @@ Ready-to-use templates and real-world examples showing how to apply problem tree
 </div>
 
 ### Core Structure
-```
-🌿 EFFECTS (What happens because of the problem?)
+
+<div class="code-block-enhanced">🌿 EFFECTS (What happens because of the problem?)
 ├── Primary Effect 1: Immediate consequence
 ├── Primary Effect 2: Direct impact on beneficiaries  
 └── Secondary Effects: Long-term systemic impacts
@@ -50,8 +50,7 @@ Clear, specific, measurable problem statement
 🌱 ROOT CAUSES (Why does the problem exist?)
 ├── Direct Cause 1: Immediate factors
 ├── Direct Cause 2: Proximate drivers
-└── Underlying Causes: Systemic factors
-```
+└── Underlying Causes: Systemic factors</div>
 
 ### Problem Statement Formula
 **[Specific population] + [experiences/lacks] + [specific condition] + [in defined context] + [with measurable indicator]**
