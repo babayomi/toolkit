@@ -22,26 +22,26 @@
   
   <!-- Title -->
   <text x="400" y="35" text-anchor="middle" class="title-text">Phase 3: Theme - Developing Meaningful Themes</text>
-  <text x="400" y="58" text-anchor="middle" class="phase-text">Transforming clusters into actionable themes with evidence assessment</text>
+  <text x="400" y="58" text-anchor="middle" class="phase-text">Transforming stakeholder clusters into evidence-based themes</text>
   
-  <!-- Input clusters -->
-  <text x="80" y="90" text-anchor="middle" class="phase-text">4 Initial Clusters</text>
+  <!-- Input clusters from Phase 2 -->
+  <text x="80" y="90" text-anchor="middle" class="phase-text">4 Stakeholder Clusters</text>
   
   <rect x="20" y="105" width="120" height="40" rx="4" class="cluster-box"/>
-  <text x="80" y="120" text-anchor="middle" class="theme-text">Economic Barriers</text>
-  <text x="80" y="135" text-anchor="middle" class="theme-text">(12 insights)</text>
+  <text x="80" y="120" text-anchor="middle" class="theme-text">Economic Access</text>
+  <text x="80" y="135" text-anchor="middle" class="theme-text">(12 insights P/S)</text>
   
   <rect x="20" y="155" width="120" height="40" rx="4" class="cluster-box"/>
-  <text x="80" y="170" text-anchor="middle" class="theme-text">Skills Mismatch</text>
-  <text x="80" y="185" text-anchor="middle" class="theme-text">(15 insights)</text>
+  <text x="80" y="170" text-anchor="middle" class="theme-text">Market Disconnect</text>
+  <text x="80" y="185" text-anchor="middle" class="theme-text">(15 insights S/P)</text>
   
   <rect x="20" y="205" width="120" height="40" rx="4" class="cluster-box"/>
-  <text x="80" y="220" text-anchor="middle" class="theme-text">Social/Cultural</text>
-  <text x="80" y="235" text-anchor="middle" class="theme-text">(11 insights)</text>
+  <text x="80" y="220" text-anchor="middle" class="theme-text">Cultural Barriers</text>
+  <text x="80" y="235" text-anchor="middle" class="theme-text">(11 insights P/V/C)</text>
   
   <rect x="20" y="255" width="120" height="40" rx="4" class="cluster-box"/>
-  <text x="80" y="270" text-anchor="middle" class="theme-text">System Trust</text>
-  <text x="80" y="285" text-anchor="middle" class="theme-text">(9 insights)</text>
+  <text x="80" y="270" text-anchor="middle" class="theme-text">Program Trust</text>
+  <text x="80" y="285" text-anchor="middle" class="theme-text">(9 insights C/P/V)</text>
   
   <!-- Process arrow -->
   <path d="M 150 200 L 200 200" class="arrow" marker-end="url(#arrowhead)"/>
@@ -57,23 +57,23 @@
   <text x="400" y="150" text-anchor="middle" class="theme-title">THEME 1: Geographic Access Barriers</text>
   <text x="250" y="165" class="theme-text">Description: Distance and transport costs create systematic exclusion</text>
   <text x="250" y="178" class="theme-text">from economic opportunities, affecting rural youth disproportionately.</text>
-  <text x="250" y="195" class="theme-text">Evidence: 15 insights from Primary stakeholders (Strong)</text>
-  <text x="250" y="208" class="theme-text">Problem Tree: Validates "Economic barriers" root cause</text>
+  <text x="250" y="195" class="theme-text">Evidence: Primary stakeholders unanimous, Secondary confirms</text>
+  <text x="250" y="208" class="theme-text">Problem Tree: Validates assumption (A→E) as root cause</text>
   
   <!-- Theme 2: Training-Market Disconnect -->
   <rect x="240" y="220" width="320" height="80" rx="6" class="theme-box"/>
   <text x="400" y="240" text-anchor="middle" class="theme-title">THEME 2: Training-Market Disconnect</text>
   <text x="250" y="255" class="theme-text">Description: Skills training programs operate independently of actual</text>
   <text x="250" y="268" class="theme-text">employer needs, creating qualified but unemployable graduates.</text>
-  <text x="250" y="285" class="theme-text">Evidence: 12 insights from Secondary stakeholders (Strong)</text>
-  <text x="250" y="298" class="theme-text">Problem Tree: Refines "Limited training access" cause</text>
+  <text x="250" y="285" class="theme-text">Evidence: Secondary stakeholders (employers) + Primary validation</text>
+  <text x="250" y="298" class="theme-text">Problem Tree: Refines "Limited training access" (A→E)</text>
   
   <!-- Theme 3: Cultural Gender Expectations -->
   <rect x="240" y="310" width="320" height="80" rx="6" class="theme-box"/>
   <text x="400" y="330" text-anchor="middle" class="theme-title">THEME 3: Cultural Gender Expectations</text>
   <text x="250" y="345" class="theme-text">Description: Traditional gender roles and family expectations limit</text>
   <text x="250" y="358" class="theme-text">career mobility differently for women and men.</text>
-  <text x="250" y="375" class="theme-text">Evidence: 9 insights from Community engagement (Moderate)</text>
+  <text x="250" y="375" class="theme-text">Evidence: Primary women's groups + Validation sessions</text>
   <text x="250" y="388" class="theme-text">Problem Tree: Adds new "Gender-specific barriers" cause</text>
   
   <!-- Theme 4: Historical Program Failures -->
@@ -81,8 +81,8 @@
   <text x="400" y="420" text-anchor="middle" class="theme-title">THEME 4: Historical Program Failures</text>
   <text x="250" y="435" class="theme-text">Description: Previous unsuccessful interventions created community</text>
   <text x="250" y="448" class="theme-text">skepticism that affects current program engagement.</text>
-  <text x="250" y="465" class="theme-text">Evidence: 11 insights from Validation sessions (High)</text>
-  <text x="250" y="478" text-anchor="middle" class="theme-text">Problem Tree: Adds "Stakeholder trust deficit" root cause</text>
+  <text x="250" y="465" class="theme-text">Evidence: Community leaders + Primary voices convergent</text>
+  <text x="250" y="478" class="theme-text">Problem Tree: Adds "Stakeholder trust deficit" root cause</text>
   
   <!-- Process notes -->
   <text x="400" y="510" text-anchor="middle" class="process-text">Each theme includes: Description, Evidence Assessment,</text>
