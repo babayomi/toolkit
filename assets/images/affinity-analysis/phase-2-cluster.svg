@@ -13,6 +13,10 @@
       .cluster-area-c { fill: #ecfff7; stroke: #007f4e; stroke-width: 2; stroke-dasharray: 5,5; }
       .cluster-area-d { fill: #fefce8; stroke: #f8cc1b; stroke-width: 2; stroke-dasharray: 5,5; }
     </style>
+    <!-- Arrow marker definition -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+    </marker>
   </defs>
   
   <!-- Background -->
@@ -129,10 +133,4 @@
   <text x="680" y="365" text-anchor="middle" class="process-text">with stakeholder input</text>
   <text x="680" y="380" text-anchor="middle" class="process-text">before theme development</text>
   
-  <!-- Arrow marker definition -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
-    </marker>
-  </defs>
 </svg>

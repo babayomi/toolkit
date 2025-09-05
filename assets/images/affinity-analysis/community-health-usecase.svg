@@ -12,6 +12,10 @@
       .theme-box { fill: #ffffff; stroke: #3d3d3d; stroke-width: 2; }
       .synthesis-box { fill: #fef2f2; stroke: #e12729; stroke-width: 2; }
     </style>
+    <!-- Arrow marker definition -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+    </marker>
   </defs>
   
   <!-- Background -->
@@ -56,7 +60,7 @@
   
   <!-- Arrow to theme -->
   <path d="M 320 250 L 380 250" class="arrow" marker-end="url(#arrowhead)"/>
-  <text x="350" y="240" class="theme-text">Cluster &</text>
+  <text x="350" y="240" class="theme-text">Cluster &amp;</text>
   <text x="350" y="265" class="theme-text">synthesize</text>
   
   <!-- Refined Theme -->
@@ -97,10 +101,4 @@
   <text x="60" y="405" class="theme-text">Divergence: Mothers blame system, providers blame patient behavior</text>
   <text x="60" y="420" class="theme-text">Bridge: Traditional healers play legitimate role in community health</text>
   
-  <!-- Arrow marker definition -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
-    </marker>
-  </defs>
 </svg>

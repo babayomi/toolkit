@@ -11,6 +11,10 @@
       .theme-box { fill: #ffffff; stroke: #3d3d3d; stroke-width: 2; }
       .evidence-box { fill: #f6f6f6; stroke: #737373; stroke-width: 1; }
     </style>
+    <!-- Arrow marker definition -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+    </marker>
   </defs>
   
   <!-- Background -->
@@ -111,10 +115,4 @@
   <text x="710" y="380" text-anchor="middle" class="process-text">validation of themes</text>
   <text x="710" y="395" text-anchor="middle" class="process-text">before synthesis</text>
   
-  <!-- Arrow marker definition -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
-    </marker>
-  </defs>
 </svg>

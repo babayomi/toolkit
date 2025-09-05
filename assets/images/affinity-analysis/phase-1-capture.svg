@@ -10,6 +10,10 @@
       .insight-card { fill: #fef9c3; stroke: #f8cc1b; stroke-width: 1; }
       .collection-area { fill: #ecfff7; stroke: #007f4e; stroke-width: 2; stroke-dasharray: 5,5; }
     </style>
+    <!-- Arrow marker definition -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+    </marker>
   </defs>
   
   <!-- Background -->
@@ -70,7 +74,7 @@
   <text x="280" y="260" class="insight-text">• Source: Stakeholder type, method</text>
   <text x="280" y="275" class="insight-text">• Problem Tree validation (A→E)</text>
   <text x="280" y="290" class="insight-text">• Evidence strength assessment</text>
-  <text x="280" y="305" class="insight-text">• Cultural context & power dynamics</text>
+  <text x="280" y="305" class="insight-text">• Cultural context &amp; power dynamics</text>
   
   <!-- Arrow to insight cards -->
   <path d="M 455 250 L 510 250" class="arrow" marker-end="url(#arrowhead)"/>
@@ -104,12 +108,6 @@
   <!-- Result indicator -->
   <text x="640" y="520" text-anchor="middle" class="phase-text">52 insights captured</text>
   <text x="640" y="540" text-anchor="middle" class="data-source">from stakeholder engagement</text>
-  <text x="640" y="555" text-anchor="middle" class="data-source">(Lessons 1.1 & 1.2)</text>
+  <text x="640" y="555" text-anchor="middle" class="data-source">(Lessons 1.1 &amp; 1.2)</text>
   
-  <!-- Arrow marker definition -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
-    </marker>
-  </defs>
 </svg>

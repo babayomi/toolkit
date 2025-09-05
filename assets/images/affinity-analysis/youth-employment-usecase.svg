@@ -11,6 +11,10 @@
       .theme-box { fill: #ffffff; stroke: #3d3d3d; stroke-width: 2; }
       .connection-line { stroke: #737373; stroke-width: 1; stroke-dasharray: 2,2; }
     </style>
+    <!-- Arrow marker definition -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+    </marker>
   </defs>
   
   <!-- Background -->
@@ -101,10 +105,4 @@
   <text x="30" y="405" class="theme-text">+ New: Gender-specific career barriers</text>
   <text x="30" y="420" class="theme-text">? Assumption: Family support universal</text>
   
-  <!-- Arrow marker definition -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
-    </marker>
-  </defs>
 </svg>
