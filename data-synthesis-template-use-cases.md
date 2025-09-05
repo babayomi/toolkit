@@ -16,6 +16,17 @@ Complete methodology with real-world examples showing how to apply affinity anal
 
 ## 📋 Complete Affinity Analysis Template
 
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🔍 Phase 1: Capture - Collecting Insights</div>
+  <div class="problem-tree-description">Systematic extraction of insights from all data sources using structured format</div>
+  
+  <img src="{{ '/assets/images/affinity-analysis/phase-1-capture.svg' | relative_url }}" alt="Phase 1 Capture process showing data sources flowing into structured insight extraction with sample insight cards" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/assets/images/affinity-analysis/phase-1-capture.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
+
 ### Phase 1: Capture Template
 
 **Data Source Review Checklist:**
@@ -46,6 +57,17 @@ Cultural Context: Rural-urban divide, infrastructure challenges
 Contradicts: Urban youth report transport less significant barrier
 ```
 
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🔄 Phase 2: Cluster - Grouping Similar Insights</div>
+  <div class="problem-tree-description">Organizing insights by natural patterns and relationships into initial cluster groups</div>
+  
+  <img src="{{ '/assets/images/affinity-analysis/phase-2-cluster.svg' | relative_url }}" alt="Phase 2 Cluster process showing individual insights being grouped into themed clusters with clustering criteria" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/assets/images/affinity-analysis/phase-2-cluster.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
+
 ### Phase 2: Cluster Template
 
 **Initial Clustering Worksheet:**
@@ -63,6 +85,17 @@ Potential splits: [Could this be multiple clusters?]
 Potential merges: [Could this join with another cluster?]
 Outlier insights: [Any that don't quite fit?]
 ```
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">💡 Phase 3: Theme - Developing Meaningful Themes</div>
+  <div class="problem-tree-description">Transforming clusters into actionable themes with comprehensive evidence assessment</div>
+  
+  <img src="{{ '/assets/images/affinity-analysis/phase-3-theme.svg' | relative_url }}" alt="Phase 3 Theme development showing clusters being transformed into evidence-based themes with assessment criteria" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/assets/images/affinity-analysis/phase-3-theme.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
 
 ### Phase 3: Theme Template
 
@@ -100,6 +133,17 @@ Cultural/Contextual Considerations:
 Contradictory Evidence:
 [Any conflicting insights and why they might conflict]
 ```
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🎯 Phase 4: Synthesize - Cross-Theme Analysis</div>
+  <div class="problem-tree-description">Creating comprehensive understanding and action priorities through cross-theme synthesis</div>
+  
+  <img src="{{ '/assets/images/affinity-analysis/phase-4-synthesize.svg' | relative_url }}" alt="Phase 4 Synthesize process showing themes being analyzed for relationships, patterns, and action implications" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/assets/images/affinity-analysis/phase-4-synthesize.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
 
 ### Phase 4: Synthesize Template
 

@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 24px; font-weight: 800; fill: #3d3d3d; }
+      .phase-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; font-weight: 600; fill: #e12729; }
+      .data-source { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; fill: #434343; }
+      .insight-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12px; fill: #525252; }
+      .arrow { stroke: #e12729; stroke-width: 2; fill: #e12729; }
+      .data-box { fill: #fef2f2; stroke: #e12729; stroke-width: 2; }
+      .insight-card { fill: #fef9c3; stroke: #f8cc1b; stroke-width: 1; }
+      .collection-area { fill: #ecfff7; stroke: #007f4e; stroke-width: 2; stroke-dasharray: 5,5; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title-text">Phase 1: Capture - Collecting Insights</text>
+  <text x="400" y="58" text-anchor="middle" class="phase-text">Extracting insights from all data sources</text>
+  
+  <!-- Data Sources -->
+  <!-- Stakeholder Interviews -->
+  <rect x="50" y="90" width="140" height="80" rx="8" class="data-box"/>
+  <text x="120" y="115" text-anchor="middle" class="data-source">Stakeholder</text>
+  <text x="120" y="135" text-anchor="middle" class="data-source">Interviews</text>
+  <text x="120" y="155" text-anchor="middle" class="data-source">(15 people)</text>
+  
+  <!-- Focus Groups -->
+  <rect x="50" y="190" width="140" height="80" rx="8" class="data-box"/>
+  <text x="120" y="215" text-anchor="middle" class="data-source">Focus Groups</text>
+  <text x="120" y="235" text-anchor="middle" class="data-source">(3 sessions)</text>
+  
+  <!-- Survey Data -->
+  <rect x="50" y="290" width="140" height="80" rx="8" class="data-box"/>
+  <text x="120" y="315" text-anchor="middle" class="data-source">Survey</text>
+  <text x="120" y="335" text-anchor="middle" class="data-source">Responses</text>
+  <text x="120" y="355" text-anchor="middle" class="data-source">(128 responses)</text>
+  
+  <!-- Expert Consultations -->
+  <rect x="50" y="390" width="140" height="80" rx="8" class="data-box"/>
+  <text x="120" y="415" text-anchor="middle" class="data-source">Expert</text>
+  <text x="120" y="435" text-anchor="middle" class="data-source">Consultations</text>
+  <text x="120" y="455" text-anchor="middle" class="data-source">(8 experts)</text>
+  
+  <!-- Problem Tree Research -->
+  <rect x="50" y="490" width="140" height="80" rx="8" class="data-box"/>
+  <text x="120" y="515" text-anchor="middle" class="data-source">Problem Tree</text>
+  <text x="120" y="535" text-anchor="middle" class="data-source">Research Notes</text>
+  
+  <!-- Arrows from sources to insight extraction -->
+  <path d="M 195 130 L 250 200" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M 195 230 L 250 220" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M 195 330 L 250 260" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M 195 430 L 250 280" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M 195 530 L 250 300" class="arrow" marker-end="url(#arrowhead)"/>
+  
+  <!-- Insight Extraction Process -->
+  <rect x="270" y="180" width="180" height="140" rx="12" class="collection-area"/>
+  <text x="360" y="205" text-anchor="middle" class="phase-text">Insight Extraction</text>
+  <text x="360" y="225" text-anchor="middle" class="data-source">Using structured format:</text>
+  <text x="280" y="245" class="insight-text">• Content: Quote/insight</text>
+  <text x="280" y="260" class="insight-text">• Source: Who, when, context</text>
+  <text x="280" y="275" class="insight-text">• Problem Tree connection</text>
+  <text x="280" y="290" class="insight-text">• Evidence strength</text>
+  <text x="280" y="305" class="insight-text">• Cultural context</text>
+  
+  <!-- Arrow to insight cards -->
+  <path d="M 455 250 L 510 250" class="arrow" marker-end="url(#arrowhead)"/>
+  
+  <!-- Sample Insight Cards -->
+  <rect x="530" y="100" width="220" height="60" rx="4" class="insight-card"/>
+  <text x="535" y="118" class="insight-text">INSIGHT #1: "Transport costs eat 30%</text>
+  <text x="535" y="132" class="insight-text">of daily wages for rural youth"</text>
+  <text x="535" y="146" class="insight-text">Source: Focus Group, March 15</text>
+  
+  <rect x="530" y="180" width="220" height="60" rx="4" class="insight-card"/>
+  <text x="535" y="198" class="insight-text">INSIGHT #2: "Skills training doesn't</text>
+  <text x="535" y="212" class="insight-text">match what employers actually need"</text>
+  <text x="535" y="226" class="insight-text">Source: Employer Interview, March 8</text>
+  
+  <rect x="530" y="260" width="220" height="60" rx="4" class="insight-card"/>
+  <text x="535" y="278" class="insight-text">INSIGHT #3: "Family expects me to</text>
+  <text x="535" y="292" class="insight-text">work locally, not move for jobs"</text>
+  <text x="535" y="306" class="insight-text">Source: Youth Interview, March 12</text>
+  
+  <rect x="530" y="340" width="220" height="60" rx="4" class="insight-card"/>
+  <text x="535" y="358" class="insight-text">INSIGHT #4: "Previous program</text>
+  <text x="535" y="372" class="insight-text">failed - community skeptical now"</text>
+  <text x="535" y="386" class="insight-text">Source: Community Leader, March 10</text>
+  
+  <rect x="530" y="420" width="220" height="60" rx="4" class="insight-card"/>
+  <text x="535" y="438" class="insight-text">INSIGHT #5: "Women face different</text>
+  <text x="535" y="452" class="insight-text">barriers than men in job seeking"</text>
+  <text x="535" y="466" class="insight-text">Source: Women's Focus Group, March 14</text>
+  
+  <!-- Result indicator -->
+  <text x="640" y="520" text-anchor="middle" class="phase-text">47 insights captured</text>
+  <text x="640" y="540" text-anchor="middle" class="data-source">from 5 data sources</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,136 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 24px; font-weight: 800; fill: #3d3d3d; }
+      .phase-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; font-weight: 600; fill: #e12729; }
+      .cluster-label { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; font-weight: 600; fill: #3d3d3d; }
+      .insight-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; fill: #525252; }
+      .process-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12px; fill: #737373; }
+      .arrow { stroke: #e12729; stroke-width: 2; fill: #e12729; }
+      .insight-card { fill: #fef9c3; stroke: #f8cc1b; stroke-width: 1; }
+      .cluster-area-a { fill: #fef2f2; stroke: #e12729; stroke-width: 2; stroke-dasharray: 5,5; }
+      .cluster-area-b { fill: #ffedd5; stroke: #f37324; stroke-width: 2; stroke-dasharray: 5,5; }
+      .cluster-area-c { fill: #ecfff7; stroke: #007f4e; stroke-width: 2; stroke-dasharray: 5,5; }
+      .cluster-area-d { fill: #fefce8; stroke: #f8cc1b; stroke-width: 2; stroke-dasharray: 5,5; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title-text">Phase 2: Cluster - Grouping Similar Insights</text>
+  <text x="400" y="58" text-anchor="middle" class="phase-text">Organizing insights by natural patterns and relationships</text>
+  
+  <!-- Input: Individual insights -->
+  <text x="100" y="90" text-anchor="middle" class="phase-text">47 Individual Insights</text>
+  
+  <!-- Sample scattered insights -->
+  <rect x="20" y="105" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="120" class="insight-text">Transport costs too high for youth</text>
+  
+  <rect x="20" y="140" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="155" class="insight-text">Skills training doesn't match needs</text>
+  
+  <rect x="20" y="175" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="190" class="insight-text">Family expects local work</text>
+  
+  <rect x="20" y="210" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="225" class="insight-text">Previous programs failed</text>
+  
+  <rect x="20" y="245" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="260" class="insight-text">Women face different barriers</text>
+  
+  <!-- Process arrow -->
+  <path d="M 190 200 L 240 200" class="arrow" marker-end="url(#arrowhead)"/>
+  <text x="215" y="190" text-anchor="middle" class="process-text">Group by</text>
+  <text x="215" y="220" text-anchor="middle" class="process-text">similarity</text>
+  
+  <!-- Clustering Process Area -->
+  <rect x="260" y="100" width="280" height="400" rx="8" fill="#f8f9fa" stroke="#4a7c3c" stroke-width="2"/>
+  <text x="400" y="125" text-anchor="middle" class="phase-text">Clustering Process</text>
+  
+  <!-- Cluster A: Economic Barriers -->
+  <ellipse cx="320" cy="180" rx="70" ry="45" class="cluster-area-a"/>
+  <text x="320" y="155" text-anchor="middle" class="cluster-label">Cluster A:</text>
+  <text x="320" y="170" text-anchor="middle" class="cluster-label">Economic Barriers</text>
+  
+  <rect x="270" y="185" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="275" y="196" class="insight-text">Transport costs</text>
+  <rect x="270" y="205" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="275" y="216" class="insight-text">Low wages</text>
+  <rect x="270" y="225" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="275" y="236" class="insight-text">No startup capital</text>
+  
+  <!-- Cluster B: Skills Mismatch -->
+  <ellipse cx="480" cy="180" rx="70" ry="45" class="cluster-area-b"/>
+  <text x="480" y="155" text-anchor="middle" class="cluster-label">Cluster B:</text>
+  <text x="480" y="170" text-anchor="middle" class="cluster-label">Skills Mismatch</text>
+  
+  <rect x="430" y="185" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="435" y="196" class="insight-text">Training outdated</text>
+  <rect x="430" y="205" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="435" y="216" class="insight-text">Employer needs differ</text>
+  <rect x="430" y="225" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="435" y="236" class="insight-text">No practical experience</text>
+  
+  <!-- Cluster C: Social/Cultural -->
+  <ellipse cx="320" cy="300" rx="70" ry="45" class="cluster-area-c"/>
+  <text x="320" y="275" text-anchor="middle" class="cluster-label">Cluster C:</text>
+  <text x="320" y="290" text-anchor="middle" class="cluster-label">Social/Cultural</text>
+  
+  <rect x="270" y="305" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="275" y="316" class="insight-text">Family expectations</text>
+  <rect x="270" y="325" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="275" y="336" class="insight-text">Gender barriers</text>
+  <rect x="270" y="345" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="275" y="356" class="insight-text">Cultural norms</text>
+  
+  <!-- Cluster D: System Trust -->
+  <ellipse cx="480" cy="300" rx="70" ry="45" class="cluster-area-d"/>
+  <text x="480" y="275" text-anchor="middle" class="cluster-label">Cluster D:</text>
+  <text x="480" y="290" text-anchor="middle" class="cluster-label">System Trust</text>
+  
+  <rect x="430" y="305" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="435" y="316" class="insight-text">Program failures</text>
+  <rect x="430" y="325" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="435" y="336" class="insight-text">Community skepticism</text>
+  <rect x="430" y="345" width="100" height="15" rx="2" class="insight-card"/>
+  <text x="435" y="356" class="insight-text">Broken promises</text>
+  
+  <!-- Clustering criteria -->
+  <text x="400" y="420" text-anchor="middle" class="process-text">Clustering by:</text>
+  <text x="400" y="435" text-anchor="middle" class="process-text">• Common root causes</text>
+  <text x="400" y="450" text-anchor="middle" class="process-text">• Similar stakeholder groups</text>
+  <text x="400" y="465" text-anchor="middle" class="process-text">• Related intervention areas</text>
+  <text x="400" y="480" text-anchor="middle" class="process-text">• Geographic/demographic patterns</text>
+  
+  <!-- Arrow to results -->
+  <path d="M 550 250 L 600 250" class="arrow" marker-end="url(#arrowhead)"/>
+  
+  <!-- Results -->
+  <text x="680" y="150" text-anchor="middle" class="phase-text">4 Initial Clusters</text>
+  
+  <rect x="620" y="170" width="120" height="30" rx="4" fill="#e3f2fd" stroke="#2196f3"/>
+  <text x="680" y="190" text-anchor="middle" class="cluster-label">Economic Barriers</text>
+  
+  <rect x="620" y="210" width="120" height="30" rx="4" fill="#f3e5f5" stroke="#9c27b0"/>
+  <text x="680" y="230" text-anchor="middle" class="cluster-label">Skills Mismatch</text>
+  
+  <rect x="620" y="250" width="120" height="30" rx="4" fill="#e8f5e8" stroke="#4caf50"/>
+  <text x="680" y="270" text-anchor="middle" class="cluster-label">Social/Cultural</text>
+  
+  <rect x="620" y="290" width="120" height="30" rx="4" fill="#fff3e0" stroke="#ff9800"/>
+  <text x="680" y="310" text-anchor="middle" class="cluster-label">System Trust</text>
+  
+  <text x="680" y="350" text-anchor="middle" class="process-text">Next: Review and refine</text>
+  <text x="680" y="365" text-anchor="middle" class="process-text">cluster boundaries</text>
+  <text x="680" y="380" text-anchor="middle" class="process-text">before developing themes</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+    </marker>
+  </defs>
+</svg>

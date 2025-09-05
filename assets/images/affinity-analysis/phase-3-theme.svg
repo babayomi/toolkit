@@ -1,0 +1,120 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 24px; font-weight: 800; fill: #3d3d3d; }
+      .phase-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; font-weight: 600; fill: #e12729; }
+      .theme-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; font-weight: 600; fill: #3d3d3d; }
+      .theme-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; fill: #525252; }
+      .process-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12px; fill: #737373; }
+      .arrow { stroke: #e12729; stroke-width: 2; fill: #e12729; }
+      .cluster-box { fill: #ecfff7; stroke: #007f4e; stroke-width: 1; }
+      .theme-box { fill: #ffffff; stroke: #3d3d3d; stroke-width: 2; }
+      .evidence-box { fill: #f6f6f6; stroke: #737373; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title-text">Phase 3: Theme - Developing Meaningful Themes</text>
+  <text x="400" y="58" text-anchor="middle" class="phase-text">Transforming clusters into actionable themes with evidence assessment</text>
+  
+  <!-- Input clusters -->
+  <text x="80" y="90" text-anchor="middle" class="phase-text">4 Initial Clusters</text>
+  
+  <rect x="20" y="105" width="120" height="40" rx="4" class="cluster-box"/>
+  <text x="80" y="120" text-anchor="middle" class="theme-text">Economic Barriers</text>
+  <text x="80" y="135" text-anchor="middle" class="theme-text">(12 insights)</text>
+  
+  <rect x="20" y="155" width="120" height="40" rx="4" class="cluster-box"/>
+  <text x="80" y="170" text-anchor="middle" class="theme-text">Skills Mismatch</text>
+  <text x="80" y="185" text-anchor="middle" class="theme-text">(15 insights)</text>
+  
+  <rect x="20" y="205" width="120" height="40" rx="4" class="cluster-box"/>
+  <text x="80" y="220" text-anchor="middle" class="theme-text">Social/Cultural</text>
+  <text x="80" y="235" text-anchor="middle" class="theme-text">(11 insights)</text>
+  
+  <rect x="20" y="255" width="120" height="40" rx="4" class="cluster-box"/>
+  <text x="80" y="270" text-anchor="middle" class="theme-text">System Trust</text>
+  <text x="80" y="285" text-anchor="middle" class="theme-text">(9 insights)</text>
+  
+  <!-- Process arrow -->
+  <path d="M 150 200 L 200 200" class="arrow" marker-end="url(#arrowhead)"/>
+  <text x="175" y="190" text-anchor="middle" class="process-text">Develop</text>
+  <text x="175" y="220" text-anchor="middle" class="process-text">themes</text>
+  
+  <!-- Theme Development Process -->
+  <rect x="220" y="90" width="360" height="460" rx="8" fill="#f8f9fa" stroke="#4a7c3c" stroke-width="2"/>
+  <text x="400" y="115" text-anchor="middle" class="phase-text">Theme Development Framework</text>
+  
+  <!-- Theme 1: Geographic Access Barriers -->
+  <rect x="240" y="130" width="320" height="80" rx="6" class="theme-box"/>
+  <text x="400" y="150" text-anchor="middle" class="theme-title">THEME 1: Geographic Access Barriers</text>
+  <text x="250" y="165" class="theme-text">Description: Distance and transport costs create systematic exclusion</text>
+  <text x="250" y="178" class="theme-text">from economic opportunities, affecting rural youth disproportionately.</text>
+  <text x="250" y="195" class="theme-text">Evidence: 15 insights from 8 stakeholders (Strong consistency)</text>
+  <text x="250" y="208" class="theme-text">Problem Tree: Validates "Economic barriers" root cause</text>
+  
+  <!-- Theme 2: Training-Market Disconnect -->
+  <rect x="240" y="220" width="320" height="80" rx="6" class="theme-box"/>
+  <text x="400" y="240" text-anchor="middle" class="theme-title">THEME 2: Training-Market Disconnect</text>
+  <text x="250" y="255" class="theme-text">Description: Skills training programs operate independently of actual</text>
+  <text x="250" y="268" class="theme-text">employer needs, creating qualified but unemployable graduates.</text>
+  <text x="250" y="285" class="theme-text">Evidence: 12 insights from 6 stakeholders (Strong intensity)</text>
+  <text x="250" y="298" class="theme-text">Problem Tree: Refines "Limited training access" cause</text>
+  
+  <!-- Theme 3: Cultural Gender Expectations -->
+  <rect x="240" y="310" width="320" height="80" rx="6" class="theme-box"/>
+  <text x="400" y="330" text-anchor="middle" class="theme-title">THEME 3: Cultural Gender Expectations</text>
+  <text x="250" y="345" class="theme-text">Description: Traditional gender roles and family expectations limit</text>
+  <text x="250" y="358" class="theme-text">career mobility differently for women and men.</text>
+  <text x="250" y="375" class="theme-text">Evidence: 9 insights from 5 stakeholders (Moderate consistency)</text>
+  <text x="250" y="388" class="theme-text">Problem Tree: Adds new "Gender-specific barriers" cause</text>
+  
+  <!-- Theme 4: Historical Program Failures -->
+  <rect x="240" y="400" width="320" height="80" rx="6" class="theme-box"/>
+  <text x="400" y="420" text-anchor="middle" class="theme-title">THEME 4: Historical Program Failures</text>
+  <text x="250" y="435" class="theme-text">Description: Previous unsuccessful interventions created community</text>
+  <text x="250" y="448" class="theme-text">skepticism that affects current program engagement.</text>
+  <text x="250" y="465" class="theme-text">Evidence: 11 insights from 4 stakeholders (High credibility)</text>
+  <text x="250" y="478" text-anchor="middle" class="theme-text">Problem Tree: Adds "Stakeholder trust deficit" root cause</text>
+  
+  <!-- Process notes -->
+  <text x="400" y="510" text-anchor="middle" class="process-text">Each theme includes: Description, Evidence Assessment,</text>
+  <text x="400" y="525" text-anchor="middle" class="process-text">Stakeholder Analysis, Problem Tree Implications</text>
+  
+  <!-- Arrow to output -->
+  <path d="M 590 300 L 640 300" class="arrow" marker-end="url(#arrowhead)"/>
+  
+  <!-- Theme Output -->
+  <text x="710" y="150" text-anchor="middle" class="phase-text">4 Evidence-Based</text>
+  <text x="710" y="168" text-anchor="middle" class="phase-text">Themes</text>
+  
+  <!-- Evidence Assessment Box -->
+  <rect x="630" y="180" width="160" height="200" rx="4" class="evidence-box"/>
+  <text x="710" y="200" text-anchor="middle" class="theme-title">Evidence Assessment</text>
+  
+  <text x="640" y="220" class="theme-text">Frequency:</text>
+  <text x="640" y="235" class="theme-text">How often mentioned</text>
+  
+  <text x="640" y="255" class="theme-text">Intensity:</text>
+  <text x="640" y="270" class="theme-text">How strongly emphasized</text>
+  
+  <text x="640" y="290" class="theme-text">Consistency:</text>
+  <text x="640" y="305" class="theme-text">How aligned sources are</text>
+  
+  <text x="640" y="325" class="theme-text">Credibility:</text>
+  <text x="640" y="340" class="theme-text">How reliable sources are</text>
+  
+  <text x="710" y="365" text-anchor="middle" class="process-text">Next: Cross-theme</text>
+  <text x="710" y="380" text-anchor="middle" class="process-text">synthesis and</text>
+  <text x="710" y="395" text-anchor="middle" class="process-text">action implications</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e12729"/>
+    </marker>
+  </defs>
+</svg>
