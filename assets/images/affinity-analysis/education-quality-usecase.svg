@@ -1,0 +1,104 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 22px; font-weight: 800; fill: #3d3d3d; }
+      .sector-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; font-weight: 600; fill: #e12729; }
+      .stakeholder-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12px; fill: #434343; }
+      .theme-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; fill: #525252; }
+      .quote-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 10px; fill: #525252; font-style: italic; }
+      .arrow { stroke: #007f4e; stroke-width: 2; fill: #007f4e; }
+      .stakeholder-box { fill: #ecfff7; stroke: #007f4e; stroke-width: 2; }
+      .quote-box { fill: #fef9c3; stroke: #f8cc1b; stroke-width: 1; }
+      .synthesis-box { fill: #ffffff; stroke: #3d3d3d; stroke-width: 2; }
+      .insight-box { fill: #fef2f2; stroke: #e12729; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title-text">Education Quality: Cross-Cultural Synthesis Example</text>
+  <text x="400" y="55" text-anchor="middle" class="sector-text">Language and Cultural Disconnect in Curriculum</text>
+  
+  <!-- Stakeholder Groups -->
+  <text x="400" y="85" text-anchor="middle" class="sector-text">Multi-Stakeholder Perspectives on Same Issue</text>
+  
+  <!-- Urban Parents -->
+  <rect x="50" y="105" width="160" height="80" rx="6" class="stakeholder-box"/>
+  <text x="130" y="125" text-anchor="middle" class="stakeholder-text">Urban Parents (8)</text>
+  <rect x="60" y="135" width="140" height="40" rx="3" class="quote-box"/>
+  <text x="65" y="148" class="quote-text">"School teaches in English</text>
+  <text x="65" y="160" class="quote-text">but kids speak local</text>
+  <text x="65" y="172" class="quote-text">language at home"</text>
+  
+  <!-- Rural Parents -->
+  <rect x="230" y="105" width="160" height="80" rx="6" class="stakeholder-box"/>
+  <text x="310" y="125" text-anchor="middle" class="stakeholder-text">Rural Parents (12)</text>
+  <rect x="240" y="135" width="140" height="40" rx="3" class="quote-box"/>
+  <text x="245" y="148" class="quote-text">"Teachers don't understand</text>
+  <text x="245" y="160" class="quote-text">our children's background</text>
+  <text x="245" y="172" class="quote-text">and experiences"</text>
+  
+  <!-- Teachers -->
+  <rect x="410" y="105" width="160" height="80" rx="6" class="stakeholder-box"/>
+  <text x="490" y="125" text-anchor="middle" class="stakeholder-text">Teachers (8)</text>
+  <rect x="420" y="135" width="140" height="40" rx="3" class="quote-box"/>
+  <text x="425" y="148" class="quote-text">"Curriculum doesn't reflect</text>
+  <text x="425" y="160" class="quote-text">student experiences or</text>
+  <text x="425" y="172" class="quote-text">cultural context"</text>
+  
+  <!-- Students -->
+  <rect x="590" y="105" width="160" height="80" rx="6" class="stakeholder-box"/>
+  <text x="670" y="125" text-anchor="middle" class="stakeholder-text">Students (3 groups)</text>
+  <rect x="600" y="135" width="140" height="40" rx="3" class="quote-box"/>
+  <text x="605" y="148" class="quote-text">"Stories in books are about</text>
+  <text x="605" y="160" class="quote-text">places we've never seen</text>
+  <text x="605" y="172" class="quote-text">or experienced"</text>
+  
+  <!-- Convergent arrows -->
+  <path d="M 130 190 L 270 240" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M 310 190 L 330 240" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M 490 190 L 470 240" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M 670 190 L 530 240" class="arrow" marker-end="url(#arrowhead)"/>
+  
+  <!-- Cross-Cutting Theme -->
+  <rect x="250" y="250" width="300" height="90" rx="6" class="synthesis-box"/>
+  <text x="400" y="275" text-anchor="middle" class="stakeholder-text">Convergent Theme:</text>
+  <text x="400" y="290" text-anchor="middle" class="stakeholder-text">Language & Cultural Disconnect in Curriculum</text>
+  
+  <text x="260" y="310" class="theme-text">Synthesis insight: Language policy affects learning, but</text>
+  <text x="260" y="325" class="theme-text">deeper issue is cultural relevance of content and teaching</text>
+  <text x="260" y="335" class="theme-text">methods that don't build on student cultural assets.</text>
+  
+  <!-- Evidence Strength -->
+  <rect x="50" y="360" width="200" height="80" rx="6" class="insight-box"/>
+  <text x="150" y="380" text-anchor="middle" class="sector-text">Evidence Assessment</text>
+  
+  <text x="60" y="400" class="theme-text">Frequency: 4/4 stakeholder groups</text>
+  <text x="60" y="415" class="theme-text">Consistency: High across groups</text>
+  <text x="60" y="430" class="theme-text">Intensity: Moderate to strong</text>
+  
+  <!-- Cultural Considerations -->
+  <rect x="270" y="360" width="250" height="80" rx="6" class="insight-box"/>
+  <text x="395" y="380" text-anchor="middle" class="sector-text">Cultural Analysis</text>
+  
+  <text x="280" y="400" class="theme-text">Urban vs Rural: Different manifestations</text>
+  <text x="280" y="415" class="theme-text">Teachers: System constraint, not choice</text>
+  <text x="280" y="430" class="theme-text">Students: Alienation from learning content</text>
+  
+  <!-- Action Implications -->
+  <rect x="540" y="360" width="210" height="80" rx="6" class="insight-box"/>
+  <text x="645" y="380" text-anchor="middle" class="sector-text">Action Implications</text>
+  
+  <text x="550" y="400" class="theme-text">Immediate: Cultural adaptation training</text>
+  <text x="550" y="415" class="theme-text">Strategic: Curriculum localization</text>
+  <text x="550" y="430" class="theme-text">Partnership: Community content input</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+    </marker>
+  </defs>
+</svg>

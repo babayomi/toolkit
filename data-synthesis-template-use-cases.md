@@ -189,6 +189,17 @@ Action Implications:
 
 ## 🏭 Sector-Specific Use Cases
 
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">💼 Youth Employment Initiative Example</div>
+  <div class="problem-tree-description">Complete affinity analysis flow showing stakeholder engagement to refined themes with Problem Tree updates</div>
+  
+  <img src="{{ '/assets/images/affinity-analysis/youth-employment-usecase.svg' | relative_url }}" alt="Youth Employment affinity analysis showing stakeholder groups, initial clusters, refined themes, and Problem Tree validation updates" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/assets/images/affinity-analysis/youth-employment-usecase.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
+
 ### Use Case 1: Youth Employment Initiative
 
 **Context:** Urban/rural youth unemployment with skills mismatch issues
@@ -219,6 +230,17 @@ Action Implications:
 - Refined: "Limited access to training" → "Training exists but disconnected from market needs"
 - Validated: Geographic barriers assumption with specific transport cost data
 
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🏥 Community Health Improvement Example</div>
+  <div class="problem-tree-description">Healthcare access barriers analysis showing multi-stakeholder synthesis and evidence assessment</div>
+  
+  <img src="{{ '/assets/images/affinity-analysis/community-health-usecase.svg' | relative_url }}" alt="Community Health affinity analysis showing raw insights, theme development, and cross-stakeholder synthesis with evidence assessment" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/assets/images/affinity-analysis/community-health-usecase.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
+
 ### Use Case 2: Community Health Improvement
 
 **Context:** Maternal and child health outcomes in underserved communities
@@ -248,6 +270,17 @@ optimal health outcomes.
 
 Problem Tree Impact: Added new root cause about accessibility vs availability
 ```
+
+<div class="problem-tree-embed">
+  <div class="problem-tree-title">🎓 Education Quality Initiative Example</div>
+  <div class="problem-tree-description">Cross-cultural synthesis showing how multiple stakeholder perspectives converge into unified themes</div>
+  
+  <img src="{{ '/assets/images/affinity-analysis/education-quality-usecase.svg' | relative_url }}" alt="Education Quality affinity analysis showing multi-stakeholder perspectives converging into cross-cultural synthesis with action implications" style="width: 100%; height: auto; border-radius: 8px;">
+  
+  <div class="problem-tree-enlarge">
+    <a href="{{ '/assets/images/affinity-analysis/education-quality-usecase.svg' | relative_url }}" target="_blank" class="enlarge-link">🔍 Enlarge to view</a>
+  </div>
+</div>
 
 ### Use Case 3: Education Quality Initiative
 

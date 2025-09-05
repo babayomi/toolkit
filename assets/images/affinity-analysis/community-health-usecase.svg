@@ -1,0 +1,106 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 22px; font-weight: 800; fill: #3d3d3d; }
+      .sector-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; font-weight: 600; fill: #e12729; }
+      .stakeholder-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12px; fill: #434343; }
+      .theme-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; fill: #525252; }
+      .insight-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 10px; fill: #525252; }
+      .arrow { stroke: #007f4e; stroke-width: 2; fill: #007f4e; }
+      .stakeholder-box { fill: #ecfff7; stroke: #007f4e; stroke-width: 2; }
+      .insight-box { fill: #fef9c3; stroke: #f8cc1b; stroke-width: 1; }
+      .theme-box { fill: #ffffff; stroke: #3d3d3d; stroke-width: 2; }
+      .synthesis-box { fill: #fef2f2; stroke: #e12729; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title-text">Community Health: Healthcare Access Barriers Analysis</text>
+  <text x="400" y="55" text-anchor="middle" class="sector-text">Maternal and child health outcomes in underserved communities</text>
+  
+  <!-- Stakeholder Voices -->
+  <text x="150" y="85" text-anchor="middle" class="sector-text">Stakeholder Engagement Results</text>
+  
+  <!-- Primary Stakeholders -->
+  <rect x="50" y="100" width="120" height="60" rx="6" class="stakeholder-box"/>
+  <text x="110" y="120" text-anchor="middle" class="stakeholder-text">PRIMARY</text>
+  <text x="110" y="135" text-anchor="middle" class="stakeholder-text">Mothers (12)</text>
+  <text x="110" y="150" text-anchor="middle" class="stakeholder-text">Community leaders (2)</text>
+  
+  <!-- Secondary Stakeholders -->
+  <rect x="180" y="100" width="120" height="60" rx="6" class="stakeholder-box"/>
+  <text x="240" y="120" text-anchor="middle" class="stakeholder-text">SECONDARY</text>
+  <text x="240" y="135" text-anchor="middle" class="stakeholder-text">Health workers (6)</text>
+  <text x="240" y="150" text-anchor="middle" class="stakeholder-text">Providers (4)</text>
+  
+  <!-- Raw Insights Example -->
+  <text x="150" y="190" text-anchor="middle" class="sector-text">Sample Raw Insights</text>
+  
+  <rect x="50" y="205" width="250" height="15" rx="3" class="insight-box"/>
+  <text x="55" y="216" class="insight-text">"Clinic is too far when baby is sick" - Mother, Primary</text>
+  
+  <rect x="50" y="225" width="250" height="15" rx="3" class="insight-box"/>
+  <text x="55" y="236" class="insight-text">"Can't afford transport to health center" - Mother, Primary</text>
+  
+  <rect x="50" y="245" width="250" height="15" rx="3" class="insight-box"/>
+  <text x="55" y="256" class="insight-text">"Clinic only open when I'm working" - Mother, Primary</text>
+  
+  <rect x="50" y="265" width="250" height="15" rx="3" class="insight-box"/>
+  <text x="55" y="276" class="insight-text">"No childcare during appointments" - Mother, Primary</text>
+  
+  <rect x="50" y="285" width="250" height="15" rx="3" class="insight-box"/>
+  <text x="55" y="296" class="insight-text">"Traditional healer is closer and cheaper" - Community Leader</text>
+  
+  <!-- Arrow to theme -->
+  <path d="M 320 250 L 380 250" class="arrow" marker-end="url(#arrowhead)"/>
+  <text x="350" y="240" class="theme-text">Cluster &</text>
+  <text x="350" y="265" class="theme-text">synthesize</text>
+  
+  <!-- Refined Theme -->
+  <rect x="400" y="200" width="350" height="100" rx="6" class="theme-box"/>
+  <text x="575" y="220" text-anchor="middle" class="stakeholder-text">Healthcare Access Barriers:</text>
+  <text x="575" y="235" text-anchor="middle" class="stakeholder-text">Distance, Cost, and Cultural Factors</text>
+  
+  <text x="410" y="255" class="theme-text">Theme Description: Multiple interconnected barriers prevent</text>
+  <text x="410" y="270" class="theme-text">consistent healthcare access, with families making rational</text>
+  <text x="410" y="285" class="theme-text">choices based on immediate constraints rather than optimal</text>
+  <text x="410" y="295" class="theme-text">health outcomes.</text>
+  
+  <!-- Evidence Assessment -->
+  <rect x="400" y="320" width="180" height="80" rx="6" class="synthesis-box"/>
+  <text x="490" y="340" text-anchor="middle" class="sector-text">Evidence Assessment</text>
+  
+  <text x="410" y="355" class="theme-text">Frequency: 5/12 mothers mentioned</text>
+  <text x="410" y="370" class="theme-text">Intensity: High emotional response</text>
+  <text x="410" y="385" class="theme-text">Consistency: Aligned across groups</text>
+  <text x="410" y="395" class="theme-text">Credibility: Lived experience (high)</text>
+  
+  <!-- Problem Tree Impact -->
+  <rect x="590" y="320" width="180" height="80" rx="6" class="synthesis-box"/>
+  <text x="680" y="340" text-anchor="middle" class="sector-text">Problem Tree Impact</text>
+  
+  <text x="600" y="355" class="theme-text">Added: Accessibility ≠ availability</text>
+  <text x="600" y="370" class="theme-text">Validated: Distance barriers (A→E)</text>
+  <text x="600" y="385" class="theme-text">New insight: Timing/scheduling</text>
+  <text x="600" y="395" class="theme-text">Challenge: Cost assumption</text>
+  
+  <!-- Cross-Cutting Insights -->
+  <rect x="50" y="320" width="320" height="110" rx="6" fill="#f6f6f6" stroke="#737373" stroke-width="1"/>
+  <text x="210" y="340" text-anchor="middle" class="sector-text">Cross-Stakeholder Synthesis</text>
+  
+  <text x="60" y="360" class="theme-text">Primary stakeholders (mothers): Focus on immediate practical barriers</text>
+  <text x="60" y="375" class="theme-text">Secondary stakeholders (health workers): System-level constraints</text>
+  <text x="60" y="390" class="theme-text">Convergence: Both groups recognize cultural appropriateness gap</text>
+  <text x="60" y="405" class="theme-text">Divergence: Mothers blame system, providers blame patient behavior</text>
+  <text x="60" y="420" class="theme-text">Bridge: Traditional healers play legitimate role in community health</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#007f4e"/>
+    </marker>
+  </defs>
+</svg>

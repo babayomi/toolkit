@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 470" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 24px; font-weight: 800; fill: #3d3d3d; }
@@ -15,7 +15,7 @@
   </defs>
   
   <!-- Background -->
-  <rect width="800" height="600" fill="#fefefe"/>
+  <rect width="800" height="470" fill="#fefefe"/>
   
   <!-- Title -->
   <text x="400" y="35" text-anchor="middle" class="title-text">Phase 4: Synthesize - Cross-Theme Analysis</text>
@@ -72,16 +72,16 @@
   <!-- Community Voice Summary -->
   <rect x="250" y="410" width="300" height="70" rx="6" class="synthesis-box"/>
   <text x="400" y="430" text-anchor="middle" class="section-title">Community Voice Summary</text>
-  <text x="260" y="445" class="synthesis-text">Most emphasized: "Need real jobs, not just training programs"</text>
-  <text x="260" y="460" class="synthesis-text">Most emotional: Previous program failures and broken promises</text>
-  <text x="260" y="475" class="synthesis-text">Most consensus: Transport barriers affect everyone equally</text>
+  <text x="260" y="445" class="synthesis-text">Primary stakeholders: "Need real jobs, not training"</text>
+  <text x="260" y="460" class="synthesis-text">Secondary stakeholders: System-level solutions needed</text>
+  <text x="260" y="475" class="synthesis-text">All groups: Transport barriers universally mentioned</text>
   
   <!-- Action Implications -->
   <rect x="250" y="490" width="300" height="65" rx="6" class="synthesis-box"/>
   <text x="400" y="510" text-anchor="middle" class="section-title">Action Implications</text>
-  <text x="260" y="525" class="synthesis-text">Immediate: Address trust through transparency mechanisms</text>
-  <text x="260" y="540" class="synthesis-text">Strategic: Integrate transport solutions with training programs</text>
-  <text x="260" y="555" class="synthesis-text">Partnership: Connect training directly to employer commitments</text>
+  <text x="260" y="525" class="synthesis-text">Immediate: Re-engage stakeholders on trust issues</text>
+  <text x="260" y="540" class="synthesis-text">Strategic: Design with Primary stakeholder priorities</text>
+  <text x="260" y="555" class="synthesis-text">Partnership: Leverage Secondary stakeholder networks</text>
   
   <!-- Arrow to output -->
   <path d="M 580 300 L 630 300" class="arrow" marker-end="url(#arrowhead)"/>
@@ -113,9 +113,8 @@
   <text x="630" y="370" class="priority-text">? 2 assumptions converted</text>
   
   <!-- Community engagement note -->
-  <text x="700" y="420" text-anchor="middle" class="synthesis-text">Ready for community</text>
-  <text x="700" y="435" text-anchor="middle" class="synthesis-text">validation workshop</text>
-  <text x="700" y="450" text-anchor="middle" class="synthesis-text">and program co-design</text>
+  <text x="700" y="420" text-anchor="middle" class="synthesis-text">Ready for stakeholder</text>
+  <text x="700" y="435" text-anchor="middle" class="synthesis-text">feedback sessions</text>
   
   <!-- Relationship lines between themes -->
   <line x1="80" y1="120" x2="400" y2="250" class="relationship-line"/>

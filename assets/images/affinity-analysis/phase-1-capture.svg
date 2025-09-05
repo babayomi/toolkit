@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 580" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 24px; font-weight: 800; fill: #3d3d3d; }
@@ -13,40 +13,47 @@
   </defs>
   
   <!-- Background -->
-  <rect width="800" height="600" fill="#fefefe"/>
+  <rect width="800" height="580" fill="#fefefe"/>
   
   <!-- Title -->
   <text x="400" y="35" text-anchor="middle" class="title-text">Phase 1: Capture - Collecting Insights</text>
   <text x="400" y="58" text-anchor="middle" class="phase-text">Extracting insights from all data sources</text>
   
-  <!-- Data Sources -->
-  <!-- Stakeholder Interviews -->
+  <!-- Data Sources from Lesson 1.2 Stakeholder Engagement -->
+  <!-- Primary Stakeholders -->
   <rect x="50" y="90" width="140" height="80" rx="8" class="data-box"/>
-  <text x="120" y="115" text-anchor="middle" class="data-source">Stakeholder</text>
-  <text x="120" y="135" text-anchor="middle" class="data-source">Interviews</text>
-  <text x="120" y="155" text-anchor="middle" class="data-source">(15 people)</text>
+  <text x="120" y="115" text-anchor="middle" class="data-source">Primary Stakeholders</text>
+  <text x="120" y="130" text-anchor="middle" class="data-source">(Direct experience)</text>
+  <text x="120" y="145" text-anchor="middle" class="data-source">15 interviews</text>
+  <text x="120" y="160" text-anchor="middle" class="data-source">3 focus groups</text>
   
-  <!-- Focus Groups -->
+  <!-- Secondary Stakeholders -->
   <rect x="50" y="190" width="140" height="80" rx="8" class="data-box"/>
-  <text x="120" y="215" text-anchor="middle" class="data-source">Focus Groups</text>
-  <text x="120" y="235" text-anchor="middle" class="data-source">(3 sessions)</text>
+  <text x="120" y="210" text-anchor="middle" class="data-source">Secondary Stakeholders</text>
+  <text x="120" y="225" text-anchor="middle" class="data-source">(Expert knowledge)</text>
+  <text x="120" y="240" text-anchor="middle" class="data-source">8 expert interviews</text>
+  <text x="120" y="255" text-anchor="middle" class="data-source">Service provider input</text>
   
-  <!-- Survey Data -->
+  <!-- Community Engagement -->
   <rect x="50" y="290" width="140" height="80" rx="8" class="data-box"/>
-  <text x="120" y="315" text-anchor="middle" class="data-source">Survey</text>
-  <text x="120" y="335" text-anchor="middle" class="data-source">Responses</text>
-  <text x="120" y="355" text-anchor="middle" class="data-source">(128 responses)</text>
+  <text x="120" y="310" text-anchor="middle" class="data-source">Community</text>
+  <text x="120" y="325" text-anchor="middle" class="data-source">Engagement</text>
+  <text x="120" y="340" text-anchor="middle" class="data-source">128 survey responses</text>
+  <text x="120" y="355" text-anchor="middle" class="data-source">2 town halls</text>
   
-  <!-- Expert Consultations -->
+  <!-- Validation Data -->
   <rect x="50" y="390" width="140" height="80" rx="8" class="data-box"/>
-  <text x="120" y="415" text-anchor="middle" class="data-source">Expert</text>
-  <text x="120" y="435" text-anchor="middle" class="data-source">Consultations</text>
-  <text x="120" y="455" text-anchor="middle" class="data-source">(8 experts)</text>
+  <text x="120" y="410" text-anchor="middle" class="data-source">Validation Sessions</text>
+  <text x="120" y="425" text-anchor="middle" class="data-source">(Problem Tree testing)</text>
+  <text x="120" y="440" text-anchor="middle" class="data-source">Assumption checking</text>
+  <text x="120" y="455" text-anchor="middle" class="data-source">Community feedback</text>
   
-  <!-- Problem Tree Research -->
+  <!-- Previous Research -->
   <rect x="50" y="490" width="140" height="80" rx="8" class="data-box"/>
-  <text x="120" y="515" text-anchor="middle" class="data-source">Problem Tree</text>
-  <text x="120" y="535" text-anchor="middle" class="data-source">Research Notes</text>
+  <text x="120" y="510" text-anchor="middle" class="data-source">Background Research</text>
+  <text x="120" y="525" text-anchor="middle" class="data-source">(From Lesson 1.1)</text>
+  <text x="120" y="540" text-anchor="middle" class="data-source">Problem Tree analysis</text>
+  <text x="120" y="555" text-anchor="middle" class="data-source">Initial assumptions</text>
   
   <!-- Arrows from sources to insight extraction -->
   <path d="M 195 130 L 250 200" class="arrow" marker-end="url(#arrowhead)"/>
@@ -60,43 +67,44 @@
   <text x="360" y="205" text-anchor="middle" class="phase-text">Insight Extraction</text>
   <text x="360" y="225" text-anchor="middle" class="data-source">Using structured format:</text>
   <text x="280" y="245" class="insight-text">• Content: Quote/insight</text>
-  <text x="280" y="260" class="insight-text">• Source: Who, when, context</text>
-  <text x="280" y="275" class="insight-text">• Problem Tree connection</text>
-  <text x="280" y="290" class="insight-text">• Evidence strength</text>
-  <text x="280" y="305" class="insight-text">• Cultural context</text>
+  <text x="280" y="260" class="insight-text">• Source: Stakeholder type, method</text>
+  <text x="280" y="275" class="insight-text">• Problem Tree validation (A→E)</text>
+  <text x="280" y="290" class="insight-text">• Evidence strength assessment</text>
+  <text x="280" y="305" class="insight-text">• Cultural context & power dynamics</text>
   
   <!-- Arrow to insight cards -->
   <path d="M 455 250 L 510 250" class="arrow" marker-end="url(#arrowhead)"/>
   
-  <!-- Sample Insight Cards -->
+  <!-- Sample Insight Cards from Stakeholder Engagement -->
   <rect x="530" y="100" width="220" height="60" rx="4" class="insight-card"/>
   <text x="535" y="118" class="insight-text">INSIGHT #1: "Transport costs eat 30%</text>
   <text x="535" y="132" class="insight-text">of daily wages for rural youth"</text>
-  <text x="535" y="146" class="insight-text">Source: Focus Group, March 15</text>
+  <text x="535" y="146" class="insight-text">Source: Primary - Youth Focus Group</text>
   
   <rect x="530" y="180" width="220" height="60" rx="4" class="insight-card"/>
   <text x="535" y="198" class="insight-text">INSIGHT #2: "Skills training doesn't</text>
   <text x="535" y="212" class="insight-text">match what employers actually need"</text>
-  <text x="535" y="226" class="insight-text">Source: Employer Interview, March 8</text>
+  <text x="535" y="226" class="insight-text">Source: Secondary - Employer Interview</text>
   
   <rect x="530" y="260" width="220" height="60" rx="4" class="insight-card"/>
-  <text x="535" y="278" class="insight-text">INSIGHT #3: "Family expects me to</text>
-  <text x="535" y="292" class="insight-text">work locally, not move for jobs"</text>
-  <text x="535" y="306" class="insight-text">Source: Youth Interview, March 12</text>
+  <text x="535" y="278" class="insight-text">INSIGHT #3: "Problem Tree assumptions</text>
+  <text x="535" y="292" class="insight-text">confirmed: family expectations limit mobility"</text>
+  <text x="535" y="306" class="insight-text">Source: Validation - Community Meeting</text>
   
   <rect x="530" y="340" width="220" height="60" rx="4" class="insight-card"/>
   <text x="535" y="358" class="insight-text">INSIGHT #4: "Previous program</text>
   <text x="535" y="372" class="insight-text">failed - community skeptical now"</text>
-  <text x="535" y="386" class="insight-text">Source: Community Leader, March 10</text>
+  <text x="535" y="386" class="insight-text">Source: Primary - Community Leader</text>
   
   <rect x="530" y="420" width="220" height="60" rx="4" class="insight-card"/>
   <text x="535" y="438" class="insight-text">INSIGHT #5: "Women face different</text>
   <text x="535" y="452" class="insight-text">barriers than men in job seeking"</text>
-  <text x="535" y="466" class="insight-text">Source: Women's Focus Group, March 14</text>
+  <text x="535" y="466" class="insight-text">Source: Primary - Women's Focus Group</text>
   
   <!-- Result indicator -->
-  <text x="640" y="520" text-anchor="middle" class="phase-text">47 insights captured</text>
-  <text x="640" y="540" text-anchor="middle" class="data-source">from 5 data sources</text>
+  <text x="640" y="520" text-anchor="middle" class="phase-text">52 insights captured</text>
+  <text x="640" y="540" text-anchor="middle" class="data-source">from stakeholder engagement</text>
+  <text x="640" y="555" text-anchor="middle" class="data-source">(Lessons 1.1 & 1.2)</text>
   
   <!-- Arrow marker definition -->
   <defs>

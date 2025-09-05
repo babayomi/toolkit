@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 24px; font-weight: 800; fill: #3d3d3d; }
@@ -16,38 +16,40 @@
   </defs>
   
   <!-- Background -->
-  <rect width="800" height="600" fill="#fefefe"/>
+  <rect width="800" height="520" fill="#fefefe"/>
   
   <!-- Title -->
   <text x="400" y="35" text-anchor="middle" class="title-text">Phase 2: Cluster - Grouping Similar Insights</text>
   <text x="400" y="58" text-anchor="middle" class="phase-text">Organizing insights by natural patterns and relationships</text>
   
   <!-- Input: Individual insights -->
-  <text x="100" y="90" text-anchor="middle" class="phase-text">47 Individual Insights</text>
+  <text x="100" y="90" text-anchor="middle" class="phase-text">52 Stakeholder Insights</text>
+  <text x="100" y="108" text-anchor="middle" class="process-text">(from engagement process)</text>
   
-  <!-- Sample scattered insights -->
-  <rect x="20" y="105" width="160" height="25" rx="3" class="insight-card"/>
-  <text x="25" y="120" class="insight-text">Transport costs too high for youth</text>
+  <!-- Sample scattered insights from stakeholder engagement -->
+  <rect x="20" y="125" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="140" class="insight-text">Transport costs too high (Primary)</text>
   
-  <rect x="20" y="140" width="160" height="25" rx="3" class="insight-card"/>
-  <text x="25" y="155" class="insight-text">Skills training doesn't match needs</text>
+  <rect x="20" y="155" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="170" class="insight-text">Skills mismatch (Secondary)</text>
   
-  <rect x="20" y="175" width="160" height="25" rx="3" class="insight-card"/>
-  <text x="25" y="190" class="insight-text">Family expects local work</text>
+  <rect x="20" y="185" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="200" class="insight-text">Family expectations (Validation)</text>
   
-  <rect x="20" y="210" width="160" height="25" rx="3" class="insight-card"/>
-  <text x="25" y="225" class="insight-text">Previous programs failed</text>
+  <rect x="20" y="215" width="160" height="25" rx="3" class="insight-card"/>
+  <text x="25" y="230" class="insight-text">Program failures (Community)</text>
   
   <rect x="20" y="245" width="160" height="25" rx="3" class="insight-card"/>
-  <text x="25" y="260" class="insight-text">Women face different barriers</text>
+  <text x="25" y="260" class="insight-text">Gender barriers (Focus group)</text>
   
   <!-- Process arrow -->
   <path d="M 190 200 L 240 200" class="arrow" marker-end="url(#arrowhead)"/>
-  <text x="215" y="190" text-anchor="middle" class="process-text">Group by</text>
-  <text x="215" y="220" text-anchor="middle" class="process-text">similarity</text>
+  <text x="215" y="185" text-anchor="middle" class="process-text">Group by</text>
+  <text x="215" y="200" text-anchor="middle" class="process-text">stakeholder</text>
+  <text x="215" y="215" text-anchor="middle" class="process-text">patterns</text>
   
   <!-- Clustering Process Area -->
-  <rect x="260" y="100" width="280" height="400" rx="8" fill="#f8f9fa" stroke="#4a7c3c" stroke-width="2"/>
+  <rect x="260" y="100" width="280" height="340" rx="8" fill="#f8f9fa" stroke="#e12729" stroke-width="2"/>
   <text x="400" y="125" text-anchor="middle" class="phase-text">Clustering Process</text>
   
   <!-- Cluster A: Economic Barriers -->
@@ -99,11 +101,11 @@
   <text x="435" y="356" class="insight-text">Broken promises</text>
   
   <!-- Clustering criteria -->
-  <text x="400" y="420" text-anchor="middle" class="process-text">Clustering by:</text>
-  <text x="400" y="435" text-anchor="middle" class="process-text">• Common root causes</text>
-  <text x="400" y="450" text-anchor="middle" class="process-text">• Similar stakeholder groups</text>
-  <text x="400" y="465" text-anchor="middle" class="process-text">• Related intervention areas</text>
-  <text x="400" y="480" text-anchor="middle" class="process-text">• Geographic/demographic patterns</text>
+  <text x="400" y="360" text-anchor="middle" class="process-text">Clustering by:</text>
+  <text x="400" y="375" text-anchor="middle" class="process-text">• Stakeholder group patterns</text>
+  <text x="400" y="390" text-anchor="middle" class="process-text">• Common root causes</text>
+  <text x="400" y="405" text-anchor="middle" class="process-text">• Related intervention areas</text>
+  <text x="400" y="420" text-anchor="middle" class="process-text">• Power-interest alignment</text>
   
   <!-- Arrow to results -->
   <path d="M 550 250 L 600 250" class="arrow" marker-end="url(#arrowhead)"/>
@@ -123,9 +125,9 @@
   <rect x="620" y="290" width="120" height="30" rx="4" fill="#fff3e0" stroke="#ff9800"/>
   <text x="680" y="310" text-anchor="middle" class="cluster-label">System Trust</text>
   
-  <text x="680" y="350" text-anchor="middle" class="process-text">Next: Review and refine</text>
-  <text x="680" y="365" text-anchor="middle" class="process-text">cluster boundaries</text>
-  <text x="680" y="380" text-anchor="middle" class="process-text">before developing themes</text>
+  <text x="680" y="350" text-anchor="middle" class="process-text">Next: Validate clusters</text>
+  <text x="680" y="365" text-anchor="middle" class="process-text">with stakeholder input</text>
+  <text x="680" y="380" text-anchor="middle" class="process-text">before theme development</text>
   
   <!-- Arrow marker definition -->
   <defs>

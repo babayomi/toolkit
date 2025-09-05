@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 580" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .title-text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 24px; font-weight: 800; fill: #3d3d3d; }
@@ -14,7 +14,7 @@
   </defs>
   
   <!-- Background -->
-  <rect width="800" height="600" fill="#fefefe"/>
+  <rect width="800" height="580" fill="#fefefe"/>
   
   <!-- Title -->
   <text x="400" y="35" text-anchor="middle" class="title-text">Phase 3: Theme - Developing Meaningful Themes</text>
@@ -53,7 +53,7 @@
   <text x="400" y="150" text-anchor="middle" class="theme-title">THEME 1: Geographic Access Barriers</text>
   <text x="250" y="165" class="theme-text">Description: Distance and transport costs create systematic exclusion</text>
   <text x="250" y="178" class="theme-text">from economic opportunities, affecting rural youth disproportionately.</text>
-  <text x="250" y="195" class="theme-text">Evidence: 15 insights from 8 stakeholders (Strong consistency)</text>
+  <text x="250" y="195" class="theme-text">Evidence: 15 insights from Primary stakeholders (Strong)</text>
   <text x="250" y="208" class="theme-text">Problem Tree: Validates "Economic barriers" root cause</text>
   
   <!-- Theme 2: Training-Market Disconnect -->
@@ -61,7 +61,7 @@
   <text x="400" y="240" text-anchor="middle" class="theme-title">THEME 2: Training-Market Disconnect</text>
   <text x="250" y="255" class="theme-text">Description: Skills training programs operate independently of actual</text>
   <text x="250" y="268" class="theme-text">employer needs, creating qualified but unemployable graduates.</text>
-  <text x="250" y="285" class="theme-text">Evidence: 12 insights from 6 stakeholders (Strong intensity)</text>
+  <text x="250" y="285" class="theme-text">Evidence: 12 insights from Secondary stakeholders (Strong)</text>
   <text x="250" y="298" class="theme-text">Problem Tree: Refines "Limited training access" cause</text>
   
   <!-- Theme 3: Cultural Gender Expectations -->
@@ -69,7 +69,7 @@
   <text x="400" y="330" text-anchor="middle" class="theme-title">THEME 3: Cultural Gender Expectations</text>
   <text x="250" y="345" class="theme-text">Description: Traditional gender roles and family expectations limit</text>
   <text x="250" y="358" class="theme-text">career mobility differently for women and men.</text>
-  <text x="250" y="375" class="theme-text">Evidence: 9 insights from 5 stakeholders (Moderate consistency)</text>
+  <text x="250" y="375" class="theme-text">Evidence: 9 insights from Community engagement (Moderate)</text>
   <text x="250" y="388" class="theme-text">Problem Tree: Adds new "Gender-specific barriers" cause</text>
   
   <!-- Theme 4: Historical Program Failures -->
@@ -77,7 +77,7 @@
   <text x="400" y="420" text-anchor="middle" class="theme-title">THEME 4: Historical Program Failures</text>
   <text x="250" y="435" class="theme-text">Description: Previous unsuccessful interventions created community</text>
   <text x="250" y="448" class="theme-text">skepticism that affects current program engagement.</text>
-  <text x="250" y="465" class="theme-text">Evidence: 11 insights from 4 stakeholders (High credibility)</text>
+  <text x="250" y="465" class="theme-text">Evidence: 11 insights from Validation sessions (High)</text>
   <text x="250" y="478" text-anchor="middle" class="theme-text">Problem Tree: Adds "Stakeholder trust deficit" root cause</text>
   
   <!-- Process notes -->
@@ -107,9 +107,9 @@
   <text x="640" y="325" class="theme-text">Credibility:</text>
   <text x="640" y="340" class="theme-text">How reliable sources are</text>
   
-  <text x="710" y="365" text-anchor="middle" class="process-text">Next: Cross-theme</text>
-  <text x="710" y="380" text-anchor="middle" class="process-text">synthesis and</text>
-  <text x="710" y="395" text-anchor="middle" class="process-text">action implications</text>
+  <text x="710" y="365" text-anchor="middle" class="process-text">Next: Stakeholder</text>
+  <text x="710" y="380" text-anchor="middle" class="process-text">validation of themes</text>
+  <text x="710" y="395" text-anchor="middle" class="process-text">before synthesis</text>
   
   <!-- Arrow marker definition -->
   <defs>
