@@ -86,7 +86,7 @@ Using the contexts above, produce:
 
 **Execute the MCP:**
 
-- Paste complete prompt into ChatGPT, Claude, or similar AI assistant
+- Paste complete prompt into [ChatGPT](https://chat.openai.com), [Claude](https://claude.ai), or similar AI assistant
 - Review all outputs systematically
 - Don't accept everything at face value
 
@@ -107,7 +107,7 @@ Using the contexts above, produce:
 
 ### Step 4: Build Your Preliminary Problem Tree
 
-Organize AI outputs into tree structure:
+Organize AI outputs into tree structure using the [Problem Tree Template and Use Cases](../template-use-cases/):
 
 **Core Problem:**
 
@@ -132,3 +132,31 @@ Organize AI outputs into tree structure:
 - Keep citation list for evidence-based items
 - Note specific sources for key statistics or claims
 - Track which findings need stakeholder validation
+
+---
+
+## 📥 Download MCP Resources
+
+<div class="download-section">
+<h3>Model Context Prompt Toolkit</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
+<a href="/assets/downloads/mcp-template-library.pdf" class="btn btn-outline">🤖 Complete MCP Templates</a>
+<a href="/assets/downloads/ai-quality-control-checklist.pdf" class="btn btn-outline">✅ AI Quality Control Guide</a>
+<a href="/assets/downloads/hybrid-research-workflow.pdf" class="btn btn-outline">🔄 Hybrid Research Framework</a>
+</div>
+</div>
+
+---
+
+## 🚀 Next Steps
+
+1. **Choose an MCP template** appropriate for your current problem tree needs
+2. **Customize the parameters** for your specific context and requirements
+3. **Conduct AI-enhanced research** following the workflow guidelines  
+4. **Continue to [⭐ Quality Assurance Checklist](../qa-literature-review/)** to validate your research
+5. **Use [🌳 Problem Tree Template](../template-use-cases/)** to structure your findings
+6. **Prepare for stakeholder engagement** using AI insights as starting hypotheses
+
+---
+
+*AI is a powerful research accelerator, but it's not a replacement for critical thinking and community engagement. Use MCP to get to better questions faster, then validate everything with people who live the reality you're trying to understand.*
