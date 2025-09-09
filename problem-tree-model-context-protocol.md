@@ -84,14 +84,51 @@ Using the contexts above, produce:
 
 ### Step 3: Run and Quality-Check AI Output
 
-- Execute prompt in AI assistant
-- Systematically review outputs
-- Verify source credibility
-- Cross-reference information
+**Execute the MCP:**
 
-### Step 4: Build Preliminary Problem Tree
+- Paste complete prompt into ChatGPT, Claude, or similar AI assistant
+- Review all outputs systematically
+- Don't accept everything at face value
 
-- Organize core problem, root causes, and effects
-- Tag items as evidence-based or assumptions
-- Document citations
-- Prepare for stakeholder validation
+**Quality Verification Checklist:**
+
+- [ ] Sources credible? (UN agencies, government stats, peer-reviewed, reputable NGOs)
+- [ ] Recent enough? (Appropriate recency for your topic and context)
+- [ ] Links functional? (Do they open and match the described content?)
+- [ ] Context fit? (Do findings match your geography and population?)
+- [ ] Evidence vs. assumptions clear? (Are claims supported or speculative?)
+- [ ] Contradictions noted? (Are there conflicting sources or findings?)
+
+**Spot-Check Process:**
+
+- Open 2-3 cited sources to verify dates, relevance, and accuracy
+- Cross-reference key statistics with original sources
+- Note any discrepancies between AI summary and source content
+
+### Step 4: Build Your Preliminary Problem Tree
+
+Organize AI outputs into tree structure:
+
+**Core Problem:**
+
+- Extract and refine the central problem statement
+- Ensure it's specific, measurable, and solution-neutral
+- Specify affected population and location
+
+**Root Causes:**
+
+- Organize causes by levels (immediate, underlying, structural)
+- Group into logical categories (economic, social, policy, etc.)
+- Tag each item: (E) for evidence-based, (A) for assumption
+
+**Effects:**
+
+- Sort into time horizons (immediate, medium-term, long-term)
+- Consider different impact levels (individual, community, system)
+- Include both direct and indirect consequences
+
+**Documentation:**
+
+- Keep citation list for evidence-based items
+- Note specific sources for key statistics or claims
+- Track which findings need stakeholder validation
