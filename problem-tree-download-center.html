@@ -1,0 +1,1431 @@
+---
+layout: default
+title: "📥 Problem Tree Download Center"
+parent: "1.1 Problem Tree Analysis"
+grand_parent: "Building Foundation"
+nav_order: 3
+permalink: /building-foundation/problem-tree-analysis/download-center/
+description: "Interactive download center with multiple template formats optimized for different connection speeds and devices"
+nav_exclude: true
+---
+
+<script>
+// Plain Text Template
+function downloadTextTemplate() {
+  const textContent = `PROBLEM TREE ANALYSIS TEMPLATE
+=====================================
+Building Foundation Toolkit
+Generated: ${new Date().toLocaleDateString()}
+
+=====================================
+ORGANIZATION DETAILS
+=====================================
+Organization Name: _______________________
+Project Title: ___________________________
+Date of Analysis: ________________________
+Facilitator(s): __________________________
+Participants: ____________________________
+
+=====================================
+STEP 1: EFFECTS / CONSEQUENCES
+=====================================
+What happens because of this problem?
+Think about immediate and long-term impacts.
+
+IMMEDIATE EFFECTS (0-6 months):
+Effect 1: _________________________________ (E/A)
+Effect 2: _________________________________ (E/A)
+Effect 3: _________________________________ (E/A)
+Effect 4: _________________________________ (E/A)
+
+LONG-TERM EFFECTS (1+ years):
+Effect 1: _________________________________ (E/A)
+Effect 2: _________________________________ (E/A)
+Effect 3: _________________________________ (E/A)
+Effect 4: _________________________________ (E/A)
+
+Impact Categories:
+[ ] Health impacts
+[ ] Economic impacts
+[ ] Social impacts
+[ ] Environmental impacts
+[ ] Educational impacts
+[ ] Gender-specific impacts
+
+=====================================
+STEP 2: CORE PROBLEM STATEMENT
+=====================================
+Define the main issue using specific data.
+
+PROBLEM DEFINITION TEMPLATE:
+[Number/Percentage] of [Target Population] 
+in [Geographic Location] 
+experience/lack/face [Specific Problem]
+during/because of [Time Period/Context]
+
+WHO is affected? _________________________
+  - Primary group: _______________________
+  - Secondary groups: _____________________
+  
+WHERE is the problem? ____________________
+  - Specific locations: __________________
+  - Urban/Rural/Peri-urban: ______________
+  
+WHAT is the problem? _____________________
+  - Core issue: __________________________
+  - Related problems: ____________________
+  
+WHEN does it occur? ______________________
+  - Frequency: ___________________________
+  - Duration: ____________________________
+  
+HOW MANY are affected? ___________________
+  - Direct impact: _______________________
+  - Indirect impact: _____________________
+
+PROBLEM STATEMENT:
+_____________________________________________
+_____________________________________________
+_____________________________________________
+
+=====================================
+STEP 3: ROOT CAUSES ANALYSIS
+=====================================
+Why does this problem exist?
+Use the "5 Whys" technique for each cause.
+
+LEVEL 1 - DIRECT CAUSES:
+-----------------------
+[ ] Economic Causes: ______________________ (E/A)
+    Why? __________________________________
+    
+[ ] Social/Cultural Causes: _______________ (E/A)
+    Why? __________________________________
+    
+[ ] System/Infrastructure: ________________ (E/A)
+    Why? __________________________________
+    
+[ ] Geographic/Environmental: _____________ (E/A)
+    Why? __________________________________
+    
+[ ] Political/Governance: _________________ (E/A)
+    Why? __________________________________
+
+LEVEL 2 - UNDERLYING CAUSES:
+----------------------------
+For each Level 1 cause, ask "Why does this exist?"
+
+Economic → Why? ___________________________
+         → Why? ___________________________
+         
+Social → Why? _____________________________
+       → Why? _____________________________
+       
+System → Why? _____________________________
+       → Why? _____________________________
+       
+Geographic → Why? _________________________
+           → Why? _________________________
+
+LEVEL 3 - ROOT CAUSES:
+----------------------
+Continue asking "Why?" until you reach the deepest level
+
+Root Cause 1: _____________________________
+Root Cause 2: _____________________________
+Root Cause 3: _____________________________
+Root Cause 4: _____________________________
+
+=====================================
+VALIDATION & EVIDENCE
+=====================================
+
+Evidence Sources:
+[ ] Research studies: _____________________
+[ ] Government data: ______________________
+[ ] Community surveys: ____________________
+[ ] Expert interviews: ____________________
+[ ] Direct observation: ___________________
+
+Assumptions to Validate:
+1. _________________________________________
+2. _________________________________________
+3. _________________________________________
+4. _________________________________________
+
+=====================================
+NOTES & OBSERVATIONS
+=====================================
+_____________________________________________
+_____________________________________________
+_____________________________________________
+_____________________________________________
+
+=====================================
+LEGEND
+=====================================
+(E) = Evidence-based (supported by data/research)
+(A) = Assumption (needs validation)
+
+Template Version: 2.0
+Building Foundation Toolkit`;
+
+  const blob = new Blob([textContent], { type: 'text/plain;charset=utf-8' });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'problem-tree-template.txt';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  window.URL.revokeObjectURL(url);
+}
+
+// RTF Format
+function downloadRTFTemplate() {
+  const rtfContent = String.raw`{\rtf1\ansi\deff0 {\fonttbl {\f0 Helvetica;}{\f1 Helvetica Bold;}}
+{\colortbl;\red0\green113\blue68;\red82\green82\blue82;\red37\green37\blue37;}
+\paperw11906\paperh16838\margl1440\margr1440\margt1440\margb1440
+\f0\fs24
+
+{\f1\fs36\cf1 PROBLEM TREE ANALYSIS TEMPLATE}\par
+{\fs20\cf2 Building Foundation Toolkit}\par
+\par
+\line
+\par
+{\f1\fs28\cf1 ORGANIZATION DETAILS}\par
+\par
+{\b Organization Name:} ______________________________________\par
+{\b Project Title:} ___________________________________________\par
+{\b Date of Analysis:} _______________________________________\par
+{\b Facilitator(s):} _________________________________________\par
+{\b Participants:} ___________________________________________\par
+\par
+\line
+\par
+{\f1\fs28\cf1 STEP 1: EFFECTS / CONSEQUENCES}\par
+{\i What happens because of this problem?}\par
+\par
+{\b Immediate Effects (0-6 months):}\par
+\bullet  Effect 1: _________________________________________ (E/A)\par
+\bullet  Effect 2: _________________________________________ (E/A)\par
+\bullet  Effect 3: _________________________________________ (E/A)\par
+\bullet  Effect 4: _________________________________________ (E/A)\par
+\par
+{\b Long-term Effects (1+ years):}\par
+\bullet  Effect 1: _________________________________________ (E/A)\par
+\bullet  Effect 2: _________________________________________ (E/A)\par
+\bullet  Effect 3: _________________________________________ (E/A)\par
+\bullet  Effect 4: _________________________________________ (E/A)\par
+\par
+{\b Impact Categories:}\par
+\uc0\u9744  Health impacts\par
+\uc0\u9744  Economic impacts\par
+\uc0\u9744  Social impacts\par
+\uc0\u9744  Environmental impacts\par
+\uc0\u9744  Educational impacts\par
+\uc0\u9744  Gender-specific impacts\par
+\par
+\line
+\par
+{\f1\fs28\cf1 STEP 2: CORE PROBLEM STATEMENT}\par
+{\i Define the main issue using specific data}\par
+\par
+{\b Problem Definition Template:}\par
+[Number/Percentage] of [Target Population] in [Geographic Location] experience/lack/face [Specific Problem] during/because of [Time Period/Context]\par
+\par
+{\b Problem Statement:}\par
+___________________________________________________________________\par
+___________________________________________________________________\par
+___________________________________________________________________\par
+\par
+\line
+\par
+{\f1\fs28\cf1 STEP 3: ROOT CAUSES ANALYSIS}\par
+{\i Why does this problem exist? Use the "5 Whys" technique}\par
+\par
+{\b Level 1 - Direct Causes:}\par
+\uc0\u9744  {\b Economic Causes:} __________________________________ (E/A)\par
+    Why? ___________________________________________________\par
+\par
+\uc0\u9744  {\b Social/Cultural Causes:} ___________________________ (E/A)\par
+    Why? ___________________________________________________\par
+\par
+\uc0\u9744  {\b System/Infrastructure:} ____________________________ (E/A)\par
+    Why? ___________________________________________________\par
+\par
+{\b Level 2 - Underlying Causes:}\par
+{\i For each Level 1 cause, continue asking "Why?"}\par
+___________________________________________________________________\par
+___________________________________________________________________\par
+\par
+{\b Level 3 - Root Causes:}\par
+Root Cause 1: _____________________________________________________\par
+Root Cause 2: _____________________________________________________\par
+Root Cause 3: _____________________________________________________\par
+\par
+\line
+\par
+{\fs22\cf3 Legend:}\par
+(E) = Evidence-based (supported by data/research)\par
+(A) = Assumption (needs validation)\par
+\par
+{\fs18\cf3 Template Version 2.0 | Building Foundation Toolkit}\par
+}`;
+
+  const blob = new Blob([rtfContent], { type: 'application/rtf' });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'problem-tree-template.rtf';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  window.URL.revokeObjectURL(url);
+}
+
+// Word Document
+function downloadWordDoc() {
+  const htmlContent = `
+    <html xmlns:o='urn:schemas-microsoft-com:office:office' 
+          xmlns:w='urn:schemas-microsoft-com:office:word' 
+          xmlns='http://www.w3.org/TR/REC-html40'>
+    <head>
+      <meta charset='utf-8'>
+      <title>Problem Tree Analysis Template</title>
+      <style>
+        @page { size: A4; margin: 2cm; }
+        body { 
+          font-family: 'Segoe UI', Arial, sans-serif; 
+          line-height: 1.6;
+          color: #2a2a2a;
+        }
+        h1 { 
+          color: #007144; 
+          border-bottom: 2px solid #007144;
+          padding-bottom: 10px;
+          margin-bottom: 20px;
+        }
+        h2 { 
+          color: #007144; 
+          margin-top: 30px;
+          background: #f3f9ec;
+          padding: 10px;
+          border-left: 4px solid #007144;
+        }
+        h3 {
+          color: #007144;
+          margin-top: 20px;
+        }
+        .box { 
+          border: 1px solid #e5e5e5; 
+          padding: 15px; 
+          margin: 15px 0;
+          background: #fafafa;
+          border-radius: 5px;
+        }
+        .checkbox { 
+          margin: 8px 0;
+          padding-left: 20px;
+        }
+        table { 
+          width: 100%; 
+          border-collapse: collapse; 
+          margin: 20px 0;
+        }
+        td, th { 
+          border: 1px solid #e5e5e5; 
+          padding: 12px; 
+          text-align: left;
+        }
+        th { 
+          background-color: #f3f9ec;
+          color: #007144;
+          font-weight: bold;
+        }
+        .template-box {
+          background: #fefce8;
+          border: 1px solid #e5e5e5;
+          padding: 15px;
+          margin: 20px 0;
+          font-style: italic;
+        }
+        .legend {
+          background: #f3f9ec;
+          padding: 10px;
+          margin-top: 30px;
+          border: 1px solid #e5e5e5;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>🌳 PROBLEM TREE ANALYSIS TEMPLATE</h1>
+      <p>Building Foundation Toolkit</p>
+      
+      <div class='box'>
+        <h3>📋 Organization Details</h3>
+        <table>
+          <tr>
+            <th width='30%'>Field</th>
+            <th width='70%'>Information</th>
+          </tr>
+          <tr>
+            <td><strong>Organization Name</strong></td>
+            <td>_____________________________________________</td>
+          </tr>
+          <tr>
+            <td><strong>Project Title</strong></td>
+            <td>_____________________________________________</td>
+          </tr>
+          <tr>
+            <td><strong>Date of Analysis</strong></td>
+            <td>_____________________________________________</td>
+          </tr>
+          <tr>
+            <td><strong>Facilitator(s)</strong></td>
+            <td>_____________________________________________</td>
+          </tr>
+          <tr>
+            <td><strong>Participants</strong></td>
+            <td>_____________________________________________</td>
+          </tr>
+        </table>
+      </div>
+      
+      <h2>🌿 STEP 1: EFFECTS / CONSEQUENCES</h2>
+      <p><em>What happens because this problem exists? Consider both immediate and long-term impacts.</em></p>
+      
+      <table>
+        <tr>
+          <th colspan='2'>Immediate Effects (0-6 months)</th>
+          <th colspan='2'>Long-term Effects (1+ years)</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>________________________________ (E/A)</td>
+          <td>1.</td>
+          <td>________________________________ (E/A)</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>________________________________ (E/A)</td>
+          <td>2.</td>
+          <td>________________________________ (E/A)</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>________________________________ (E/A)</td>
+          <td>3.</td>
+          <td>________________________________ (E/A)</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>________________________________ (E/A)</td>
+          <td>4.</td>
+          <td>________________________________ (E/A)</td>
+        </tr>
+      </table>
+      
+      <div class='box'>
+        <h3>Impact Categories (Check all that apply)</h3>
+        <div class='checkbox'>☐ Health impacts</div>
+        <div class='checkbox'>☐ Economic impacts</div>
+        <div class='checkbox'>☐ Social impacts</div>
+        <div class='checkbox'>☐ Environmental impacts</div>
+        <div class='checkbox'>☐ Educational impacts</div>
+        <div class='checkbox'>☐ Gender-specific impacts</div>
+        <div class='checkbox'>☐ Other: _______________________</div>
+      </div>
+      
+      <h2>🎯 STEP 2: CORE PROBLEM STATEMENT</h2>
+      <p><em>Define the main issue using specific, measurable data.</em></p>
+      
+      <div class='template-box'>
+        <strong>Problem Definition Template:</strong><br/>
+        [Number/Percentage] of [Target Population] in [Geographic Location] 
+        experience/lack/face [Specific Problem] during/because of [Time Period/Context]
+      </div>
+      
+      <table>
+        <tr>
+          <th>Question</th>
+          <th>Answer</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td><strong>WHO is affected?</strong></td>
+          <td>Primary: _______________________</td>
+          <td>Secondary: _____________________</td>
+        </tr>
+        <tr>
+          <td><strong>WHERE?</strong></td>
+          <td>Location: ______________________</td>
+          <td>Urban/Rural: ___________________</td>
+        </tr>
+        <tr>
+          <td><strong>WHAT?</strong></td>
+          <td>Core issue: ____________________</td>
+          <td>Related: _______________________</td>
+        </tr>
+        <tr>
+          <td><strong>WHEN?</strong></td>
+          <td>Frequency: _____________________</td>
+          <td>Duration: ______________________</td>
+        </tr>
+        <tr>
+          <td><strong>HOW MANY?</strong></td>
+          <td>Direct: ________________________</td>
+          <td>Indirect: ______________________</td>
+        </tr>
+      </table>
+      
+      <div class='box'>
+        <h3>📝 Problem Statement</h3>
+        <p>____________________________________________________________________</p>
+        <p>____________________________________________________________________</p>
+        <p>____________________________________________________________________</p>
+      </div>
+      
+      <h2>🌱 STEP 3: ROOT CAUSES ANALYSIS</h2>
+      <p><em>Why does this problem exist? Use the "5 Whys" technique to dig deeper.</em></p>
+      
+      <h3>Level 1 - Direct Causes</h3>
+      <table>
+        <tr>
+          <th width='25%'>Category</th>
+          <th width='40%'>Cause</th>
+          <th width='35%'>Why does this exist?</th>
+        </tr>
+        <tr>
+          <td><strong>Economic</strong></td>
+          <td>_________________________ (E/A)</td>
+          <td>_________________________</td>
+        </tr>
+        <tr>
+          <td><strong>Social/Cultural</strong></td>
+          <td>_________________________ (E/A)</td>
+          <td>_________________________</td>
+        </tr>
+        <tr>
+          <td><strong>System/Infrastructure</strong></td>
+          <td>_________________________ (E/A)</td>
+          <td>_________________________</td>
+        </tr>
+        <tr>
+          <td><strong>Geographic/Environmental</strong></td>
+          <td>_________________________ (E/A)</td>
+          <td>_________________________</td>
+        </tr>
+        <tr>
+          <td><strong>Political/Governance</strong></td>
+          <td>_________________________ (E/A)</td>
+          <td>_________________________</td>
+        </tr>
+      </table>
+      
+      <h3>Level 2 - Underlying Causes</h3>
+      <div class='box'>
+        <p>For each Level 1 cause, continue asking "Why?" to uncover deeper causes:</p>
+        <p>_____________________________________________________________________</p>
+        <p>_____________________________________________________________________</p>
+        <p>_____________________________________________________________________</p>
+        <p>_____________________________________________________________________</p>
+      </div>
+      
+      <h3>Level 3 - Root Causes</h3>
+      <div class='box'>
+        <p><strong>Root Cause 1:</strong> _______________________________________________</p>
+        <p><strong>Root Cause 2:</strong> _______________________________________________</p>
+        <p><strong>Root Cause 3:</strong> _______________________________________________</p>
+        <p><strong>Root Cause 4:</strong> _______________________________________________</p>
+      </div>
+      
+      <h2>✅ VALIDATION & EVIDENCE</h2>
+      
+      <table>
+        <tr>
+          <th>Evidence Sources</th>
+          <th>Assumptions to Validate</th>
+        </tr>
+        <tr>
+          <td>
+            ☐ Research studies: _________________<br/>
+            ☐ Government data: __________________<br/>
+            ☐ Community surveys: ________________<br/>
+            ☐ Expert interviews: ________________<br/>
+            ☐ Direct observation: _______________<br/>
+            ☐ Other: ____________________________
+          </td>
+          <td>
+            1. __________________________________<br/>
+            2. __________________________________<br/>
+            3. __________________________________<br/>
+            4. __________________________________<br/>
+            5. __________________________________<br/>
+            6. __________________________________
+          </td>
+        </tr>
+      </table>
+      
+      <h2>📝 NOTES & OBSERVATIONS</h2>
+      <div class='box'>
+        <p>_____________________________________________________________________</p>
+        <p>_____________________________________________________________________</p>
+        <p>_____________________________________________________________________</p>
+        <p>_____________________________________________________________________</p>
+        <p>_____________________________________________________________________</p>
+      </div>
+      
+      <div class='legend'>
+        <h3>📖 Legend</h3>
+        <p><strong>(E)</strong> = Evidence-based (supported by data/research)</p>
+        <p><strong>(A)</strong> = Assumption (needs validation)</p>
+        <p style='margin-top: 15px; font-size: 12px; color: #737373;'>
+          Template Version 2.0 | Building Foundation Toolkit<br/>
+          Visit: https://toolkit.festa.design
+        </p>
+      </div>
+    </body>
+    </html>`;
+
+  const blob = new Blob(['\ufeff', htmlContent], {
+    type: 'application/msword'
+  });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'problem-tree-template.doc';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  window.URL.revokeObjectURL(url);
+}
+
+// CSV Spreadsheet
+function downloadCSVTemplate() {
+  const csvContent = `Section,Category,Level,Description,Evidence/Assumption,Data Source,Priority,Notes
+ORGANIZATION,,,,,,,\"Add your organization details here\"
+Organization Name,,,,,,,\"${new Date().toLocaleDateString()}\"
+Project Title,,,,,,,
+Date of Analysis,,,,,,,
+Facilitator(s),,,,,,,
+Participants,,,,,,,
+,,,,,,,
+EFFECTS,Economic,Immediate,\"Income loss\",E,\"Survey data\",High,
+EFFECTS,Economic,Long-term,\"Reduced economic growth\",A,\"\",Medium,
+EFFECTS,Social,Immediate,\"Family stress\",E,\"Interviews\",High,
+EFFECTS,Social,Long-term,\"Social fragmentation\",A,\"\",Medium,
+EFFECTS,Health,Immediate,\"Increased illness\",E,\"Health records\",High,
+EFFECTS,Health,Long-term,\"Chronic conditions\",A,\"\",Medium,
+EFFECTS,Environmental,Immediate,\"Resource depletion\",E,\"\",Medium,
+EFFECTS,Environmental,Long-term,\"Ecosystem damage\",A,\"\",Low,
+EFFECTS,Educational,Immediate,\"School dropout\",E,\"Education data\",High,
+EFFECTS,Educational,Long-term,\"Reduced literacy\",A,\"\",Medium,
+EFFECTS,Gender,Immediate,\"Women disproportionately affected\",E,\"Gender analysis\",High,
+EFFECTS,Gender,Long-term,\"Widening gender gap\",A,\"\",Medium,
+,,,,,,,
+PROBLEM,Core Issue,,\"Define the main problem here\",E,\"\",High,
+PROBLEM,Who,Primary,\"Target population\",,,,
+PROBLEM,Who,Secondary,\"Other affected groups\",,,,
+PROBLEM,Where,Location,\"Geographic area\",,,,
+PROBLEM,Where,Setting,\"Urban/Rural/Peri-urban\",,,,
+PROBLEM,What,Core,\"Main issue\",,,,
+PROBLEM,What,Related,\"Connected problems\",,,,
+PROBLEM,When,Frequency,\"How often\",,,,
+PROBLEM,When,Duration,\"How long\",,,,
+PROBLEM,Scale,Direct,\"Number directly affected\",,,,
+PROBLEM,Scale,Indirect,\"Number indirectly affected\",,,,
+,,,,,,,
+CAUSES,Economic,Level 1,\"Lack of funding\",E,\"Budget analysis\",High,
+CAUSES,Economic,Level 2,\"Why: Poor revenue generation\",A,\"\",Medium,
+CAUSES,Economic,Level 3,\"Root: Tax system inefficiency\",A,\"\",Low,
+CAUSES,Social,Level 1,\"Cultural barriers\",E,\"Community research\",High,
+CAUSES,Social,Level 2,\"Why: Traditional beliefs\",A,\"\",Medium,
+CAUSES,Social,Level 3,\"Root: Historical patterns\",A,\"\",Low,
+CAUSES,System,Level 1,\"Weak infrastructure\",E,\"Infrastructure audit\",High,
+CAUSES,System,Level 2,\"Why: No maintenance\",A,\"\",Medium,
+CAUSES,System,Level 3,\"Root: No budget allocation\",A,\"\",Low,
+CAUSES,Geographic,Level 1,\"Remote location\",E,\"GIS data\",High,
+CAUSES,Geographic,Level 2,\"Why: Poor connectivity\",A,\"\",Medium,
+CAUSES,Geographic,Level 3,\"Root: Terrain challenges\",A,\"\",Low,
+CAUSES,Political,Level 1,\"Policy gaps\",E,\"Policy review\",High,
+CAUSES,Political,Level 2,\"Why: Lack of political will\",A,\"\",Medium,
+CAUSES,Political,Level 3,\"Root: Competing priorities\",A,\"\",Low,
+,,,,,,,
+VALIDATION,Evidence Sources,,\"List all data sources used\",,,,
+VALIDATION,Research Studies,,\"Academic research\",,,,
+VALIDATION,Government Data,,\"Official statistics\",,,,
+VALIDATION,Community Surveys,,\"Primary research\",,,,
+VALIDATION,Expert Interviews,,\"Stakeholder input\",,,,
+VALIDATION,Direct Observation,,\"Field observations\",,,,
+,,,,,,,
+ASSUMPTIONS,To Validate,1,\"List assumptions needing validation\",,,,
+ASSUMPTIONS,To Validate,2,\"\",,,,
+ASSUMPTIONS,To Validate,3,\"\",,,,
+ASSUMPTIONS,To Validate,4,\"\",,,,
+ASSUMPTIONS,To Validate,5,\"\",,,,
+,,,,,,,
+NOTES,,,\"Additional observations and insights\",,,,
+,,,,,,,
+\"Template Version 2.0 - Building Foundation Toolkit\",,,,,,,
+\"Legend: (E) = Evidence-based | (A) = Assumption\",,,,,,,`;
+
+  const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'problem-tree-template.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  window.URL.revokeObjectURL(url);
+}
+
+// JSON Template
+function downloadJSONTemplate() {
+  const jsonTemplate = {
+    "template": "Problem Tree Analysis",
+    "version": "2.0",
+    "organization": "Building Foundation Toolkit",
+    "created": new Date().toISOString(),
+    "project_details": {
+      "organization_name": "",
+      "project_title": "",
+      "date_of_analysis": "",
+      "facilitators": [],
+      "participants": []
+    },
+    "effects": {
+      "immediate": [
+        {"description": "", "evidence_type": "E", "impact_level": "high", "category": ""},
+        {"description": "", "evidence_type": "A", "impact_level": "medium", "category": ""},
+        {"description": "", "evidence_type": "E", "impact_level": "low", "category": ""},
+        {"description": "", "evidence_type": "A", "impact_level": "high", "category": ""}
+      ],
+      "long_term": [
+        {"description": "", "evidence_type": "E", "impact_level": "high", "category": ""},
+        {"description": "", "evidence_type": "A", "impact_level": "medium", "category": ""},
+        {"description": "", "evidence_type": "E", "impact_level": "low", "category": ""},
+        {"description": "", "evidence_type": "A", "impact_level": "high", "category": ""}
+      ],
+      "categories": ["health", "economic", "social", "environmental", "educational", "gender"]
+    },
+    "core_problem": {
+      "statement": "",
+      "who": {
+        "primary_affected": "",
+        "secondary_affected": [],
+        "demographics": {}
+      },
+      "where": {
+        "location": "",
+        "setting": "",
+        "geographic_scope": ""
+      },
+      "what": {
+        "core_issue": "",
+        "related_problems": []
+      },
+      "when": {
+        "frequency": "",
+        "duration": "",
+        "timeline": ""
+      },
+      "scale": {
+        "direct_impact": 0,
+        "indirect_impact": 0,
+        "percentage_affected": 0
+      }
+    },
+    "root_causes": {
+      "level_1_direct": [
+        {
+          "category": "economic",
+          "cause": "",
+          "evidence_type": "E",
+          "why": ""
+        },
+        {
+          "category": "social",
+          "cause": "",
+          "evidence_type": "A",
+          "why": ""
+        },
+        {
+          "category": "system",
+          "cause": "",
+          "evidence_type": "E",
+          "why": ""
+        },
+        {
+          "category": "geographic",
+          "cause": "",
+          "evidence_type": "A",
+          "why": ""
+        },
+        {
+          "category": "political",
+          "cause": "",
+          "evidence_type": "E",
+          "why": ""
+        }
+      ],
+      "level_2_underlying": [],
+      "level_3_root": []
+    },
+    "validation": {
+      "evidence_sources": {
+        "research_studies": [],
+        "government_data": [],
+        "community_surveys": [],
+        "expert_interviews": [],
+        "direct_observation": []
+      },
+      "assumptions_to_validate": []
+    },
+    "notes": "",
+    "metadata": {
+      "legend": {
+        "E": "Evidence-based (supported by data/research)",
+        "A": "Assumption (needs validation)"
+      },
+      "toolkit_url": "https://toolkit.festa.design"
+    }
+  };
+
+  const blob = new Blob([JSON.stringify(jsonTemplate, null, 2)], { type: 'application/json' });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'problem-tree-template.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  window.URL.revokeObjectURL(url);
+}
+
+// Markdown Template
+function downloadMarkdownTemplate() {
+  const markdownContent = `# Problem Tree Analysis Template
+
+## 🏢 Organization Details
+
+| Field | Information |
+|-------|-------------|
+| **Organization Name** | |
+| **Project Title** | |
+| **Date of Analysis** | ${new Date().toLocaleDateString()} |
+| **Facilitator(s)** | |
+| **Participants** | |
+
+---
+
+## 🌿 STEP 1: Effects / Consequences
+
+*What happens because of this problem? Consider both immediate and long-term impacts.*
+
+### Immediate Effects (0-6 months)
+
+1. **Effect 1:** _________________________________ (E/A)
+2. **Effect 2:** _________________________________ (E/A)
+3. **Effect 3:** _________________________________ (E/A)
+4. **Effect 4:** _________________________________ (E/A)
+
+### Long-term Effects (1+ years)
+
+1. **Effect 1:** _________________________________ (E/A)
+2. **Effect 2:** _________________________________ (E/A)
+3. **Effect 3:** _________________________________ (E/A)
+4. **Effect 4:** _________________________________ (E/A)
+
+### Impact Categories
+
+- [ ] Health impacts
+- [ ] Economic impacts
+- [ ] Social impacts
+- [ ] Environmental impacts
+- [ ] Educational impacts
+- [ ] Gender-specific impacts
+- [ ] Other: _______________________
+
+---
+
+## 🎯 STEP 2: Core Problem Statement
+
+*Define the main issue using specific, measurable data.*
+
+> **Template:** [Number/Percentage] of [Target Population] in [Geographic Location] experience/lack/face [Specific Problem] during/because of [Time Period/Context]
+
+### Problem Analysis
+
+| Question | Primary | Secondary/Details |
+|----------|---------|------------------|
+| **WHO is affected?** | | |
+| **WHERE is the problem?** | | |
+| **WHAT is the problem?** | | |
+| **WHEN does it occur?** | | |
+| **HOW MANY are affected?** | | |
+
+### Problem Statement
+
+\`\`\`
+[Write your complete problem statement here]
+\`\`\`
+
+---
+
+## 🌱 STEP 3: Root Causes Analysis
+
+*Why does this problem exist? Use the "5 Whys" technique.*
+
+### Level 1 - Direct Causes
+
+| Category | Cause | Evidence Type | Why? |
+|----------|-------|---------------|------|
+| **Economic** | | (E/A) | |
+| **Social/Cultural** | | (E/A) | |
+| **System/Infrastructure** | | (E/A) | |
+| **Geographic/Environmental** | | (E/A) | |
+| **Political/Governance** | | (E/A) | |
+
+### Level 2 - Underlying Causes
+
+*For each Level 1 cause, continue asking "Why?"*
+
+1. **Economic → Why?** _________________________________
+2. **Social → Why?** ___________________________________
+3. **System → Why?** ___________________________________
+4. **Geographic → Why?** ________________________________
+5. **Political → Why?** _________________________________
+
+### Level 3 - Root Causes
+
+1. **Root Cause 1:** ___________________________________
+2. **Root Cause 2:** ___________________________________
+3. **Root Cause 3:** ___________________________________
+4. **Root Cause 4:** ___________________________________
+
+---
+
+## ✅ Validation & Evidence
+
+### Evidence Sources
+
+- [ ] Research studies: _________________________________
+- [ ] Government data: __________________________________
+- [ ] Community surveys: ________________________________
+- [ ] Expert interviews: ________________________________
+- [ ] Direct observation: _______________________________
+
+### Assumptions to Validate
+
+1. ____________________________________________________
+2. ____________________________________________________
+3. ____________________________________________________
+4. ____________________________________________________
+5. ____________________________________________________
+
+---
+
+## 📝 Notes & Observations
+
+\`\`\`
+[Add your notes and observations here]
+\`\`\`
+
+---
+
+## 📖 Legend
+
+- **(E)** = Evidence-based (supported by data/research)
+- **(A)** = Assumption (needs validation)
+
+---
+
+*Template Version 2.0 | Building Foundation Toolkit*  
+*Visit: [https://toolkit.festa.design](https://toolkit.festa.design)*`;
+
+  const blob = new Blob([markdownContent], { type: 'text/markdown;charset=utf-8' });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'problem-tree-template.md';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  window.URL.revokeObjectURL(url);
+}
+</script>
+
+<style>
+/* Custom styles using Festa color system */
+.download-center-header {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #f3f9ec 0%, #fafafa 50%, #f3f9ec 100%);
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  border: 1px solid #e5f2d8;
+}
+
+.download-center-header h1 {
+  color: #007f4e;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.download-center-header .subtitle {
+  font-size: 1.25rem;
+  color: #525252;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.template-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.template-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f6f6f6 100%);
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.template-card:hover {
+  border-color: #007f4e;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 127, 78, 0.15);
+}
+
+.template-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #007f4e 0%, #72b043 50%, #f8cc1b 100%);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  background: #ecfff7;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #007f4e;
+  margin: 0;
+}
+
+.card-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.meta-item {
+  padding: 0.75rem;
+  background: #fafafa;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: #007f4e;
+  display: block;
+}
+
+.meta-value {
+  color: #737373;
+  margin-top: 0.25rem;
+}
+
+.download-btn {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: #007f4e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.download-btn:hover {
+  background: #005c38;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 127, 78, 0.3);
+}
+
+.download-btn:active {
+  transform: translateY(0);
+}
+
+.speed-guide {
+  background: linear-gradient(135deg, #ecfff7 0%, #f3f9ec 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 3rem 0;
+  border: 1px solid #d1ffe9;
+}
+
+.speed-guide h2 {
+  color: #007f4e;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.speed-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.speed-item {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 1px solid #e5f2d8;
+  transition: all 0.2s ease;
+}
+
+.speed-item:hover {
+  border-color: #007f4e;
+  box-shadow: 0 2px 8px rgba(0, 127, 78, 0.1);
+}
+
+.speed-label {
+  font-weight: 600;
+  color: #007f4e;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.speed-desc {
+  color: #525252;
+  font-size: 0.9rem;
+}
+
+.features-section {
+  background: #fafafa;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature-item {
+  background: white;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.feature-item::before {
+  content: '✓';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  background: #007f4e;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.feature-text {
+  font-weight: 500;
+  color: #525252;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .download-center-header {
+    padding: 2rem 1rem;
+  }
+  
+  .template-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .card-meta {
+    grid-template-columns: 1fr;
+  }
+  
+  .speed-items {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="download-center-header">
+  <h1>📥 Problem Tree Download Center</h1>
+  <p class="subtitle">Interactive template downloads optimized for different connection speeds, devices, and technological contexts</p>
+</div>
+
+<div class="template-grid">
+  
+  <div class="template-card">
+    <div class="card-header">
+      <div class="card-icon">📝</div>
+      <h3 class="card-title">Plain Text Template</h3>
+    </div>
+    <div class="card-meta">
+      <div class="meta-item">
+        <span class="meta-label">File Size</span>
+        <span class="meta-value">~2KB (smallest)</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Download Speed</span>
+        <span class="meta-value">1 second</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Best For</span>
+        <span class="meta-value">Slow internet, mobile</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Opens In</span>
+        <span class="meta-value">Any text editor, phone</span>
+      </div>
+    </div>
+    <button onclick="downloadTextTemplate()" class="download-btn">Download .TXT</button>
+  </div>
+
+  <div class="template-card">
+    <div class="card-header">
+      <div class="card-icon">📄</div>
+      <h3 class="card-title">Rich Text Format</h3>
+    </div>
+    <div class="card-meta">
+      <div class="meta-item">
+        <span class="meta-label">File Size</span>
+        <span class="meta-value">~4KB</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Download Speed</span>
+        <span class="meta-value">2 seconds</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Best For</span>
+        <span class="meta-value">Word processing</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Opens In</span>
+        <span class="meta-value">MS Word, Google Docs</span>
+      </div>
+    </div>
+    <button onclick="downloadRTFTemplate()" class="download-btn">Download .RTF</button>
+  </div>
+
+  <div class="template-card">
+    <div class="card-header">
+      <div class="card-icon">📋</div>
+      <h3 class="card-title">Word Document</h3>
+    </div>
+    <div class="card-meta">
+      <div class="meta-item">
+        <span class="meta-label">File Size</span>
+        <span class="meta-value">~8KB</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Download Speed</span>
+        <span class="meta-value">3 seconds</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Best For</span>
+        <span class="meta-value">Formal reports</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Opens In</span>
+        <span class="meta-value">Microsoft Word</span>
+      </div>
+    </div>
+    <button onclick="downloadWordDoc()" class="download-btn">Download .DOC</button>
+  </div>
+
+  <div class="template-card">
+    <div class="card-header">
+      <div class="card-icon">📊</div>
+      <h3 class="card-title">Spreadsheet Template</h3>
+    </div>
+    <div class="card-meta">
+      <div class="meta-item">
+        <span class="meta-label">File Size</span>
+        <span class="meta-value">~3KB</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Download Speed</span>
+        <span class="meta-value">2 seconds</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Best For</span>
+        <span class="meta-value">Data analysis</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Opens In</span>
+        <span class="meta-value">Excel, Google Sheets</span>
+      </div>
+    </div>
+    <button onclick="downloadCSVTemplate()" class="download-btn">Download .CSV</button>
+  </div>
+
+  <div class="template-card">
+    <div class="card-header">
+      <div class="card-icon">🔧</div>
+      <h3 class="card-title">JSON Format</h3>
+    </div>
+    <div class="card-meta">
+      <div class="meta-item">
+        <span class="meta-label">File Size</span>
+        <span class="meta-value">~5KB</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Download Speed</span>
+        <span class="meta-value">2 seconds</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Best For</span>
+        <span class="meta-value">Digital tools</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Opens In</span>
+        <span class="meta-value">Code editors, apps</span>
+      </div>
+    </div>
+    <button onclick="downloadJSONTemplate()" class="download-btn">Download .JSON</button>
+  </div>
+
+  <div class="template-card">
+    <div class="card-header">
+      <div class="card-icon">📑</div>
+      <h3 class="card-title">Markdown Template</h3>
+    </div>
+    <div class="card-meta">
+      <div class="meta-item">
+        <span class="meta-label">File Size</span>
+        <span class="meta-value">~4KB</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Download Speed</span>
+        <span class="meta-value">2 seconds</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Best For</span>
+        <span class="meta-value">Documentation</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Opens In</span>
+        <span class="meta-value">Any text editor</span>
+      </div>
+    </div>
+    <button onclick="downloadMarkdownTemplate()" class="download-btn">Download .MD</button>
+  </div>
+
+</div>
+
+<div class="speed-guide">
+  <h2>📶 Choose Based on Your Internet Speed</h2>
+  <div class="speed-items">
+    <div class="speed-item">
+      <span class="speed-label">Very Slow (&lt;50 Kbps)</span>
+      <span class="speed-desc">Use .TXT format - downloads instantly on any connection</span>
+    </div>
+    <div class="speed-item">
+      <span class="speed-label">Slow (50-500 Kbps)</span>
+      <span class="speed-desc">Use .RTF, .CSV, or .MD formats for quick downloads</span>
+    </div>
+    <div class="speed-item">
+      <span class="speed-label">Medium (500 Kbps-2 Mbps)</span>
+      <span class="speed-desc">Any format works well - choose based on your needs</span>
+    </div>
+    <div class="speed-item">
+      <span class="speed-label">Fast (&gt;2 Mbps)</span>
+      <span class="speed-desc">Download multiple formats or the complete toolkit</span>
+    </div>
+  </div>
+</div>
+
+<div class="features-section">
+  <h2 style="color: #007f4e; margin-bottom: 1rem;">✨ All Templates Include</h2>
+  <p style="color: #525252; margin-bottom: 0;">Every format contains the complete problem tree methodology with professional formatting</p>
+  
+  <div class="features-grid">
+    <div class="feature-item">
+      <div class="feature-text">Complete problem tree structure</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-text">Evidence vs Assumption tracking</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-text">Multi-level cause analysis</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-text">Impact categorization</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-text">Validation checklists</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-text">Professional formatting</div>
+    </div>
+  </div>
+</div>
+
+<div style="text-align: center; margin: 3rem 0; padding: 2rem; background: #f3f9ec; border-radius: 12px;">
+  <h2 style="color: #007f4e; margin-bottom: 1rem;">🚀 Ready to Start Your Analysis?</h2>
+  <p style="color: #525252; margin-bottom: 1.5rem; font-size: 1.1rem;">Choose your preferred format above and begin building your problem tree</p>
+  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+    <a href="../template-use-cases/" class="btn btn-primary">View Examples</a>
+    <a href="../brainstorming-questions/" class="btn btn-outline">Get Question Guide</a>
+  </div>
+</div>
+
+---
+
+*This download center ensures everyone can participate in problem tree analysis, regardless of their technological constraints or internet connectivity.*

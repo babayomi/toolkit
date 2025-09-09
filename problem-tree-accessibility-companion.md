@@ -460,6 +460,12 @@ function downloadMarkdownTemplate() {
 
 ## 📥 Format Options for Download
 
+<div class="download-section" style="text-align: center; margin: 2rem 0; padding: 2rem; border: 2px dashed #f37324; border-radius: 12px; background: linear-gradient(135deg, #fef9c3 0%, #ffffff 100%);">
+  <h3 style="color: #007f4e; margin-bottom: 1rem;">🚀 Enhanced Download Experience</h3>
+  <p style="margin-bottom: 1.5rem; color: #525252;">Want a more interactive download experience with better formatting and visual interface?</p>
+  <a href="../download-center/" class="btn btn-primary" style="display: inline-block; padding: 0.75rem 2rem; font-weight: 600;">Visit Download Center →</a>
+</div>
+
 ### 📝 Lightweight Text Template
 **Perfect for slow internet connections**
 - **Size:** ~2KB (smallest file)
