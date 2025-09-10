@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Quality Assurance Checklist for Literature Review"
+title: "⭐ Quality Assurance Checklist for Literature Review"
 parent: "1.1 Problem Tree Analysis"
 grand_parent: "Building Foundation"
 nav_order: 6
